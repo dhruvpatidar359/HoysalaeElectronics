@@ -8,8 +8,8 @@
     tools:context=".SplashActivity">
     <de.hdodenhof.circleimageview.CircleImageView
         android:layout_width="wrap_content"
-        android:layout_height="300dp"
-        android:src=""
+        android:layout_height="250dp"
+        android:src="@drawable/all_items"
         android:id="@+id/items_image"
         android:layout_marginTop="60dp"
         app:civ_border_width="2dp"
