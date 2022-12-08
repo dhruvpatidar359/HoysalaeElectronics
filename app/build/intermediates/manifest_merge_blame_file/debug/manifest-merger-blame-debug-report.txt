@@ -66,8 +66,8 @@
 39-->D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:30:13-37
 40        <activity
 40-->D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:31:9-33:40
-41            android:name="android.example.hoysalaelectronics.Activity.HomeActivity"
-41-->D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:32:13-50
+41            android:name="android.example.hoysalaelectronics.HomeActivity"
+41-->D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:32:13-41
 42            android:exported="false" />
 42-->D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:33:13-37
 43        <activity

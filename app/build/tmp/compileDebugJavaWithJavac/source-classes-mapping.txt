@@ -1,16 +1,2 @@
 android/example/hoysalaelectronics/BuildConfig.java
  android.example.hoysalaelectronics.BuildConfig
-android/example/hoysalaelectronics/databinding/LatestCollectionBinding.java
- android.example.hoysalaelectronics.databinding.LatestCollectionBinding
-android/example/hoysalaelectronics/databinding/ActivityNewUserBinding.java
- android.example.hoysalaelectronics.databinding.ActivityNewUserBinding
-android/example/hoysalaelectronics/databinding/ActivityLoginBinding.java
- android.example.hoysalaelectronics.databinding.ActivityLoginBinding
-android/example/hoysalaelectronics/databinding/ActivityCartBinding.java
- android.example.hoysalaelectronics.databinding.ActivityCartBinding
-android/example/hoysalaelectronics/databinding/HeaderLayoutBinding.java
- android.example.hoysalaelectronics.databinding.HeaderLayoutBinding
-android/example/hoysalaelectronics/databinding/ActivitySplashBinding.java
- android.example.hoysalaelectronics.databinding.ActivitySplashBinding
-android/example/hoysalaelectronics/databinding/ActivityHomeBinding.java
- android.example.hoysalaelectronics.databinding.ActivityHomeBinding

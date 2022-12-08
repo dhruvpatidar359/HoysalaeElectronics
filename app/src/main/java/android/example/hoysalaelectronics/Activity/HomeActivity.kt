@@ -8,14 +8,11 @@ import android.view.Menu
 import android.widget.FrameLayout
 import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.appcompat.widget.Toolbar
-import androidx.constraintlayout.helper.widget.Carousel
 import androidx.coordinatorlayout.widget.CoordinatorLayout
 import androidx.drawerlayout.widget.DrawerLayout
 import androidx.fragment.app.Fragment
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import com.google.android.material.navigation.NavigationView
-import org.imaginativeworld.whynotimagecarousel.ImageCarousel
-import org.imaginativeworld.whynotimagecarousel.model.CarouselItem
 
 class HomeActivity : AppCompatActivity() {
     lateinit var toolbar : Toolbar
@@ -39,7 +36,7 @@ class HomeActivity : AppCompatActivity() {
         bottomNavigationView = findViewById(R.id.bottom_navigation)
         setUpToolbar()
 
-        homeFragment(HomeFragment(),"Hoysala Electronics")
+        homeFragment(Homefragment(),"Hoysala Electronics")
 
         val actionBarDrawerToolbar = ActionBarDrawerToggle(this@HomeActivity,drawerLayout,toolbar,R.string.open_drawer,
             R.string.close_drawer)
@@ -60,13 +57,13 @@ class HomeActivity : AppCompatActivity() {
                 {
                     drawerFragment(Transaction(),"My Transaction")
                 }
-                /* R.id.about ->
-                 {
-                      drawerFragment()
-                 }
-                 R.id.share ->
-                 {
-                 }*/
+//                 R.id.about ->
+//                 {
+//                      drawerFragment()
+//                 }
+//                 R.id.share ->
+//                 {
+//                 }
 
             }
 
@@ -74,18 +71,18 @@ class HomeActivity : AppCompatActivity() {
         }
         bottomNavigationView.setOnItemSelectedListener {
             when(it.itemId){
-//                R.id.home_icon -> {
-//                    homeFragment(HomeFragment(),"Hoysala Electronics")
-//                }
-//                R.id.category ->{
-//                    drawerFragment(CategoriesFragment(),"Categories")
-//                }
-//                R.id.notification ->{
-//                    drawerFragment(NotificationFragment(),"Notification")
-//                }
-//                R.id.profile -> {
-//                    drawerFragment(AccountFragment(),"My Account")
-//                }
+                R.id.home_icon -> {
+                    homeFragment(Homefragment(),"Hoysala Electronics")
+                }
+                R.id.category ->{
+                    drawerFragment(CategoriesFragment(),"Categories")
+                }
+                R.id.notification ->{
+                    drawerFragment(NotificationFragment(),"Notification")
+                }
+                R.id.profile -> {
+                    drawerFragment(AccountFragment(),"My Account")
+                }
 
             }
             return@setOnItemSelectedListener true
@@ -126,8 +123,8 @@ class HomeActivity : AppCompatActivity() {
         val frame = supportFragmentManager.findFragmentById(R.id.frame)
 
         when (frame) {
-            !is HomeFragment -> {
-                homeFragment(HomeFragment(), "Hoysala Electronics")
+            !is Homefragment -> {
+                homeFragment(Homefragment(), "Hoysala Electronics")
                 navigationDrawer.setCheckedItem(R.id.home)
 
             }

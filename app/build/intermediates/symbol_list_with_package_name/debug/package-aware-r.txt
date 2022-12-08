@@ -1900,6 +1900,7 @@ color mtrl_textinput_focused_box_stroke_color
 color mtrl_textinput_hovered_box_stroke_color
 color notification_action_color_filter
 color notification_icon_bg_color
+color notification_material_background_media_default_color
 color primary_dark_material_dark
 color primary_dark_material_light
 color primary_material_dark
@@ -2530,6 +2531,10 @@ dimen notification_subtext_size
 dimen notification_top_pad
 dimen notification_top_pad_large_text
 dimen sliding_pane_detail_pane_width
+dimen subtitle_corner_radius
+dimen subtitle_outline_width
+dimen subtitle_shadow_offset
+dimen subtitle_shadow_radius
 dimen test_dimen
 dimen test_mtrl_calendar_day_cornerSize
 dimen test_navigation_bar_active_item_max_width
@@ -2656,8 +2661,13 @@ drawable gradient
 drawable hide_password
 drawable ic_action_about
 drawable ic_action_cart
+drawable ic_action_catergories
 drawable ic_action_clear
+drawable ic_action_home
 drawable ic_action_menu
+drawable ic_action_notification
+drawable ic_action_person
+drawable ic_action_search
 drawable ic_action_share
 drawable ic_action_transaction
 drawable ic_arrow_left_black_48dp
@@ -2795,6 +2805,7 @@ id accessibility_custom_action_6
 id accessibility_custom_action_7
 id accessibility_custom_action_8
 id accessibility_custom_action_9
+id action0
 id actionDown
 id actionDownUp
 id actionUp
@@ -2844,6 +2855,7 @@ id beginning
 id bestChoice
 id blocking
 id bottom
+id bottom_navigation
 id bounce
 id bounceBoth
 id bounceEnd
@@ -2855,9 +2867,12 @@ id btn_register
 id buttonPanel
 id cache_measures
 id callMeasure
+id cancel_action
 id cancel_button
+id card_view1
 id carousel
 id carryVelocity
+id category
 id center
 id centerCrop
 id centerInside
@@ -2939,6 +2954,7 @@ id edittext_dropdown_noneditable
 id elastic
 id end
 id endToStart
+id end_padder
 id enterAlways
 id enterAlwaysCollapsed
 id exitUntilCollapsed
@@ -2959,6 +2975,7 @@ id flip
 id floating
 id forever
 id fragment_container_view_tag
+id frame
 id frost
 id fullscreen_header
 id ghost_view
@@ -2975,6 +2992,7 @@ id header_title
 id hideable
 id home
 id homeAsUp
+id home_icon
 id honorRequest
 id horizontal
 id horizontal_only
@@ -3040,6 +3058,7 @@ id material_timepicker_ok_button
 id material_timepicker_view
 id material_value_index
 id matrix
+id media_actions
 id message
 id middle
 id mini
@@ -3103,6 +3122,7 @@ id noState
 id none
 id normal
 id north
+id notification
 id notification_background
 id notification_main_column
 id notification_main_column_container
@@ -3128,12 +3148,15 @@ id pin
 id position
 id postLayout
 id previous_button_container
+id profile
 id progress_circular
 id progress_horizontal
 id radio
 id ratio
 id rectangles
 id recyclerView
+id relative2
+id relativeLayout
 id requestItem
 id reverseSawtooth
 id right
@@ -3163,7 +3186,6 @@ id search_edit_frame
 id search_go_btn
 id search_mag_icon
 id search_plate
-id search_relative
 id search_src_text
 id search_voice_btn
 id select_dialog_listview
@@ -3205,6 +3227,7 @@ id startToEnd
 id startVertical
 id staticLayout
 id staticPostLayout
+id status_bar_latest_event_content
 id stop
 id stretch
 id submenuarrow
@@ -3418,6 +3441,11 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
+layout fragment_account
+layout fragment_categories
+layout fragment_home
+layout fragment_notification
+layout fragment_transaction
 layout header_layout
 layout image_carousel
 layout image_slider
@@ -3475,8 +3503,17 @@ layout mtrl_picker_text_input_date_range
 layout next_button_layout
 layout notification_action
 layout notification_action_tombstone
+layout notification_media_action
+layout notification_media_cancel_action
+layout notification_template_big_media
+layout notification_template_big_media_custom
+layout notification_template_big_media_narrow
+layout notification_template_big_media_narrow_custom
 layout notification_template_custom_big
 layout notification_template_icon_group
+layout notification_template_lines_media
+layout notification_template_media
+layout notification_template_media_custom
 layout notification_template_part_chronometer
 layout notification_template_part_time
 layout pager_row
@@ -3502,6 +3539,8 @@ layout text_view_with_line_height_from_layout
 layout text_view_with_line_height_from_style
 layout text_view_with_theme_line_height
 layout text_view_without_line_height
+menu bottom_menu
+menu items_menu
 menu menu_cart
 menu menu_drawer
 mipmap ic_launcher
@@ -3553,6 +3592,7 @@ string error_icon_content_description
 string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
+string hello_blank_fragment
 string hide_bottom_view_on_scroll_behavior
 string icon_content_description
 string item_view_role_description
@@ -4088,9 +4128,14 @@ style TextAppearance_AppCompat_Widget_Switch
 style TextAppearance_AppCompat_Widget_TextView_SpinnerItem
 style TextAppearance_Compat_Notification
 style TextAppearance_Compat_Notification_Info
+style TextAppearance_Compat_Notification_Info_Media
 style TextAppearance_Compat_Notification_Line2
+style TextAppearance_Compat_Notification_Line2_Media
+style TextAppearance_Compat_Notification_Media
 style TextAppearance_Compat_Notification_Time
+style TextAppearance_Compat_Notification_Time_Media
 style TextAppearance_Compat_Notification_Title
+style TextAppearance_Compat_Notification_Title_Media
 style TextAppearance_Design_CollapsingToolbar_Expanded
 style TextAppearance_Design_Counter
 style TextAppearance_Design_Counter_Overflow

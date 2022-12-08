@@ -29,7 +29,7 @@
             android:name=".Activity.CartActivity"
             android:exported="false" />
         <activity
-            android:name=".Activity.HomeActivity"
+            android:name=".HomeActivity"
             android:exported="false" />
         <activity
             android:name=".SplashActivity"

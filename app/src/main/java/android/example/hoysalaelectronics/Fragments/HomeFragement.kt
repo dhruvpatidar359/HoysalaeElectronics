@@ -10,7 +10,7 @@ import org.imaginativeworld.whynotimagecarousel.ImageCarousel
 import org.imaginativeworld.whynotimagecarousel.model.CarouselItem
 
 
-class HomeFragment : Fragment() {
+class Homefragment : Fragment() {
 
     lateinit var carsoul : ImageCarousel
 

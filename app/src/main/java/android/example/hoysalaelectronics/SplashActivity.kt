@@ -1,7 +1,7 @@
 package android.example.hoysalaelectronics
 
 import android.content.Intent
-import android.example.hoysalaelectronics.Activity.HomeActivity
+import android.example.hoysalaelectronics.HomeActivity
 import android.example.hoysalaelectronics.Activity.LoginActivity
 import android.os.Bundle
 import android.os.Handler

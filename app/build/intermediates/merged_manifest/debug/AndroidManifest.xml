@@ -38,7 +38,7 @@
             android:name="android.example.hoysalaelectronics.Activity.CartActivity"
             android:exported="false" />
         <activity
-            android:name="android.example.hoysalaelectronics.Activity.HomeActivity"
+            android:name="android.example.hoysalaelectronics.HomeActivity"
             android:exported="false" />
         <activity
             android:name="android.example.hoysalaelectronics.SplashActivity"

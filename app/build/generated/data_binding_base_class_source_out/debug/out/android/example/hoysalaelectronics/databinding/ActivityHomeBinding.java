@@ -5,6 +5,7 @@ import android.example.hoysalaelectronics.R;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.FrameLayout;
 import android.widget.RelativeLayout;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -14,11 +15,11 @@ import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.google.android.material.appbar.AppBarLayout;
+import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.navigation.NavigationView;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
-import org.imaginativeworld.whynotimagecarousel.ImageCarousel;
 
 public final class ActivityHomeBinding implements ViewBinding {
   @NonNull
@@ -28,7 +29,7 @@ public final class ActivityHomeBinding implements ViewBinding {
   public final AppBarLayout appBar;
 
   @NonNull
-  public final ImageCarousel carousel;
+  public final BottomNavigationView bottomNavigation;
 
   @NonNull
   public final CoordinatorLayout coordinater;
@@ -37,25 +38,29 @@ public final class ActivityHomeBinding implements ViewBinding {
   public final DrawerLayout drawer;
 
   @NonNull
+  public final FrameLayout frame;
+
+  @NonNull
   public final NavigationView navigation;
 
   @NonNull
-  public final RelativeLayout searchRelative;
+  public final RelativeLayout relativeLayout;
 
   @NonNull
   public final Toolbar toolbar;
 
   private ActivityHomeBinding(@NonNull DrawerLayout rootView, @NonNull AppBarLayout appBar,
-      @NonNull ImageCarousel carousel, @NonNull CoordinatorLayout coordinater,
-      @NonNull DrawerLayout drawer, @NonNull NavigationView navigation,
-      @NonNull RelativeLayout searchRelative, @NonNull Toolbar toolbar) {
+      @NonNull BottomNavigationView bottomNavigation, @NonNull CoordinatorLayout coordinater,
+      @NonNull DrawerLayout drawer, @NonNull FrameLayout frame, @NonNull NavigationView navigation,
+      @NonNull RelativeLayout relativeLayout, @NonNull Toolbar toolbar) {
     this.rootView = rootView;
     this.appBar = appBar;
-    this.carousel = carousel;
+    this.bottomNavigation = bottomNavigation;
     this.coordinater = coordinater;
     this.drawer = drawer;
+    this.frame = frame;
     this.navigation = navigation;
-    this.searchRelative = searchRelative;
+    this.relativeLayout = relativeLayout;
     this.toolbar = toolbar;
   }
 
@@ -92,9 +97,9 @@ public final class ActivityHomeBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.carousel;
-      ImageCarousel carousel = ViewBindings.findChildViewById(rootView, id);
-      if (carousel == null) {
+      id = R.id.bottom_navigation;
+      BottomNavigationView bottomNavigation = ViewBindings.findChildViewById(rootView, id);
+      if (bottomNavigation == null) {
         break missingId;
       }
 
@@ -106,15 +111,21 @@ public final class ActivityHomeBinding implements ViewBinding {
 
       DrawerLayout drawer = (DrawerLayout) rootView;
 
+      id = R.id.frame;
+      FrameLayout frame = ViewBindings.findChildViewById(rootView, id);
+      if (frame == null) {
+        break missingId;
+      }
+
       id = R.id.navigation;
       NavigationView navigation = ViewBindings.findChildViewById(rootView, id);
       if (navigation == null) {
         break missingId;
       }
 
-      id = R.id.search_relative;
-      RelativeLayout searchRelative = ViewBindings.findChildViewById(rootView, id);
-      if (searchRelative == null) {
+      id = R.id.relativeLayout;
+      RelativeLayout relativeLayout = ViewBindings.findChildViewById(rootView, id);
+      if (relativeLayout == null) {
         break missingId;
       }
 
@@ -124,8 +135,8 @@ public final class ActivityHomeBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityHomeBinding((DrawerLayout) rootView, appBar, carousel, coordinater, drawer,
-          navigation, searchRelative, toolbar);
+      return new ActivityHomeBinding((DrawerLayout) rootView, appBar, bottomNavigation, coordinater,
+          drawer, frame, navigation, relativeLayout, toolbar);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

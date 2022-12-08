@@ -51,7 +51,7 @@
                     android:layout_marginEnd="0dp"
                     android:layout_marginBottom="0dp"
                     app:labelVisibilityMode="labeled"
-                   >
+                    app:menu="@menu/bottom_menu">
 
                 </com.google.android.material.bottomnavigation.BottomNavigationView>
 
@@ -74,6 +74,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:headerLayout="@layout/header_layout"
+        app:menu="@menu/items_menu"
         android:id="@+id/navigation"
         android:layout_gravity="start">
 

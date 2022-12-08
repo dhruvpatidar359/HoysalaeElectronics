@@ -9,7 +9,8 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/relative2">
+        android:id="@+id/relative2"
+        android:background="@color/background_default">
 
         <androidx.appcompat.widget.SearchView
             android:layout_width="320dp"
@@ -21,6 +22,7 @@
             app:iconifiedByDefault="false"
             android:id="@+id/search_bar"
             app:closeIcon="@drawable/ic_action_clear"
+            app:searchIcon="@drawable/ic_action_search"
             app:queryHint="What are you looking for"/>
     </RelativeLayout>
     <androidx.cardview.widget.CardView
