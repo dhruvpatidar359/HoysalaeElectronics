@@ -1,34 +1,48 @@
-package android.example.hoysalaelectronics.Activity
+package android.example.hoysalaelectronics
 
-import android.example.hoysalaelectronics.R
+import android.annotation.SuppressLint
+import android.example.hoysalaelectronics.Fragments.*
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.Menu
+import android.widget.FrameLayout
 import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.appcompat.widget.Toolbar
+import androidx.constraintlayout.helper.widget.Carousel
 import androidx.coordinatorlayout.widget.CoordinatorLayout
 import androidx.drawerlayout.widget.DrawerLayout
+import androidx.fragment.app.Fragment
+import com.google.android.material.bottomnavigation.BottomNavigationView
 import com.google.android.material.navigation.NavigationView
+import org.imaginativeworld.whynotimagecarousel.ImageCarousel
+import org.imaginativeworld.whynotimagecarousel.model.CarouselItem
 
 class HomeActivity : AppCompatActivity() {
     lateinit var toolbar : Toolbar
     lateinit var drawerLayout : DrawerLayout
     lateinit var navigationDrawer : NavigationView
     lateinit var coordinaterLayout : CoordinatorLayout
+    lateinit var frameLayoutFirst : FrameLayout
+    lateinit var bottomNavigationView: BottomNavigationView
 
+    @SuppressLint("MissingInflatedId")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_home)
+
 
         drawerLayout = findViewById(R.id.drawer)
         navigationDrawer = findViewById(R.id.navigation)
         coordinaterLayout = findViewById(R.id.coordinater)
         toolbar = findViewById(R.id.toolbar)
-
+        frameLayoutFirst = findViewById(R.id.frame)
+        bottomNavigationView = findViewById(R.id.bottom_navigation)
         setUpToolbar()
 
+        homeFragment(HomeFragment(),"Hoysala Electronics")
+
         val actionBarDrawerToolbar = ActionBarDrawerToggle(this@HomeActivity,drawerLayout,toolbar,R.string.open_drawer,
-                R.string.close_drawer)
+            R.string.close_drawer)
 
         //adding click Listener to hamburger icon
         drawerLayout.addDrawerListener(actionBarDrawerToolbar)
@@ -39,15 +53,62 @@ class HomeActivity : AppCompatActivity() {
         //this code is used to change hamburger icon to back arrow and vice-versa
         actionBarDrawerToolbar.syncState()
 
-     /*   val imageList = ArrayList<SlideModel>()
-        imageList.add(SlideModel("https://i.pinimg.com/originals/da/a3/29/daa3294d1a90e2d9d850fa3a08507fec.png",""))
-        imageList.add(SlideModel("http://www.comstreamconsulting.com/wp-content/uploads/2015/09/Slider-Electronics-and-High-Tech.jpg",""))
-        imageList.add(SlideModel("https://thumbs.dreamstime.com/b/resistors-capacitors-other-electronic-components-micro-chip-inside-computer-close-up-resistors-capacitors-other-187455099.jpg",""))
-        imageList.add(SlideModel("https://c8.alamy.com/comp/C962G5/electronic-components-including-resistors-transistors-capacitors-and-C962G5.jpg",""))
-        imageList.add(SlideModel("https://qph.fs.quoracdn.net/main-qimg-d83ed6e56c74884395505e0ec8bff1e5",""))
+        navigationDrawer.setNavigationItemSelectedListener {
+            when(it.itemId){
 
-        slider.setImageList(imageList,ScaleTypes.FIT)*/
+                R.id.transaction_history ->
+                {
+                    drawerFragment(Transaction(),"My Transaction")
+                }
+                /* R.id.about ->
+                 {
+                      drawerFragment()
+                 }
+                 R.id.share ->
+                 {
+                 }*/
 
+            }
+
+            return@setNavigationItemSelectedListener true
+        }
+        bottomNavigationView.setOnItemSelectedListener {
+            when(it.itemId){
+//                R.id.home_icon -> {
+//                    homeFragment(HomeFragment(),"Hoysala Electronics")
+//                }
+//                R.id.category ->{
+//                    drawerFragment(CategoriesFragment(),"Categories")
+//                }
+//                R.id.notification ->{
+//                    drawerFragment(NotificationFragment(),"Notification")
+//                }
+//                R.id.profile -> {
+//                    drawerFragment(AccountFragment(),"My Account")
+//                }
+
+            }
+            return@setOnItemSelectedListener true
+        }
+
+    }
+
+    private fun drawerFragment(fragment : Fragment,title : String) {
+        val fragmentManager = supportFragmentManager
+        val transaction = fragmentManager.beginTransaction()
+        transaction.replace(R.id.frame,fragment)
+        transaction.commit()
+        supportActionBar?.title = title
+        drawerLayout.close()
+
+    }
+    private fun homeFragment(fragment: Fragment,title: String){
+        val fragmentManager = supportFragmentManager
+        val transaction = fragmentManager.beginTransaction()
+        transaction.replace(R.id.frame,fragment)
+        transaction.commit()
+        supportActionBar?.title = title
+        drawerLayout.close()
 
     }
     private fun setUpToolbar(){
@@ -57,7 +118,20 @@ class HomeActivity : AppCompatActivity() {
     }
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
-        menuInflater.inflate(R.menu.menu_cart,menu)
+//        menuInflater.inflate(R.menu.cart_menu,menu)
         return super.onCreateOptionsMenu(menu)
+    }
+
+    override fun onBackPressed() {
+        val frame = supportFragmentManager.findFragmentById(R.id.frame)
+
+        when (frame) {
+            !is HomeFragment -> {
+                homeFragment(HomeFragment(), "Hoysala Electronics")
+                navigationDrawer.setCheckedItem(R.id.home)
+
+            }
+            else -> super.onBackPressed()
+        }
     }
 }

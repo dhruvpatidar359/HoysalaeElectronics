@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.Transaction">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/relative2">
+
+        <androidx.appcompat.widget.SearchView
+            android:layout_width="320dp"
+            android:layout_height="40dp"
+            android:layout_margin="8dp"
+            android:background="@drawable/search_bar"
+            android:layout_centerHorizontal="true"
+            android:focusable="false"
+            app:iconifiedByDefault="false"
+            android:id="@+id/search_bar"
+            app:closeIcon="@drawable/ic_action_clear"
+            app:queryHint="What are you looking for"/>
+    </RelativeLayout>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="10dp"
+        android:layout_margin="5dp"
+        android:id="@+id/card_view1"
+        android:layout_below="@id/relative2">
+        <org.imaginativeworld.whynotimagecarousel.ImageCarousel
+            android:id="@+id/carousel"
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            app:showNavigationButtons="false"
+            app:showCaption="false"
+            app:autoPlay="true"/>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>
