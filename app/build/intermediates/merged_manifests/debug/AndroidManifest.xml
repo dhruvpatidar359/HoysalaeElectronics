@@ -21,14 +21,23 @@
         android:testOnly="true"
         android:theme="@style/Theme.HoysalaElectronics" >
         <activity
+            android:name="android.example.hoysalaelectronics.Activity.LoginActivity"
+            android:exported="false" >
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name="android.example.hoysalaelectronics.Activity.CartActivity"
             android:exported="false" />
         <activity
-            android:name="android.example.hoysalaelectronics.SplashActivity"
+            android:name="android.example.hoysalaelectronics.Activity.HomeActivity"
             android:exported="false" />
         <activity
-            android:name="android.example.hoysalaelectronics.Activity.MainActivity"
-            android:exported="true" >
+            android:name="android.example.hoysalaelectronics.SplashActivity"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+            >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
