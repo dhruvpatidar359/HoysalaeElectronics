@@ -21,7 +21,7 @@
         android:testOnly="true"
         android:theme="@style/Theme.HoysalaElectronics" >
         <activity
-            android:name="android.example.hoysalaelectronics.Activity.new_user"
+            android:name="android.example.hoysalaelectronics.Activity.new_userActivity"
             android:exported="false" >
             <meta-data
                 android:name="android.app.lib_name"
@@ -39,6 +39,9 @@
             android:exported="false" />
         <activity
             android:name="android.example.hoysalaelectronics.HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name="android.example.hoysalaelectronics.Activity.Forget_Password_Activity"
             android:exported="false" />
         <activity
             android:name="android.example.hoysalaelectronics.SplashActivity"

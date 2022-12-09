@@ -2863,6 +2863,7 @@ int id btn_login 0x7f080228
 int id btn_next 0x7f08006c
 int id btn_previous 0x7f08006d
 int id btn_register 0x7f080233
+int id btn_submit 0x7f080244
 int id buttonPanel 0x7f08006e
 int id cache_measures 0x7f08006f
 int id callMeasure 0x7f080070
@@ -3420,6 +3421,7 @@ int layout abc_search_view 0x7f0b0019
 int layout abc_select_dialog_material 0x7f0b001a
 int layout abc_tooltip 0x7f0b001b
 int layout activity_cart 0x7f0b001c
+int layout activity_forget_password 0x7f0b0094
 int layout activity_home 0x7f0b001d
 int layout activity_login 0x7f0b001e
 int layout activity_new_user 0x7f0b0084

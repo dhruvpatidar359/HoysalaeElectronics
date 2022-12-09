@@ -2864,6 +2864,7 @@ id btn_login
 id btn_next
 id btn_previous
 id btn_register
+id btn_submit
 id buttonPanel
 id cache_measures
 id callMeasure
@@ -3421,6 +3422,7 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_cart
+layout activity_forget_password
 layout activity_home
 layout activity_login
 layout activity_new_user

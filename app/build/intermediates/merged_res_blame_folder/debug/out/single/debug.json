@@ -20,16 +20,16 @@
         "source": "D:\\hoysala-MobileApplication\\app\\src\\main\\res\\drawable-xxhdpi\\ic_action_about.png"
     },
     {
-        "merged": "D:\\hoysala-MobileApplication\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_splash.xml.flat",
-        "source": "D:\\hoysala-MobileApplication\\app\\src\\main\\res\\layout\\activity_splash.xml"
+        "merged": "D:\\hoysala-MobileApplication\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_categories.xml.flat",
+        "source": "D:\\hoysala-MobileApplication\\app\\src\\main\\res\\layout\\fragment_categories.xml"
     },
     {
         "merged": "D:\\hoysala-MobileApplication\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher.webp.flat",
         "source": "D:\\hoysala-MobileApplication\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "D:\\hoysala-MobileApplication\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_categories.xml.flat",
-        "source": "D:\\hoysala-MobileApplication\\app\\src\\main\\res\\layout\\fragment_categories.xml"
+        "merged": "D:\\hoysala-MobileApplication\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_splash.xml.flat",
+        "source": "D:\\hoysala-MobileApplication\\app\\src\\main\\res\\layout\\activity_splash.xml"
     },
     {
         "merged": "D:\\hoysala-MobileApplication\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_round.webp.flat",
@@ -62,6 +62,10 @@
     {
         "merged": "D:\\hoysala-MobileApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_ic_action_cart.png.flat",
         "source": "D:\\hoysala-MobileApplication\\app\\src\\main\\res\\drawable-mdpi\\ic_action_cart.png"
+    },
+    {
+        "merged": "D:\\hoysala-MobileApplication\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_forget_password.xml.flat",
+        "source": "D:\\hoysala-MobileApplication\\app\\src\\main\\res\\layout\\activity_forget_password.xml"
     },
     {
         "merged": "D:\\hoysala-MobileApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_search_bar.xml.flat",

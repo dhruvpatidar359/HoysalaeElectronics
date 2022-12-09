@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:2:1-47:12
-INJECTED from D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:2:1-47:12
-INJECTED from D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:2:1-47:12
-INJECTED from D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:2:1-47:12
+ADDED from D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:2:1-49:12
+INJECTED from D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:2:1-49:12
+INJECTED from D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:2:1-49:12
+INJECTED from D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:2:1-49:12
 MERGED from [com.github.denzcoskun:ImageSlideshow:0.1.0] C:\Users\Naveen\.gradle\caches\transforms-3\2a0c57c7529dc09aea58cb0bdc13cdc6\transformed\jetified-ImageSlideshow-0.1.0\AndroidManifest.xml:2:1-11:12
 MERGED from [org.imaginativeworld.whynotimagecarousel:whynotimagecarousel:2.1.0] C:\Users\Naveen\.gradle\caches\transforms-3\4604d8724aa02e80a0ac3db3a37a9488\transformed\jetified-whynotimagecarousel-2.1.0-debug\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.navigation:navigation-ui-ktx:2.5.3] C:\Users\Naveen\.gradle\caches\transforms-3\dc44fc9b62ddd55a9046c40bf93da78d\transformed\navigation-ui-ktx-2.5.3\AndroidManifest.xml:17:1-24:12
@@ -75,20 +75,20 @@ MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Naveen\.gradle\c
 MERGED from [androidx.exifinterface:exifinterface:1.2.0] C:\Users\Naveen\.gradle\caches\transforms-3\3f3771d566d907779cc9b27f8ce113f5\transformed\exifinterface-1.2.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.github.bumptech.glide:gifdecoder:4.13.1] C:\Users\Naveen\.gradle\caches\transforms-3\ba72ec75bcc66cfda7750538cd3eef61\transformed\jetified-gifdecoder-4.13.1\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\Naveen\.gradle\caches\transforms-3\29c7b199d4646ee497ba13091e7b830d\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
-INJECTED from D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:2:1-47:12
-INJECTED from D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:2:1-47:12
-INJECTED from D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:2:1-47:12
+INJECTED from D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:2:1-49:12
+INJECTED from D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:2:1-49:12
+INJECTED from D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:2:1-49:12
 	package
 		ADDED from D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:3:5-49
 		INJECTED from D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml
 		INJECTED from D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml
-		ADDED from D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:2:1-47:12
+		ADDED from D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:2:1-49:12
 		INJECTED from D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml
-		ADDED from D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:2:1-47:12
+		ADDED from D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:2:1-49:12
 		INJECTED from D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:2:11-69
@@ -99,7 +99,7 @@ MERGED from [org.imaginativeworld.whynotimagecarousel:whynotimagecarousel:2.1.0]
 	android:name
 		ADDED from D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:5:22-64
 application
-ADDED from D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:7:5-45:19
+ADDED from D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:7:5-47:19
 MERGED from [com.google.android.material:material:1.6.1] C:\Users\Naveen\.gradle\caches\transforms-3\064d07ef31233c146c64f3f30c86167a\transformed\material-1.6.1\AndroidManifest.xml:24:5-20
 MERGED from [com.google.android.material:material:1.6.1] C:\Users\Naveen\.gradle\caches\transforms-3\064d07ef31233c146c64f3f30c86167a\transformed\material-1.6.1\AndroidManifest.xml:24:5-20
 MERGED from [com.github.mancj:MaterialSearchBar:0.8.5] C:\Users\Naveen\.gradle\caches\transforms-3\84acfe08b659e1fb412dd7ed87889be1\transformed\jetified-MaterialSearchBar-0.8.5\AndroidManifest.xml:11:5-15:19
@@ -140,12 +140,12 @@ MERGED from [com.github.bumptech.glide:gifdecoder:4.13.1] C:\Users\Naveen\.gradl
 		ADDED from D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:8:9-35
 	android:theme
 		ADDED from D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:13:9-56
-activity#android.example.hoysalaelectronics.Activity.new_user
+activity#android.example.hoysalaelectronics.Activity.new_userActivity
 ADDED from D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:14:9-20:20
 	android:exported
 		ADDED from D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:16:13-37
 	android:name
-		ADDED from D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:15:13-46
+		ADDED from D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:15:13-54
 meta-data#android.app.lib_name
 ADDED from D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:17:13-19:36
 	android:value
@@ -170,24 +170,30 @@ ADDED from D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:31:9-33
 		ADDED from D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:33:13-37
 	android:name
 		ADDED from D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:32:13-41
-activity#android.example.hoysalaelectronics.SplashActivity
-ADDED from D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:34:9-44:20
+activity#android.example.hoysalaelectronics.Activity.Forget_Password_Activity
+ADDED from D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:34:9-35:39
 	android:exported
-		ADDED from D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:36:13-36
+		ADDED from D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:35:13-37
+	android:name
+		ADDED from D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:34:19-68
+activity#android.example.hoysalaelectronics.SplashActivity
+ADDED from D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:36:9-46:20
+	android:exported
+		ADDED from D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:38:13-36
 	android:theme
-		ADDED from D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:37:13-69
+		ADDED from D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:39:13-69
 	android:name
-		ADDED from D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:35:13-43
+		ADDED from D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:37:13-43
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:39:13-43:29
+ADDED from D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:41:13-45:29
 action#android.intent.action.MAIN
-ADDED from D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:40:17-69
+ADDED from D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:42:17-69
 	android:name
-		ADDED from D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:40:25-66
+		ADDED from D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:42:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:42:17-77
+ADDED from D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:44:17-77
 	android:name
-		ADDED from D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:42:27-74
+		ADDED from D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:44:27-74
 uses-sdk
 INJECTED from D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml

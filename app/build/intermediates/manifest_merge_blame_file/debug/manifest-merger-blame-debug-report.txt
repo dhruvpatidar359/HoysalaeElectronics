@@ -15,7 +15,7 @@
 11-->D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:5:22-64
 12
 13    <application
-13-->D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:7:5-45:19
+13-->D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:7:5-47:19
 14        android:allowBackup="true"
 14-->D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:8:9-35
 15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -34,8 +34,8 @@
 22-->D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:13:9-56
 23        <activity
 23-->D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:14:9-20:20
-24            android:name="android.example.hoysalaelectronics.Activity.new_user"
-24-->D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:15:13-46
+24            android:name="android.example.hoysalaelectronics.Activity.new_userActivity"
+24-->D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:15:13-54
 25            android:exported="false" >
 25-->D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:16:13-37
 26            <meta-data
@@ -71,68 +71,74 @@
 42            android:exported="false" />
 42-->D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:33:13-37
 43        <activity
-43-->D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:34:9-44:20
-44            android:name="android.example.hoysalaelectronics.SplashActivity"
-44-->D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:35:13-43
-45            android:exported="true"
-45-->D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:36:13-36
-46            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
-46-->D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:37:13-69
-47            >
-48            <intent-filter>
-48-->D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:39:13-43:29
-49                <action android:name="android.intent.action.MAIN" />
-49-->D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:40:17-69
-49-->D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:40:25-66
-50
-51                <category android:name="android.intent.category.LAUNCHER" />
-51-->D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:42:17-77
-51-->D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:42:27-74
-52            </intent-filter>
-53        </activity>
-54
-55        <uses-library
-55-->[androidx.window:window:1.0.0] C:\Users\Naveen\.gradle\caches\transforms-3\bb120d0f3cef906a8dd7f4d4a5f6d377\transformed\jetified-window-1.0.0\AndroidManifest.xml:25:9-27:40
-56            android:name="androidx.window.extensions"
-56-->[androidx.window:window:1.0.0] C:\Users\Naveen\.gradle\caches\transforms-3\bb120d0f3cef906a8dd7f4d4a5f6d377\transformed\jetified-window-1.0.0\AndroidManifest.xml:26:13-54
-57            android:required="false" />
-57-->[androidx.window:window:1.0.0] C:\Users\Naveen\.gradle\caches\transforms-3\bb120d0f3cef906a8dd7f4d4a5f6d377\transformed\jetified-window-1.0.0\AndroidManifest.xml:27:13-37
+43-->D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:34:9-35:39
+44            android:name="android.example.hoysalaelectronics.Activity.Forget_Password_Activity"
+44-->D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:34:19-68
+45            android:exported="false" />
+45-->D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:35:13-37
+46        <activity
+46-->D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:36:9-46:20
+47            android:name="android.example.hoysalaelectronics.SplashActivity"
+47-->D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:37:13-43
+48            android:exported="true"
+48-->D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:38:13-36
+49            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+49-->D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:39:13-69
+50            >
+51            <intent-filter>
+51-->D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:41:13-45:29
+52                <action android:name="android.intent.action.MAIN" />
+52-->D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:42:17-69
+52-->D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:42:25-66
+53
+54                <category android:name="android.intent.category.LAUNCHER" />
+54-->D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:44:17-77
+54-->D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:44:27-74
+55            </intent-filter>
+56        </activity>
+57
 58        <uses-library
-58-->[androidx.window:window:1.0.0] C:\Users\Naveen\.gradle\caches\transforms-3\bb120d0f3cef906a8dd7f4d4a5f6d377\transformed\jetified-window-1.0.0\AndroidManifest.xml:28:9-30:40
-59            android:name="androidx.window.sidecar"
-59-->[androidx.window:window:1.0.0] C:\Users\Naveen\.gradle\caches\transforms-3\bb120d0f3cef906a8dd7f4d4a5f6d377\transformed\jetified-window-1.0.0\AndroidManifest.xml:29:13-51
+58-->[androidx.window:window:1.0.0] C:\Users\Naveen\.gradle\caches\transforms-3\bb120d0f3cef906a8dd7f4d4a5f6d377\transformed\jetified-window-1.0.0\AndroidManifest.xml:25:9-27:40
+59            android:name="androidx.window.extensions"
+59-->[androidx.window:window:1.0.0] C:\Users\Naveen\.gradle\caches\transforms-3\bb120d0f3cef906a8dd7f4d4a5f6d377\transformed\jetified-window-1.0.0\AndroidManifest.xml:26:13-54
 60            android:required="false" />
-60-->[androidx.window:window:1.0.0] C:\Users\Naveen\.gradle\caches\transforms-3\bb120d0f3cef906a8dd7f4d4a5f6d377\transformed\jetified-window-1.0.0\AndroidManifest.xml:30:13-37
-61
-62        <provider
-62-->[com.squareup.picasso:picasso:2.71828] C:\Users\Naveen\.gradle\caches\transforms-3\8b0605c89ffb0f08bb8405bfca3a4b20\transformed\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
-63            android:name="com.squareup.picasso.PicassoProvider"
-63-->[com.squareup.picasso:picasso:2.71828] C:\Users\Naveen\.gradle\caches\transforms-3\8b0605c89ffb0f08bb8405bfca3a4b20\transformed\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
-64            android:authorities="android.example.hoysalaelectronics.com.squareup.picasso"
-64-->[com.squareup.picasso:picasso:2.71828] C:\Users\Naveen\.gradle\caches\transforms-3\8b0605c89ffb0f08bb8405bfca3a4b20\transformed\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
-65            android:exported="false" />
-65-->[com.squareup.picasso:picasso:2.71828] C:\Users\Naveen\.gradle\caches\transforms-3\8b0605c89ffb0f08bb8405bfca3a4b20\transformed\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
-66        <provider
-66-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Naveen\.gradle\caches\transforms-3\61adc85933b7437a31b50803fc41d47e\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
-67            android:name="androidx.startup.InitializationProvider"
-67-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Naveen\.gradle\caches\transforms-3\61adc85933b7437a31b50803fc41d47e\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
-68            android:authorities="android.example.hoysalaelectronics.androidx-startup"
-68-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Naveen\.gradle\caches\transforms-3\61adc85933b7437a31b50803fc41d47e\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
-69            android:exported="false" >
-69-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Naveen\.gradle\caches\transforms-3\61adc85933b7437a31b50803fc41d47e\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
-70            <meta-data
-70-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Naveen\.gradle\caches\transforms-3\61adc85933b7437a31b50803fc41d47e\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
-71                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-71-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Naveen\.gradle\caches\transforms-3\61adc85933b7437a31b50803fc41d47e\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
-72                android:value="androidx.startup" />
-72-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Naveen\.gradle\caches\transforms-3\61adc85933b7437a31b50803fc41d47e\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+60-->[androidx.window:window:1.0.0] C:\Users\Naveen\.gradle\caches\transforms-3\bb120d0f3cef906a8dd7f4d4a5f6d377\transformed\jetified-window-1.0.0\AndroidManifest.xml:27:13-37
+61        <uses-library
+61-->[androidx.window:window:1.0.0] C:\Users\Naveen\.gradle\caches\transforms-3\bb120d0f3cef906a8dd7f4d4a5f6d377\transformed\jetified-window-1.0.0\AndroidManifest.xml:28:9-30:40
+62            android:name="androidx.window.sidecar"
+62-->[androidx.window:window:1.0.0] C:\Users\Naveen\.gradle\caches\transforms-3\bb120d0f3cef906a8dd7f4d4a5f6d377\transformed\jetified-window-1.0.0\AndroidManifest.xml:29:13-51
+63            android:required="false" />
+63-->[androidx.window:window:1.0.0] C:\Users\Naveen\.gradle\caches\transforms-3\bb120d0f3cef906a8dd7f4d4a5f6d377\transformed\jetified-window-1.0.0\AndroidManifest.xml:30:13-37
+64
+65        <provider
+65-->[com.squareup.picasso:picasso:2.71828] C:\Users\Naveen\.gradle\caches\transforms-3\8b0605c89ffb0f08bb8405bfca3a4b20\transformed\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
+66            android:name="com.squareup.picasso.PicassoProvider"
+66-->[com.squareup.picasso:picasso:2.71828] C:\Users\Naveen\.gradle\caches\transforms-3\8b0605c89ffb0f08bb8405bfca3a4b20\transformed\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
+67            android:authorities="android.example.hoysalaelectronics.com.squareup.picasso"
+67-->[com.squareup.picasso:picasso:2.71828] C:\Users\Naveen\.gradle\caches\transforms-3\8b0605c89ffb0f08bb8405bfca3a4b20\transformed\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+68            android:exported="false" />
+68-->[com.squareup.picasso:picasso:2.71828] C:\Users\Naveen\.gradle\caches\transforms-3\8b0605c89ffb0f08bb8405bfca3a4b20\transformed\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+69        <provider
+69-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Naveen\.gradle\caches\transforms-3\61adc85933b7437a31b50803fc41d47e\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+70            android:name="androidx.startup.InitializationProvider"
+70-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Naveen\.gradle\caches\transforms-3\61adc85933b7437a31b50803fc41d47e\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+71            android:authorities="android.example.hoysalaelectronics.androidx-startup"
+71-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Naveen\.gradle\caches\transforms-3\61adc85933b7437a31b50803fc41d47e\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+72            android:exported="false" >
+72-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Naveen\.gradle\caches\transforms-3\61adc85933b7437a31b50803fc41d47e\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
 73            <meta-data
-73-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Naveen\.gradle\caches\transforms-3\129067ac20a2870afccfac31f5e58843\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
-74                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-74-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Naveen\.gradle\caches\transforms-3\129067ac20a2870afccfac31f5e58843\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+73-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Naveen\.gradle\caches\transforms-3\61adc85933b7437a31b50803fc41d47e\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+74                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+74-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Naveen\.gradle\caches\transforms-3\61adc85933b7437a31b50803fc41d47e\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
 75                android:value="androidx.startup" />
-75-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Naveen\.gradle\caches\transforms-3\129067ac20a2870afccfac31f5e58843\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
-76        </provider>
-77    </application>
-78
-79</manifest>
+75-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Naveen\.gradle\caches\transforms-3\61adc85933b7437a31b50803fc41d47e\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+76            <meta-data
+76-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Naveen\.gradle\caches\transforms-3\129067ac20a2870afccfac31f5e58843\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+77                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+77-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Naveen\.gradle\caches\transforms-3\129067ac20a2870afccfac31f5e58843\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+78                android:value="androidx.startup" />
+78-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Naveen\.gradle\caches\transforms-3\129067ac20a2870afccfac31f5e58843\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+79        </provider>
+80    </application>
+81
+82</manifest>

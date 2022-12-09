@@ -12,7 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.HoysalaElectronics">
         <activity
-            android:name=".Activity.new_user"
+            android:name=".Activity.new_userActivity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
@@ -31,6 +31,8 @@
         <activity
             android:name=".HomeActivity"
             android:exported="false" />
+        <activity android:name=".Activity.Forget_Password_Activity"
+            android:exported="false"/>
         <activity
             android:name=".SplashActivity"
             android:exported="true"
