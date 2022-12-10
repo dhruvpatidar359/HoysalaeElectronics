@@ -2659,6 +2659,7 @@ drawable error
 drawable goggle_icon
 drawable gradient
 drawable hide_password
+drawable hoysala_electronics
 drawable ic_action_about
 drawable ic_action_cart
 drawable ic_action_catergories
@@ -2694,6 +2695,7 @@ drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable input_background
 drawable loading
 drawable m3_appbar_background
 drawable m3_popupmenu_background_overlay
@@ -2909,6 +2911,7 @@ id coordinater
 id coordinator
 id cos
 id counterclockwise
+id create_account
 id currentState
 id custom
 id customPanel
@@ -2962,6 +2965,7 @@ id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
 id fade
+id featured_product
 id fill
 id fill_horizontal
 id fill_vertical
@@ -3027,8 +3031,8 @@ id layout
 id left
 id leftToRight
 id legacy
-id line
 id line1
+id line2
 id line3
 id linear
 id linear_layout
@@ -3149,6 +3153,9 @@ id pin
 id position
 id postLayout
 id previous_button_container
+id product_image
+id product_name
+id product_price
 id profile
 id progress_circular
 id progress_horizontal
@@ -3253,6 +3260,7 @@ id test_checkbox_app_button_tint
 id test_radiobutton_android_button_tint
 id test_radiobutton_app_button_tint
 id text
+id text1
 id text2
 id textEnd
 id textSpacerNoButtons
@@ -3264,6 +3272,7 @@ id textView1
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
+id text_or
 id text_view
 id textinput_counter
 id textinput_error
@@ -3289,12 +3298,10 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
-id tv_back
 id tv_caption
 id tv_forgetpassword
 id tv_login
 id tv_newuser
-id tv_register
 id tv_sign_in
 id tv_welcome
 id unchecked
@@ -3443,6 +3450,7 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
+layout featured_product_single_row
 layout fragment_account
 layout fragment_categories
 layout fragment_home
@@ -4234,9 +4242,6 @@ style Theme_Design_Light_BottomSheetDialog
 style Theme_Design_Light_NoActionBar
 style Theme_Design_NoActionBar
 style Theme_HoysalaElectronics
-style Theme_HoysalaElectronics_AppBarOverlay
-style Theme_HoysalaElectronics_NoActionBar
-style Theme_HoysalaElectronics_PopupOverlay
 style Theme_Material3_Dark
 style Theme_Material3_Dark_BottomSheetDialog
 style Theme_Material3_Dark_Dialog

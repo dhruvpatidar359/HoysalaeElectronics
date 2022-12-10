@@ -21,6 +21,15 @@
         android:testOnly="true"
         android:theme="@style/Theme.HoysalaElectronics" >
         <activity
+            android:name="android.example.hoysalaelectronics.Activity.SplashActivity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
             android:name="android.example.hoysalaelectronics.Activity.new_userActivity"
             android:exported="false" >
             <meta-data
@@ -43,17 +52,6 @@
         <activity
             android:name="android.example.hoysalaelectronics.Activity.Forget_Password_Activity"
             android:exported="false" />
-        <activity
-            android:name="android.example.hoysalaelectronics.SplashActivity"
-            android:exported="true"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
-            >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
 
         <uses-library
             android:name="androidx.window.extensions"

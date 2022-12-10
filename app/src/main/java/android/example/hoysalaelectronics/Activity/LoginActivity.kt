@@ -22,7 +22,6 @@ class LoginActivity : AppCompatActivity() {
         setContentView(R.layout.activity_login)
 
       btn_login = findViewById(R.id.btn_login);
-      tv_register = findViewById(R.id.tv_register);
       rl_newuser = findViewById(R.id.rl_newuser);
       tv_forgetpassword = findViewById(R.id.tv_forgetpassword);
 
