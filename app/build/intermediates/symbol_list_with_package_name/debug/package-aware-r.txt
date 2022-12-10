@@ -2659,7 +2659,6 @@ drawable error
 drawable goggle_icon
 drawable gradient
 drawable hide_password
-drawable hoysala_electronics
 drawable ic_action_about
 drawable ic_action_cart
 drawable ic_action_catergories
@@ -2741,6 +2740,7 @@ drawable notify_panel_notification_icon_bg
 drawable placeholder
 drawable round_corners
 drawable search_bar
+drawable splash_logo
 drawable test_custom_background
 drawable test_level_drawable
 drawable tooltip_frame_dark

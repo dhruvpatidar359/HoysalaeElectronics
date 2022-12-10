@@ -2658,7 +2658,6 @@ int drawable error 0x7f07006a
 int drawable goggle_icon 0x7f07006b
 int drawable gradient 0x7f07006c
 int drawable hide_password 0x7f07006d
-int drawable hoysala_electronics 0x7f0700c5
 int drawable ic_action_about 0x7f07006e
 int drawable ic_action_cart 0x7f07006f
 int drawable ic_action_catergories 0x7f070070
@@ -2740,6 +2739,7 @@ int drawable notify_panel_notification_icon_bg 0x7f0700bb
 int drawable placeholder 0x7f0700bc
 int drawable round_corners 0x7f0700bd
 int drawable search_bar 0x7f0700be
+int drawable splash_logo 0x7f0700c6
 int drawable test_custom_background 0x7f0700bf
 int drawable test_level_drawable 0x7f0700c0
 int drawable tooltip_frame_dark 0x7f0700c1

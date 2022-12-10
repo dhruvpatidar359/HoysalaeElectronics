@@ -16,12 +16,12 @@
         "source": "C:\\Users\\DELL\\AndroidStudioProjects\\hoysalaelectonics\\app\\src\\main\\res\\drawable\\ic_action_person.xml"
     },
     {
-        "merged": "C:\\Users\\DELL\\AndroidStudioProjects\\hoysalaelectonics\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_ic_action_cart.png.flat",
-        "source": "C:\\Users\\DELL\\AndroidStudioProjects\\hoysalaelectonics\\app\\src\\main\\res\\drawable-hdpi\\ic_action_cart.png"
-    },
-    {
         "merged": "C:\\Users\\DELL\\AndroidStudioProjects\\hoysalaelectonics\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_categories.xml.flat",
         "source": "C:\\Users\\DELL\\AndroidStudioProjects\\hoysalaelectonics\\app\\src\\main\\res\\layout\\fragment_categories.xml"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\AndroidStudioProjects\\hoysalaelectonics\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_ic_action_cart.png.flat",
+        "source": "C:\\Users\\DELL\\AndroidStudioProjects\\hoysalaelectonics\\app\\src\\main\\res\\drawable-hdpi\\ic_action_cart.png"
     },
     {
         "merged": "C:\\Users\\DELL\\AndroidStudioProjects\\hoysalaelectonics\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_notification.xml.flat",
@@ -62,10 +62,6 @@
     {
         "merged": "C:\\Users\\DELL\\AndroidStudioProjects\\hoysalaelectonics\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_ic_action_clear.png.flat",
         "source": "C:\\Users\\DELL\\AndroidStudioProjects\\hoysalaelectonics\\app\\src\\main\\res\\drawable-hdpi\\ic_action_clear.png"
-    },
-    {
-        "merged": "C:\\Users\\DELL\\AndroidStudioProjects\\hoysalaelectonics\\app\\build\\intermediates\\merged_res\\debug\\drawable-anydpi_hoysala_electronics.jpg.flat",
-        "source": "C:\\Users\\DELL\\AndroidStudioProjects\\hoysalaelectonics\\app\\src\\main\\res\\drawable-anydpi\\hoysala_electronics.jpg"
     },
     {
         "merged": "C:\\Users\\DELL\\AndroidStudioProjects\\hoysalaelectonics\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_launcher_background.xml.flat",
@@ -118,6 +114,10 @@
     {
         "merged": "C:\\Users\\DELL\\AndroidStudioProjects\\hoysalaelectonics\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_ic_action_share.png.flat",
         "source": "C:\\Users\\DELL\\AndroidStudioProjects\\hoysalaelectonics\\app\\src\\main\\res\\drawable-mdpi\\ic_action_share.png"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\AndroidStudioProjects\\hoysalaelectonics\\app\\build\\intermediates\\merged_res\\debug\\drawable-anydpi_splash_logo.png.flat",
+        "source": "C:\\Users\\DELL\\AndroidStudioProjects\\hoysalaelectonics\\app\\src\\main\\res\\drawable-anydpi\\splash_logo.png"
     },
     {
         "merged": "C:\\Users\\DELL\\AndroidStudioProjects\\hoysalaelectonics\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
