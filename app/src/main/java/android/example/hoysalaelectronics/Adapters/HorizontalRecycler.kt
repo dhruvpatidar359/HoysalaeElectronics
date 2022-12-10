@@ -1,28 +1,32 @@
 package android.example.hoysalaelectronics.Adapters
 
+import android.content.Context
+import android.example.hoysalaelectronics.R
+import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 
 class HorizontalRecycler : RecyclerView.Adapter<HorizontalRecycler.HorizontalViewHolder>() {
 
-    class HorizontalViewHolder(view : View):RecyclerView.ViewHolder(view) {
-
-    }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): HorizontalViewHolder {
-        TODO("Not yet implemented")
+
+        val view = LayoutInflater.from(parent.context).inflate(R.layout.featured_product_single_row,parent,false)
+        return HorizontalViewHolder(view)
     }
 
     override fun onBindViewHolder(holder: HorizontalViewHolder, position: Int) {
-        TODO("Not yet implemented")
+
     }
 
 
     override fun getItemCount(): Int {
-        TODO("Not yet implemented")
+        return 10
     }
 
+    class HorizontalViewHolder(view : View):RecyclerView.ViewHolder(view) {
 
+    }
 
 }

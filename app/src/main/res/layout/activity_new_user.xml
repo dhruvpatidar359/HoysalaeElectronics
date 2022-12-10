@@ -156,7 +156,7 @@
             <Button
                 android:id="@+id/btn_register"
                 android:layout_width="375dp"
-                android:layout_height="45dp"
+                android:layout_height="50dp"
                 android:layout_below="@+id/TI_confirm_password"
                 android:text="Register"
                 android:textColor="@color/white"

@@ -2647,6 +2647,7 @@ drawable btn_radio_off_mtrl
 drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
+drawable capacitor
 drawable carousel_default_placeholder
 drawable default_selected_dot
 drawable default_unselected_dot
@@ -2655,6 +2656,7 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable different
 drawable error
 drawable goggle_icon
 drawable gradient
@@ -2740,7 +2742,7 @@ drawable notify_panel_notification_icon_bg
 drawable placeholder
 drawable round_corners
 drawable search_bar
-drawable splash_logo
+drawable splash
 drawable test_custom_background
 drawable test_level_drawable
 drawable tooltip_frame_dark
@@ -3134,6 +3136,7 @@ id notification_main_column_container
 id off
 id on
 id onInterceptTouchReturnSwipe
+id our_products
 id outline
 id outward
 id overshoot
@@ -3162,7 +3165,9 @@ id progress_horizontal
 id radio
 id ratio
 id rectangles
+id recycler2
 id recyclerView
+id recyler
 id relative2
 id relativeLayout
 id requestItem
@@ -3299,6 +3304,7 @@ id transition_scene_layoutid_cache
 id transition_transform
 id triangle
 id tv_caption
+id tv_details
 id tv_forgetpassword
 id tv_login
 id tv_newuser
@@ -3526,6 +3532,7 @@ layout notification_template_media
 layout notification_template_media_custom
 layout notification_template_part_chronometer
 layout notification_template_part_time
+layout our_products_single_row
 layout pager_row
 layout previous_button_layout
 layout searchbar

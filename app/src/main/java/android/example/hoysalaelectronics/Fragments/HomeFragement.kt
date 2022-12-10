@@ -1,18 +1,30 @@
 package android.example.hoysalaelectronics.Fragments
 
+import android.content.Context
+import android.example.hoysalaelectronics.Adapters.HorizontalRecycler
+import android.example.hoysalaelectronics.Adapters.OurProductsAdapter
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.example.hoysalaelectronics.R
+import androidx.recyclerview.widget.GridLayoutManager
+import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.RecyclerView
 import org.imaginativeworld.whynotimagecarousel.ImageCarousel
 import org.imaginativeworld.whynotimagecarousel.model.CarouselItem
 
 
 class Homefragment : Fragment() {
 
-    lateinit var carsoul : ImageCarousel
+   private lateinit var carsoul : ImageCarousel
+   private lateinit var recyclerView: RecyclerView
+   private lateinit var adapter : HorizontalRecycler
+   private lateinit var secondRecyler : RecyclerView
+   private lateinit var secondAdapter : OurProductsAdapter
+   lateinit var layoutManager: RecyclerView.LayoutManager
+
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -22,6 +34,22 @@ class Homefragment : Fragment() {
 
         val view =  inflater.inflate(R.layout.fragment_home, container, false)
         carsoul = view.findViewById(R.id.carousel)
+        recyclerView = view.findViewById(R.id.recyler)
+        secondRecyler = view.findViewById(R.id.recycler2)
+
+        //First Recycler View inflating
+        adapter = HorizontalRecycler()
+        recyclerView.layoutManager = LinearLayoutManager(activity as Context,LinearLayoutManager.HORIZONTAL,false)
+        recyclerView.adapter = adapter
+
+        //Second Recycler View inflating
+
+        layoutManager = GridLayoutManager(activity as Context,2)
+
+        secondAdapter = OurProductsAdapter()
+        secondRecyler.layoutManager = layoutManager
+        secondRecyler.adapter = secondAdapter
+
 
         initSlider()
 

@@ -87,7 +87,7 @@
         <Button
             android:id="@+id/btn_login"
             android:layout_width="370dp"
-            android:layout_height="45dp"
+            android:layout_height="50dp"
             android:layout_below="@+id/tv_forgetpassword"
             android:text="Login"
             android:textColor="@color/white"
