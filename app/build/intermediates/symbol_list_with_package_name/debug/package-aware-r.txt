@@ -2727,6 +2727,7 @@ drawable mtrl_popupmenu_background
 drawable mtrl_popupmenu_background_overlay
 drawable mtrl_tabs_default_indicator
 drawable navigation_empty_icon
+drawable no_interntet
 drawable notification_action_background
 drawable notification_bg
 drawable notification_bg_low
@@ -2809,6 +2810,7 @@ id accessibility_custom_action_6
 id accessibility_custom_action_7
 id accessibility_custom_action_8
 id accessibility_custom_action_9
+id account_toobar
 id action0
 id actionDown
 id actionDownUp
@@ -2844,6 +2846,7 @@ id animateToEnd
 id animateToStart
 id antiClockwise
 id anticipate
+id appBar
 id app_bar
 id arc
 id asConfigured
@@ -3126,6 +3129,7 @@ id neverCompleteToStart
 id next_button_container
 id noScroll
 id noState
+id no_connection_button
 id none
 id normal
 id north
@@ -3329,6 +3333,7 @@ id view_tree_view_model_store_owner
 id visible
 id visible_removing_fragment_view_tag
 id west
+id wi_fi_image
 id withText
 id withinBounds
 id wrap
@@ -3440,6 +3445,7 @@ layout activity_home
 layout activity_login
 layout activity_new_user
 layout activity_splash
+layout alert_dialog_layout
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog

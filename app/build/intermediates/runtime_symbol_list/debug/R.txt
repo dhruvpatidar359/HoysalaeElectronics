@@ -2726,6 +2726,7 @@ int drawable mtrl_popupmenu_background 0x7f0700ac
 int drawable mtrl_popupmenu_background_overlay 0x7f0700ad
 int drawable mtrl_tabs_default_indicator 0x7f0700ae
 int drawable navigation_empty_icon 0x7f0700af
+int drawable no_interntet 0x7f0700cb
 int drawable notification_action_background 0x7f0700b0
 int drawable notification_bg 0x7f0700b1
 int drawable notification_bg_low 0x7f0700b2
@@ -2808,6 +2809,7 @@ int id accessibility_custom_action_6 0x7f080038
 int id accessibility_custom_action_7 0x7f080039
 int id accessibility_custom_action_8 0x7f08003a
 int id accessibility_custom_action_9 0x7f08003b
+int id account_toobar 0x7f08024c
 int id action0 0x7f08003c
 int id actionDown 0x7f08003d
 int id actionDownUp 0x7f08003e
@@ -2843,6 +2845,7 @@ int id animateToEnd 0x7f08005b
 int id animateToStart 0x7f08005c
 int id antiClockwise 0x7f08005d
 int id anticipate 0x7f08005e
+int id appBar 0x7f08024d
 int id app_bar 0x7f08005f
 int id arc 0x7f080060
 int id asConfigured 0x7f080061
@@ -3125,6 +3128,7 @@ int id neverCompleteToStart 0x7f080174
 int id next_button_container 0x7f080175
 int id noScroll 0x7f080176
 int id noState 0x7f080177
+int id no_connection_button 0x7f08024e
 int id none 0x7f080178
 int id normal 0x7f080179
 int id north 0x7f08017a
@@ -3328,6 +3332,7 @@ int id view_tree_view_model_store_owner 0x7f080238
 int id visible 0x7f080239
 int id visible_removing_fragment_view_tag 0x7f08023a
 int id west 0x7f08023b
+int id wi_fi_image 0x7f08024f
 int id withText 0x7f08023c
 int id withinBounds 0x7f08023d
 int id wrap 0x7f08023e
@@ -3439,6 +3444,7 @@ int layout activity_home 0x7f0b001e
 int layout activity_login 0x7f0b001f
 int layout activity_new_user 0x7f0b0020
 int layout activity_splash 0x7f0b0021
+int layout alert_dialog_layout 0x7f0b0096
 int layout custom_dialog 0x7f0b0022
 int layout design_bottom_navigation_item 0x7f0b0023
 int layout design_bottom_sheet_dialog 0x7f0b0024
