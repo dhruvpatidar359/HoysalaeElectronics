@@ -18,17 +18,12 @@
            android:layout_height="wrap_content"
            android:minHeight="?attr/actionBarSize"
            android:id="@+id/account_toobar"
-           app:title="Notifications"
+           app:title="My Account"
 
            android:theme="@style/ThemeOverlay.AppCompat.Dark"
            app:layout_scrollFlags="enterAlways">
 
        </androidx.appcompat.widget.Toolbar>
    </com.google.android.material.appbar.AppBarLayout>
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="You don't have any notificaion"
-        android:layout_centerInParent="true"/>
 
 </RelativeLayout>

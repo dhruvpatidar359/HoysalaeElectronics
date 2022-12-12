@@ -27,8 +27,6 @@ class HomeActivity : AppCompatActivity() {
     lateinit var coordinaterLayout : CoordinatorLayout
     lateinit var frameLayoutFirst : FrameLayout
     lateinit var bottomNavigationView: BottomNavigationView
-    lateinit var myContext : Context
-    lateinit var dialog : Dialog
 
 
         @SuppressLint("MissingInflatedId")
@@ -44,7 +42,6 @@ class HomeActivity : AppCompatActivity() {
             frameLayoutFirst = findViewById(R.id.frame)
             bottomNavigationView = findViewById(R.id.bottom_navigation)
 
-            if (ConnectionManager().isConnected(this@HomeActivity)) {
                 homeFragment(Homefragment(), "Hoysala Electronics")
 
                 setUpToolbar()
@@ -101,11 +98,6 @@ class HomeActivity : AppCompatActivity() {
                     return@setOnItemSelectedListener true
                 }
 
-            }
-
-            else{
-                showDialogBox()
-            }
         }
             private fun drawerFragment(fragment: Fragment, title: String) {
                 val fragmentManager = supportFragmentManager
@@ -149,22 +141,4 @@ class HomeActivity : AppCompatActivity() {
                 else -> super.onBackPressed()
             }
         }
-
-        private fun showDialogBox() {
-            lateinit var okButton: Button
-            val builder = AlertDialog.Builder(this@HomeActivity)
-            myContext = applicationContext
-            val inflater: LayoutInflater =
-                    myContext.getSystemService(Context.LAYOUT_INFLATER_SERVICE) as LayoutInflater
-            val view = inflater.inflate(R.layout.alert_dialog_layout, null)
-            okButton = view.findViewById(R.id.no_connection_button)
-            builder.setView(view)
-            dialog = builder.create()
-
-            okButton.setOnClickListener {
-                dialog.dismiss()
-            }
-            dialog.show()
-        }
-
 }

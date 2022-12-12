@@ -3,6 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center"
+    android:visibility="gone"
     android:orientation="vertical">
     <ImageView
         android:layout_width="110dp"
@@ -37,7 +38,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Ok"
-        android:layout_marginTop="8dp"
+        android:text="Retry"
+        android:layout_marginTop="10dp"
         android:id="@+id/no_connection_button"/>
 </LinearLayout>

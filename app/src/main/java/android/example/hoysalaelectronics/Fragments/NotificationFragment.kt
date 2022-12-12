@@ -19,15 +19,7 @@ class NotificationFragment : Fragment() {
         return inflater.inflate(R.layout.fragment_notification, container, false)
     }
 
-    /*   override fun onResume() {
-        super.onResume()
-        activity?.actionBar?.hide()
-    }
 
-    override fun onStop() {
-        super.onStop()
-        ((AppCompatActivity)getAc
-    }*/
     override fun onResume() {
         super.onResume()
         (activity as AppCompatActivity?)!!.supportActionBar!!.hide()

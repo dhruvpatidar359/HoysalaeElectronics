@@ -3,6 +3,7 @@
     package="android.example.hoysalaelectronics">
 
     <uses-permission android:name="android.permission.INTERNET" />
+
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
 
     <application
@@ -45,6 +46,7 @@
         <activity
             android:name=".Activity.Forget_Password_Activity"
             android:exported="false" />
+
     </application>
 
 </manifest>

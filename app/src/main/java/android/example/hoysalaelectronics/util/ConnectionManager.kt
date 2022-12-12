@@ -13,26 +13,22 @@ open class ConnectionManager : BroadcastReceiver() {
 
 
     }
-    public fun isConnected(context: Context?) : Boolean{
 
-        try{
+    public fun isConnected(context: Context?): Boolean {
 
-            val connectivityManager = context?.getSystemService(Context.CONNECTIVITY_SERVICE) as ConnectivityManager
+         try{
 
-            val activeNetwork : NetworkInfo? = connectivityManager.activeNetworkInfo
+        val connectivityManager =
+                context?.getSystemService(Context.CONNECTIVITY_SERVICE) as ConnectivityManager
+        val activeNetwork: NetworkInfo? = connectivityManager.activeNetworkInfo
 
-            return (activeNetwork != null && activeNetwork.isConnected)
+             return (activeNetwork != null && activeNetwork.isConnected)
 
-        }
-        catch (e : NullPointerException){
-            e.printStackTrace()
-            return false
-        }
-       /* if(activeNetwork?.isConnected != null){
-            return activeNetwork.isConnected
-        }
-        else{
-            return false
-        }*/
+         }
+         catch (e : NullPointerException){
+             e.printStackTrace()
+             return false
+         }
     }
 }
+
