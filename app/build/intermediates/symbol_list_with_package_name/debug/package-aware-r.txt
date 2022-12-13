@@ -2661,6 +2661,7 @@ drawable error
 drawable goggle_icon
 drawable gradient
 drawable hide_password
+drawable hoysala_electronics
 drawable ic_action_about
 drawable ic_action_cart
 drawable ic_action_catergories
@@ -3021,6 +3022,7 @@ id included
 id indicator
 id info
 id inputContainer
+id internet_layout
 id invisible
 id inward
 id italic
@@ -3175,6 +3177,7 @@ id recyler
 id relative2
 id relativeLayout
 id requestItem
+id retry_button
 id reverseSawtooth
 id right
 id rightToLeft
@@ -3228,6 +3231,7 @@ id snapMargins
 id south
 id spacer
 id special_effects_controller_view_tag
+id splash_logo
 id spline
 id split_action_bar
 id spread

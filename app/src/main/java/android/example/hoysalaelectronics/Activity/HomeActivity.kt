@@ -29,7 +29,7 @@ class HomeActivity : AppCompatActivity() {
     lateinit var bottomNavigationView: BottomNavigationView
 
 
-        @SuppressLint("MissingInflatedId")
+        @SuppressLint("MissingInflatedId", "SuspiciousIndentation")
         override fun onCreate(savedInstanceState: Bundle?) {
             super.onCreate(savedInstanceState)
             setContentView(R.layout.activity_home)
@@ -67,13 +67,14 @@ class HomeActivity : AppCompatActivity() {
                         R.id.transaction_history -> {
                             drawerFragment(Transaction(), "My Transaction")
                         }
-//                 R.id.about ->
-//                 {
-//                      drawerFragment()
-//                 }
-//                 R.id.share ->
-//                 {
-//                 }
+                 R.id.about ->
+                 {
+                      drawerFragment(Transaction(), "My Transaction")
+                 }
+                 R.id.share ->
+                 {
+                     drawerFragment(Transaction(), "My Transaction")
+                 }
 
                     }
 

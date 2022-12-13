@@ -12,6 +12,7 @@
         android:layout_marginRight="20dp"
         android:layout_marginBottom="30dp"
         android:layout_marginLeft="20dp"
+        app:cardCornerRadius="12dp"
         app:cardElevation="5dp"
         android:layout_height="match_parent">
 
@@ -120,8 +121,9 @@
                 <com.google.android.material.textfield.TextInputEditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="Password (atleast 6 letters required)"
+                    android:hint="Password (atleast 6 characters)"
                     android:layout_alignParentStart="true"
+                    android:textSize="15dp"
                     android:layout_alignParentEnd="true"
                     android:layout_below="@+id/TI_name"
                     android:background="@drawable/input_background"
