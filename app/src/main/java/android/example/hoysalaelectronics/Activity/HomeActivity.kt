@@ -7,6 +7,7 @@ import android.example.hoysalaelectronics.Fragments.*
 import android.example.hoysalaelectronics.util.ConnectionManager
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.KeyEvent
 import android.view.LayoutInflater
 import android.view.Menu
 import android.widget.Button
@@ -19,111 +20,116 @@ import androidx.drawerlayout.widget.DrawerLayout
 import androidx.fragment.app.Fragment
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import com.google.android.material.navigation.NavigationView
+import kotlin.properties.Delegates
 
 class HomeActivity : AppCompatActivity() {
-    lateinit var toolbar : Toolbar
-    lateinit var drawerLayout : DrawerLayout
-    lateinit var navigationDrawer : NavigationView
-    lateinit var coordinaterLayout : CoordinatorLayout
-    lateinit var frameLayoutFirst : FrameLayout
+    lateinit var toolbar: Toolbar
+    lateinit var drawerLayout: DrawerLayout
+    lateinit var navigationDrawer: NavigationView
+    lateinit var coordinaterLayout: CoordinatorLayout
+    lateinit var frameLayoutFirst: FrameLayout
     lateinit var bottomNavigationView: BottomNavigationView
+    var isBackButton = false
+
+    //  @SuppressLint("MissingInflatedId", "SuspiciousIndentation")
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_home)
 
 
-        @SuppressLint("MissingInflatedId", "SuspiciousIndentation")
-        override fun onCreate(savedInstanceState: Bundle?) {
-            super.onCreate(savedInstanceState)
-            setContentView(R.layout.activity_home)
+        drawerLayout = findViewById(R.id.drawer)
+        navigationDrawer = findViewById(R.id.navigation)
+        coordinaterLayout = findViewById(R.id.coordinater)
+        toolbar = findViewById(R.id.toolbar)
+        frameLayoutFirst = findViewById(R.id.frame)
+        bottomNavigationView = findViewById(R.id.bottom_navigation)
 
+        homeFragment(Homefragment(), "Hoysala Electronics")
 
-            drawerLayout = findViewById(R.id.drawer)
-            navigationDrawer = findViewById(R.id.navigation)
-            coordinaterLayout = findViewById(R.id.coordinater)
-            toolbar = findViewById(R.id.toolbar)
-            frameLayoutFirst = findViewById(R.id.frame)
-            bottomNavigationView = findViewById(R.id.bottom_navigation)
+        setUpToolbar()
 
-                homeFragment(Homefragment(), "Hoysala Electronics")
+        val actionBarDrawerToolbar = ActionBarDrawerToggle(
+            this@HomeActivity, drawerLayout, toolbar, R.string.open_drawer,
+            R.string.close_drawer
+        )
 
-                setUpToolbar()
+        //adding click Listener to hamburger icon
+        drawerLayout.addDrawerListener(actionBarDrawerToolbar)
 
-                val actionBarDrawerToolbar = ActionBarDrawerToggle(
-                    this@HomeActivity, drawerLayout, toolbar, R.string.open_drawer,
-                    R.string.close_drawer
-                )
+        //below code is used to change hamburger color
+        actionBarDrawerToolbar.drawerArrowDrawable.color =
+                resources.getColor(R.color.purple_700);
 
-                //adding click Listener to hamburger icon
-                drawerLayout.addDrawerListener(actionBarDrawerToolbar)
+        //this code is used to change hamburger icon to back arrow and vice-versa
+        actionBarDrawerToolbar.syncState()
 
-                //below code is used to change hamburger color
-                actionBarDrawerToolbar.drawerArrowDrawable.color =
-                        resources.getColor(R.color.purple_700);
+        navigationDrawer.setNavigationItemSelectedListener {
+            when (it.itemId) {
 
-                //this code is used to change hamburger icon to back arrow and vice-versa
-                actionBarDrawerToolbar.syncState()
-
-                navigationDrawer.setNavigationItemSelectedListener {
-                    when (it.itemId) {
-
-                        R.id.transaction_history -> {
-                            drawerFragment(Transaction(), "My Transaction")
-                        }
-                 R.id.about ->
-                 {
-                      drawerFragment(Transaction(), "My Transaction")
-                 }
-                 R.id.share ->
-                 {
-                     drawerFragment(Transaction(), "My Transaction")
-                 }
-
-                    }
-
-                    return@setNavigationItemSelectedListener true
+                R.id.transaction_history -> {
+                    drawerFragment(Transaction(), "My Transaction")
                 }
-                bottomNavigationView.setOnItemSelectedListener {
-                    when (it.itemId) {
-                        R.id.home_icon -> {
-                            homeFragment(Homefragment(), "Hoysala Electronics")
-                        }
-                        R.id.category -> {
-                            drawerFragment(CategoriesFragment(), "Categories")
-                        }
-                        R.id.notification -> {
-                            drawerFragment(NotificationFragment(), "Notification")
-                        }
-                        R.id.profile -> {
-                            drawerFragment(AccountFragment(), "My Account")
-                        }
-
-                    }
-                    return@setOnItemSelectedListener true
+                R.id.about -> {
+                    drawerFragment(Transaction(), "My Transaction")
+                }
+                R.id.share -> {
+                    drawerFragment(Transaction(), "My Transaction")
                 }
 
+            }
+            it.isChecked = true
+            drawerLayout.close()
+            return@setNavigationItemSelectedListener true
         }
-            private fun drawerFragment(fragment: Fragment, title: String) {
-                val fragmentManager = supportFragmentManager
-                val transaction = fragmentManager.beginTransaction()
-                transaction.replace(R.id.frame, fragment)
-                transaction.commit()
-                supportActionBar?.title = title
-                drawerLayout.close()
+        bottomNavigationView.setOnItemSelectedListener {
+            when (it.itemId) {
+                R.id.home_icon -> {
+                    homeFragment(Homefragment(), "Hoysala Electronics")
+                }
+                R.id.category -> {
+                    drawerFragment(CategoriesFragment(), "Categories")
+                }
+                R.id.notification -> {
+                    drawerFragment(NotificationFragment(), "Notification")
+                }
+                R.id.profile -> {
+                    drawerFragment(AccountFragment(), "My Account")
+                }
 
             }
-
-            private fun homeFragment(fragment: Fragment, title: String) {
-                val fragmentManager = supportFragmentManager
-                val transaction = fragmentManager.beginTransaction()
-                transaction.replace(R.id.frame, fragment)
-                transaction.commit()
-                supportActionBar?.title = title
-                drawerLayout.close()
-
-            }
-        private fun setUpToolbar() {
-            setSupportActionBar(toolbar)
-            supportActionBar?.setHomeButtonEnabled(true)
-            supportActionBar?.setDisplayHomeAsUpEnabled(true)
+            it.isChecked = true
+            drawerLayout.close()
+            return@setOnItemSelectedListener true
         }
+
+    }
+
+    private fun drawerFragment(fragment: Fragment, title: String) {
+        val fragmentManager = supportFragmentManager
+        val transaction = fragmentManager.beginTransaction()
+        transaction.replace(R.id.frame, fragment)
+        transaction.commit()
+        supportActionBar?.title = title
+      //  drawerLayout.close()
+
+    }
+
+    private fun homeFragment(fragment: Fragment, title: String) {
+        val fragmentManager = supportFragmentManager
+        val transaction = fragmentManager.beginTransaction()
+        transaction.replace(R.id.frame, fragment)
+        transaction.commit()
+        supportActionBar?.title = title
+     //   drawerLayout.close()
+
+    }
+
+    private fun setUpToolbar() {
+        setSupportActionBar(toolbar)
+        supportActionBar?.setHomeButtonEnabled(true)
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
+    }
 
         override fun onCreateOptionsMenu(menu: Menu?): Boolean {
             menuInflater.inflate(R.menu.menu_cart, menu)

@@ -60,6 +60,9 @@ class SplashActivity : AppCompatActivity() {
     }
 
     @RequiresApi(Build.VERSION_CODES.M)
+
+    //checking if user is connected to internet or not
+
     private fun isNetworkAvailable(): Boolean {
 
         val cm = getSystemService(CONNECTIVITY_SERVICE) as ConnectivityManager

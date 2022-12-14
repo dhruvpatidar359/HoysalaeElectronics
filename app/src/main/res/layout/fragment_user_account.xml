@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.AccountFragment">
+
+   <com.google.android.material.appbar.AppBarLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:elevation="0dp"
+       android:id="@+id/appBar"
+       android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+       <androidx.appcompat.widget.Toolbar
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:minHeight="?attr/actionBarSize"
+           android:id="@+id/account_toobar"
+           app:title="My Account"
+           android:theme="@style/ThemeOverlay.AppCompat.Dark"
+           app:layout_scrollFlags="enterAlways">
+
+       </androidx.appcompat.widget.Toolbar>
+   </com.google.android.material.appbar.AppBarLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="370dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:background="@color/grey_font"
+        android:id="@+id/view"/>
+    <androidx.cardview.widget.CardView
+        android:layout_below="@id/view"
+        android:layout_width="match_parent"
+        android:id="@+id/card"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="20dp"
+        app:cardElevation="8dp"
+        app:cardCornerRadius="8dp"
+        android:layout_height="wrap_content">
+     <RelativeLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content">
+
+     <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="  My Wishlist"
+         android:drawableLeft="@drawable/ic_action_name_favourite"
+         android:textSize="18sp"
+         android:textColor="@color/black"
+         android:layout_marginTop="30dp"
+         android:layout_marginRight="20dp"
+         android:layout_marginLeft="10dp"
+         android:id="@+id/my_wishlist"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  My Orders"
+        android:textColor="@color/black"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="10dp"
+        android:drawableLeft="@drawable/orders"
+        android:layout_below="@id/my_wishlist"
+        android:id="@+id/my_order_text"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  Notifications"
+        android:textColor="@color/black"
+        android:layout_below="@id/my_order_text"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="10dp"
+        android:drawableLeft="@drawable/notification"
+        android:layout_marginBottom="30dp"
+        android:id="@+id/notifications"
+        android:textSize="18sp"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/next"
+        android:id="@+id/wishlist_next"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="32dp"/>
+
+         <ImageView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:src="@drawable/next"
+             android:id="@+id/order_next"
+             android:layout_below="@id/wishlist_next"
+             android:layout_alignParentRight="true"
+             android:layout_marginRight="10dp"
+             android:layout_marginTop="27dp"/>
+         <ImageView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:src="@drawable/next"
+             android:id="@+id/notification_next"
+             android:layout_alignParentRight="true"
+             android:layout_marginRight="10dp"
+             android:layout_below="@id/order_next"
+             android:layout_marginTop="27dp"/>
+
+     </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+<Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        android:layout_below="@id/card"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/logout_button"
+        android:layout_marginBottom="20dp"/>
+
+</RelativeLayout>
