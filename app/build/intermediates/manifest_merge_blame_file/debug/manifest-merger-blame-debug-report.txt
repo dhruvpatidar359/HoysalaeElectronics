@@ -37,14 +37,14 @@
 23-->C:\Users\DELL\AndroidStudioProjects\hoysalaelectonics\app\src\main\AndroidManifest.xml:14:9-56
 24        <activity
 24-->C:\Users\DELL\AndroidStudioProjects\hoysalaelectonics\app\src\main\AndroidManifest.xml:15:9-17:40
-25            android:name="android.example.hoysalaelectronics.Activity.ProductDetailActivity"
-25-->C:\Users\DELL\AndroidStudioProjects\hoysalaelectonics\app\src\main\AndroidManifest.xml:16:13-59
+25            android:name="android.example.hoysalaelectronics.Activity.ProductDetail"
+25-->C:\Users\DELL\AndroidStudioProjects\hoysalaelectonics\app\src\main\AndroidManifest.xml:16:13-51
 26            android:exported="false" />
 26-->C:\Users\DELL\AndroidStudioProjects\hoysalaelectonics\app\src\main\AndroidManifest.xml:17:13-37
 27        <activity
 27-->C:\Users\DELL\AndroidStudioProjects\hoysalaelectonics\app\src\main\AndroidManifest.xml:18:9-20:40
-28            android:name="android.example.hoysalaelectronics.Activity.AllCategoriesAcitvity"
-28-->C:\Users\DELL\AndroidStudioProjects\hoysalaelectonics\app\src\main\AndroidManifest.xml:19:13-59
+28            android:name="android.example.hoysalaelectronics.Activity.SingleCategories"
+28-->C:\Users\DELL\AndroidStudioProjects\hoysalaelectonics\app\src\main\AndroidManifest.xml:19:13-54
 29            android:exported="false" />
 29-->C:\Users\DELL\AndroidStudioProjects\hoysalaelectonics\app\src\main\AndroidManifest.xml:20:13-37
 30        <activity

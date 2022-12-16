@@ -45,7 +45,7 @@
         android:text="Total Rs 30.0"
         android:textSize="15sp"
         android:textColor="@color/black"
-        android:backgroundTint="@color/white"
+        android:backgroundTint="@color/gray"
         android:id="@+id/total_amount"
         android:layout_marginTop="10dp"
         android:textAllCaps="false"/>

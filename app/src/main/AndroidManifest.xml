@@ -13,10 +13,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.HoysalaElectronics">
         <activity
-            android:name=".Activity.ProductDetailActivity"
+            android:name=".Activity.ProductDetail"
             android:exported="false" />
         <activity
-            android:name=".Activity.AllCategoriesAcitvity"
+            android:name=".Activity.SingleCategories"
             android:exported="false" />
         <activity
             android:name=".Activity.SplashActivity"

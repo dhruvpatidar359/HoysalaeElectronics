@@ -2652,6 +2652,7 @@ drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
 drawable capacitor
 drawable carousel_default_placeholder
+drawable cross_icon
 drawable default_selected_dot
 drawable default_unselected_dot
 drawable delete_image
@@ -2702,6 +2703,7 @@ drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable img_1
 drawable input_background
 drawable led
 drawable led_image
@@ -2855,6 +2857,7 @@ id all
 id allStates
 id all_category_card
 id all_category_recyler
+id all_pro_relative_lay
 id always
 id androidx_window_activity_scope
 id animateToEnd
@@ -2870,6 +2873,7 @@ id auto
 id autoComplete
 id autoCompleteToEnd
 id autoCompleteToStart
+id back_image
 id bar
 id barrier
 id baseline
@@ -2955,6 +2959,8 @@ id decor_content_parent
 id default_activity_button
 id deltaRelative
 id dependency_ordering
+id des_pro_name
+id des_pro_price
 id design_bottom_sheet
 id design_menu_item_action_area
 id design_menu_item_action_area_stub
@@ -3198,6 +3204,7 @@ id plus_button
 id position
 id postLayout
 id previous_button_container
+id pro_des
 id product_image
 id product_name
 id product_price
@@ -3493,7 +3500,6 @@ layout activity_login
 layout activity_new_user
 layout activity_product_detail
 layout activity_splash
-layout all_categories_single_row
 layout cart_acitvity_single_row
 layout categories_single_row
 layout custom_dialog
@@ -3595,6 +3601,7 @@ layout searchbar
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
+layout single_product_single_row
 layout support_simple_spinner_dropdown_item
 layout test_action_chip
 layout test_chip_zero_corner_radius
