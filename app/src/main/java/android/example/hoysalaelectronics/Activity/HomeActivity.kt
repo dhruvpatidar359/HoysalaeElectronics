@@ -3,6 +3,8 @@ package android.example.hoysalaelectronics
 import android.annotation.SuppressLint
 import android.app.Dialog
 import android.content.Context
+import android.content.Intent
+import android.example.hoysalaelectronics.Activity.CartActivity
 import android.example.hoysalaelectronics.Fragments.*
 import android.example.hoysalaelectronics.util.ConnectionManager
 import androidx.appcompat.app.AppCompatActivity
@@ -10,6 +12,7 @@ import android.os.Bundle
 import android.view.KeyEvent
 import android.view.LayoutInflater
 import android.view.Menu
+import android.view.MenuItem
 import android.widget.Button
 import android.widget.FrameLayout
 import androidx.appcompat.app.ActionBarDrawerToggle
@@ -135,6 +138,16 @@ class HomeActivity : AppCompatActivity() {
             menuInflater.inflate(R.menu.menu_cart, menu)
             return super.onCreateOptionsMenu(menu)
         }
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+
+        if(item.itemId == R.id.action_my_cart){
+            val intent = Intent(this@HomeActivity,CartActivity :: class.java)
+            startActivity(intent)
+        }
+
+        return super.onOptionsItemSelected(item)
+    }
 
         override fun onBackPressed() {
             val frame = supportFragmentManager.findFragmentById(R.id.frame)
