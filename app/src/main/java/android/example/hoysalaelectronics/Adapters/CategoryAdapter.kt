@@ -2,8 +2,7 @@ package android.example.hoysalaelectronics.Adapters
 
 import android.content.Context
 import android.content.Intent
-import android.example.hoysalaelectronics.Activity.AllCategoriesAcitvity
-import android.example.hoysalaelectronics.Fragments.CategoriesFragment
+import android.example.hoysalaelectronics.Activity.SingleCategories
 import android.example.hoysalaelectronics.R
 import android.view.LayoutInflater
 import android.view.View
@@ -22,7 +21,7 @@ class CategoryAdapter(val context : Context) : RecyclerView.Adapter<CategoryAdap
     override fun onBindViewHolder(holder: CategoryViewHolder, position: Int) {
 
         holder.layout.setOnClickListener {
-            val intent = Intent(context,AllCategoriesAcitvity :: class.java)
+            val intent = Intent(context,SingleCategories :: class.java)
             context.startActivity(intent)
 
         }

@@ -4,10 +4,30 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Activity.AllCategoriesAcitvity">
+    tools:context=".Activity.SingleCategories">
 
-    <androidx.recyclerview.widget.RecyclerView
+    <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:id="@+id/all_category_recyler"/>
+        android:layout_height="wrap_content"
+        app:elevation="10dp"
+        android:id="@+id/bar"
+        android:background="@color/white">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:id="@+id/toolbar_all_categories"
+        app:title="Light Emitting Diaode">
+
+    </androidx.appcompat.widget.Toolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+   <androidx.recyclerview.widget.RecyclerView
+
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:layout_below="@id/bar"
+       android:id="@+id/all_category_recyler"/>
+
 </RelativeLayout>

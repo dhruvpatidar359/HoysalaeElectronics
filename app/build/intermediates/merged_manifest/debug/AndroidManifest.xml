@@ -22,7 +22,10 @@
         android:testOnly="true"
         android:theme="@style/Theme.HoysalaElectronics" >
         <activity
-            android:name="android.example.hoysalaelectronics.Activity.AllCategoriesAcitvity"
+            android:name="android.example.hoysalaelectronics.Activity.ProductDetail"
+            android:exported="false" />
+        <activity
+            android:name="android.example.hoysalaelectronics.Activity.SingleCategories"
             android:exported="false" />
         <activity
             android:name="android.example.hoysalaelectronics.Activity.SplashActivity"

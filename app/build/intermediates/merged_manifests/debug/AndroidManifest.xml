@@ -22,9 +22,6 @@
         android:testOnly="true"
         android:theme="@style/Theme.HoysalaElectronics" >
         <activity
-            android:name="android.example.hoysalaelectronics.Activity.AllCategoriesAcitvity"
-            android:exported="false" />
-        <activity
             android:name="android.example.hoysalaelectronics.Activity.SplashActivity"
             android:exported="true" >
             <intent-filter>
