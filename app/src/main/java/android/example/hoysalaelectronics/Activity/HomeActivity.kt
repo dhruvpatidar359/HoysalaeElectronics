@@ -15,6 +15,7 @@ import android.view.Menu
 import android.view.MenuItem
 import android.widget.Button
 import android.widget.FrameLayout
+import android.widget.Toast
 import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.widget.Toolbar
@@ -77,7 +78,16 @@ class HomeActivity : AppCompatActivity() {
                     drawerFragment(Transaction(), "My Transaction")
                 }
                 R.id.share -> {
-                    drawerFragment(Transaction(), "My Transaction")
+                    try{
+                        val intent = Intent(Intent.ACTION_SEND)
+                        intent.type = "text/plain"
+                        intent.putExtra(Intent.EXTRA_SUBJECT,"Share this app")
+                        val shareMessage = "https://play.google.com/store/apps/detils?id="+BuildConfig.APPLICATION_ID+"\n\n"
+                        intent.putExtra(Intent.EXTRA_TEXT,shareMessage)
+                        startActivity(Intent.createChooser(intent,"share by"))
+                    } catch (e:Exception){
+                       Toast.makeText(applicationContext,"Some errror occured",Toast.LENGTH_SHORT).show()
+                    }
                 }
 
             }
