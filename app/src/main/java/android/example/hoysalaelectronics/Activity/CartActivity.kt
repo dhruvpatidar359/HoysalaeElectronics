@@ -22,13 +22,17 @@ class CartActivity : AppCompatActivity() {
         cartToolbar = findViewById(R.id.cart_toolbar)
 
         setSupportActionBar(cartToolbar)
-        /*supportActionBar?.setHomeButtonEnabled(true)
-        supportActionBar?.setDisplayHomeAsUpEnabled(true)*/
+        supportActionBar?.setHomeButtonEnabled(true)
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
 
         layoutManager = LinearLayoutManager(applicationContext)
 
         cartAdapter = MyCartAdapter(applicationContext)
         cartRecycler.layoutManager = layoutManager
         cartRecycler.adapter = cartAdapter
+    }
+    override fun onSupportNavigateUp(): Boolean {
+        onBackPressed()
+        return true
     }
 }

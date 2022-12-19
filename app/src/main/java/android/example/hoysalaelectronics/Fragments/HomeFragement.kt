@@ -38,7 +38,7 @@ class Homefragment : Fragment() {
         secondRecyler = view.findViewById(R.id.recycler2)
 
         //First Recycler View inflating
-        adapter = HorizontalRecycler()
+        adapter = HorizontalRecycler(activity as Context)
         recyclerView.layoutManager = LinearLayoutManager(activity as Context,LinearLayoutManager.HORIZONTAL,false)
         recyclerView.adapter = adapter
 

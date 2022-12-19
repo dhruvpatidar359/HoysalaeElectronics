@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.CheckoutPage">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:elevation="10dp"
+        android:id="@+id/bar"
+        android:backgroundTint="@color/purple_700"
+        android:background="@color/white">
+
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:id="@+id/checkout_toolbar"
+            app:title="Place Order"
+            app:titleTextColor="@color/white">
+
+        </androidx.appcompat.widget.Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_below="@id/bar"
+        android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Checkout"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Full name"
+            android:textSize="15sp"
+            android:layout_marginTop="25dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/bar"
+        android:layout_marginTop="5dp"
+        android:text=" Akanksha"
+        android:background="@drawable/input_background"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Mobile Number"
+            android:textSize="15sp"
+            android:layout_marginTop="22dp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@id/bar"
+            android:layout_marginTop="5dp"
+            android:text=" 39482950383"
+            android:background="@drawable/input_background"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Alternate Mobile no.(optional)"
+            android:textSize="15sp"
+            android:layout_marginTop="22dp"
+            android:textStyle="bold"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@id/bar"
+            android:layout_marginTop="5dp"
+            android:text=" "
+            android:background="@drawable/input_background"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Colony/Flat no./Apartment no."
+            android:textSize="15sp"
+            android:layout_marginTop="22dp"
+            android:textStyle="bold"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@id/bar"
+            android:layout_marginTop="5dp"
+            android:text=" "
+            android:background="@drawable/input_background"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Area/landmark"
+            android:textSize="15sp"
+            android:layout_marginTop="22dp"
+            android:textStyle="bold"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@id/bar"
+            android:layout_marginTop="5dp"
+            android:text=" "
+            android:background="@drawable/input_background"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Picode"
+            android:textSize="15sp"
+            android:layout_marginTop="22dp"
+            android:textStyle="bold"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@id/bar"
+            android:layout_marginTop="5dp"
+            android:text=" "
+            android:background="@drawable/input_background"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="City"
+            android:textSize="15sp"
+            android:layout_marginTop="22dp"
+            android:textStyle="bold"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@id/bar"
+            android:layout_marginTop="5dp"
+            android:text=" "
+            android:background="@drawable/input_background"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="State"
+            android:textSize="15sp"
+            android:layout_marginTop="22dp"
+            android:textStyle="bold"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@id/bar"
+            android:layout_marginTop="5dp"
+            android:text=" "
+            android:background="@drawable/input_background"
+            android:layout_marginBottom="20dp"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:textColorHint="@color/black"
+            android:text="Deliver to this address"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:id="@+id/deliver_address"
+            android:layout_marginLeft="20dp"
+            android:textAllCaps="false"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="15dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="Add a new address"
+            android:textColor="@color/white"
+            android:textAllCaps="false"
+            android:textSize="16sp"
+            android:id="@+id/deliver_new_add"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:backgroundTint="@color/yellow"/>
+
+    </LinearLayout>
+  </RelativeLayout>
+</ScrollView>

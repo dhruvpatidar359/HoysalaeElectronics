@@ -1,13 +1,15 @@
 package android.example.hoysalaelectronics.Adapters
 
+import android.app.AlertDialog
 import android.content.Context
 import android.example.hoysalaelectronics.R
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.ImageView
 import androidx.recyclerview.widget.RecyclerView
 
-class MyCartAdapter(context : Context) : RecyclerView.Adapter<MyCartAdapter.MyCartViewHolder>()  {
+class MyCartAdapter(val context : Context) : RecyclerView.Adapter<MyCartAdapter.MyCartViewHolder>()  {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MyCartViewHolder {
 
@@ -17,6 +19,12 @@ class MyCartAdapter(context : Context) : RecyclerView.Adapter<MyCartAdapter.MyCa
 
     override fun onBindViewHolder(holder: MyCartViewHolder, position: Int) {
 
+       /* holder.deleteItem.setOnClickListener {
+
+
+
+        }*/
+
     }
 
     override fun getItemCount(): Int {
@@ -24,6 +32,9 @@ class MyCartAdapter(context : Context) : RecyclerView.Adapter<MyCartAdapter.MyCa
     }
 
     class MyCartViewHolder(view : View) : RecyclerView.ViewHolder(view)  {
+
+        val deleteItem : ImageView = view.findViewById(R.id.deleteImage)
+
 
     }
 
