@@ -9,18 +9,19 @@ import android.widget.*
 
 class ProductDetail : AppCompatActivity(), AdapterView.OnItemSelectedListener{
 
-    lateinit var backImage : ImageView
     lateinit var spinner: Spinner
     lateinit var arrayAdapter : ArrayAdapter<CharSequence>
-    lateinit var button1 : Button
-    lateinit var button2 : Button
+    lateinit var btn_buy_now : Button
+    lateinit var btn_add_to_cart : Button
+    lateinit var toolbar : androidx.appcompat.widget.Toolbar
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_product_detail)
         spinner = findViewById(R.id.quantity_spinner)
-        button1 = findViewById(R.id.buy_now)
-        button2 = findViewById(R.id.add_to_cart)
+        btn_buy_now = findViewById(R.id.buy_now)
+        btn_add_to_cart = findViewById(R.id.add_to_cart)
+        toolbar = findViewById(R.id.toolbar_all_categories)
 
         arrayAdapter = ArrayAdapter.createFromResource(
             this@ProductDetail,
@@ -32,17 +33,19 @@ class ProductDetail : AppCompatActivity(), AdapterView.OnItemSelectedListener{
         spinner.onItemSelectedListener = this
 
 
+        setSupportActionBar(toolbar)
+        supportActionBar?.setHomeButtonEnabled(true)
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
 
-
-        backImage = findViewById(R.id.back_image)
-        backImage.setOnClickListener {
-            onBackPressed()
-        }
-
-    button1.setOnClickListener {
+        btn_buy_now.setOnClickListener {
         val intent = Intent(this@ProductDetail,CheckoutPage :: class.java)
         startActivity(intent)
     }
+        btn_add_to_cart.setOnClickListener{
+            val intent = Intent(this@ProductDetail,CartActivity :: class.java)
+            startActivity(intent)
+        }
+
     }
     override fun onItemSelected(parent: AdapterView<*>?, view: View?, position: Int, id: Long) {
 
@@ -56,4 +59,9 @@ class ProductDetail : AppCompatActivity(), AdapterView.OnItemSelectedListener{
 
     }
 
+    //back toolbar
+    override fun onSupportNavigateUp(): Boolean {
+        onBackPressed()
+        return true
+    }
 }

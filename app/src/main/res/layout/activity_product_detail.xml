@@ -10,14 +10,22 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-            <ImageView
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:layout_margin="10dp"
-                android:src="@drawable/cross_icon"
-                android:id="@+id/back_image"
-                android:backgroundTint="@color/gray"/>
+            <com.google.android.material.appbar.AppBarLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:elevation="10dp"
+                android:id="@+id/bar"
+                android:background="@color/white">
 
+                <androidx.appcompat.widget.Toolbar
+                    android:layout_width="match_parent"
+                    android:layout_height="?attr/actionBarSize"
+                    android:id="@+id/toolbar_all_categories"
+                    app:title="LED">
+
+                </androidx.appcompat.widget.Toolbar>
+
+            </com.google.android.material.appbar.AppBarLayout>
 
             <ImageView
                 android:layout_width="match_parent"

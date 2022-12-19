@@ -34,7 +34,9 @@ class CheckoutPage : AppCompatActivity() {
             val intent = Intent(this@CheckoutPage,NewAddress :: class.java)
             startActivity(intent)
         }
-
-
+    }
+    override fun onSupportNavigateUp(): Boolean {
+        onBackPressed()
+        return true
     }
 }

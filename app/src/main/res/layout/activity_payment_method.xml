@@ -23,5 +23,94 @@
 
         </androidx.appcompat.widget.Toolbar>
     </com.google.android.material.appbar.AppBarLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_below="@id/bar"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select a Payment Method"
+            android:textColor="@color/black"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_below="@+id/bar"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tv_payment_options"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Payment Options :-"
+            android:textColor="@color/black"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="40dp"
+            android:layout_marginStart="20dp"
+            android:layout_below="@+id/bar"
+            android:textSize="20sp"
+            android:textStyle="bold">
+        </TextView>
+
+        <RelativeLayout
+            android:id="@+id/rl_payment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="50dp"
+            android:layout_below="@id/tv_payment_options">
+
+        <CheckBox
+            android:id="@+id/cb_pay_paypal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:text="   Pay with PayPal"
+            android:textStyle="normal"
+            android:textSize="20sp"
+            android:onClick="onCheckboxClicked">
+        </CheckBox>
+
+        <CheckBox
+            android:id="@+id/cb_razor_pay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="15sp"
+            android:layout_below="@+id/cb_pay_paypal"
+            android:text="   Pay with Razor Pay"
+            android:textStyle="normal"
+            android:textSize="20sp"
+            android:onClick="onCheckboxClicked">
+        </CheckBox>
+
+        <CheckBox
+            android:id="@+id/cb_cash"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="15sp"
+            android:layout_below="@+id/cb_razor_pay"
+            android:text="   Cash on Delivery"
+            android:textStyle="normal"
+            android:textSize="20sp"
+            android:onClick="onCheckboxClicked">
+        </CheckBox>
+
+        </RelativeLayout>
+
+    </LinearLayout>
 
 </RelativeLayout>
