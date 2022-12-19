@@ -80,6 +80,7 @@ animator nav_default_exit_anim
 animator nav_default_pop_enter_anim
 animator nav_default_pop_exit_anim
 animator scale_with_alpha
+array number
 attr SharedValue
 attr SharedValueId
 attr action
@@ -2650,6 +2651,7 @@ drawable btn_radio_off_mtrl
 drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
+drawable button_background
 drawable capacitor
 drawable carousel_default_placeholder
 drawable cross_icon
@@ -2851,6 +2853,7 @@ id action_text
 id actions
 id activity_chooser_view_content
 id add
+id add_to_cart
 id alertTitle
 id aligned
 id all
@@ -2893,15 +2896,16 @@ id btn_previous
 id btn_register
 id btn_submit
 id buttonPanel
+id buy_now
 id cache_measures
 id callMeasure
 id cancel_action
 id cancel_button
 id card
+id card_view
 id card_view1
 id carousel
 id carryVelocity
-id cartImage
 id cart_image
 id cart_name
 id cart_price
@@ -2922,6 +2926,7 @@ id chain2
 id chains
 id checkbox
 id checked
+id checkout_toolbar
 id chip
 id chip1
 id chip2
@@ -2957,6 +2962,9 @@ id decelerate
 id decelerateAndComplete
 id decor_content_parent
 id default_activity_button
+id deleteImage
+id deliver_address
+id deliver_new_add
 id deltaRelative
 id dependency_ordering
 id des_pro_name
@@ -3166,6 +3174,7 @@ id navigation_header_container
 id never
 id neverCompleteToEnd
 id neverCompleteToStart
+id new_add_toolbar
 id next_button_container
 id noScroll
 id noState
@@ -3196,6 +3205,7 @@ id parent_matrix
 id password_toggle
 id path
 id pathRelative
+id payment_toolbar
 id peekHeight
 id percent
 id pin
@@ -3212,6 +3222,7 @@ id profile
 id progress_circular
 id progress_horizontal
 id quantity
+id quantity_spinner
 id radio
 id ratio
 id rectangles
@@ -3494,10 +3505,13 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_all_categories_acitvity
 layout activity_cart
+layout activity_checkout_page
 layout activity_forget_password
 layout activity_home
 layout activity_login
+layout activity_new_address
 layout activity_new_user
+layout activity_payment_method
 layout activity_product_detail
 layout activity_splash
 layout cart_acitvity_single_row
@@ -3672,7 +3686,6 @@ string error_icon_content_description
 string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
-string hello_blank_fragment
 string hide_bottom_view_on_scroll_behavior
 string icon_content_description
 string item_view_role_description

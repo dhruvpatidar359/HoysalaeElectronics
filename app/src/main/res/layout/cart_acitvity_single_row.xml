@@ -94,6 +94,7 @@
         android:src="@drawable/delete_image"
         android:layout_marginRight="5dp"
         android:layout_marginTop="5dp"
+        android:id="@+id/deleteImage"
         android:layout_alignParentRight="true"/>
     </RelativeLayout>
 
