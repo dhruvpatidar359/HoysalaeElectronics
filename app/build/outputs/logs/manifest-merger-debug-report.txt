@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\DELL\AndroidStudioProjects\hoysalaelectonics\app\src\main\AndroidManifest.xml:2:1-56:12
-INJECTED from C:\Users\DELL\AndroidStudioProjects\hoysalaelectonics\app\src\main\AndroidManifest.xml:2:1-56:12
-INJECTED from C:\Users\DELL\AndroidStudioProjects\hoysalaelectonics\app\src\main\AndroidManifest.xml:2:1-56:12
-INJECTED from C:\Users\DELL\AndroidStudioProjects\hoysalaelectonics\app\src\main\AndroidManifest.xml:2:1-56:12
+ADDED from C:\Users\DELL\AndroidStudioProjects\hoysalaelectonics\app\src\main\AndroidManifest.xml:2:1-53:12
+INJECTED from C:\Users\DELL\AndroidStudioProjects\hoysalaelectonics\app\src\main\AndroidManifest.xml:2:1-53:12
+INJECTED from C:\Users\DELL\AndroidStudioProjects\hoysalaelectonics\app\src\main\AndroidManifest.xml:2:1-53:12
+INJECTED from C:\Users\DELL\AndroidStudioProjects\hoysalaelectonics\app\src\main\AndroidManifest.xml:2:1-53:12
 MERGED from [com.github.denzcoskun:ImageSlideshow:0.1.0] C:\Users\DELL\.gradle\caches\transforms-3\2a0c57c7529dc09aea58cb0bdc13cdc6\transformed\jetified-ImageSlideshow-0.1.0\AndroidManifest.xml:2:1-11:12
 MERGED from [org.imaginativeworld.whynotimagecarousel:whynotimagecarousel:2.1.0] C:\Users\DELL\.gradle\caches\transforms-3\4604d8724aa02e80a0ac3db3a37a9488\transformed\jetified-whynotimagecarousel-2.1.0-debug\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.navigation:navigation-ui-ktx:2.5.3] C:\Users\DELL\.gradle\caches\transforms-3\dc44fc9b62ddd55a9046c40bf93da78d\transformed\navigation-ui-ktx-2.5.3\AndroidManifest.xml:17:1-24:12
@@ -75,20 +75,20 @@ MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\DELL\.gradle\cac
 MERGED from [androidx.exifinterface:exifinterface:1.2.0] C:\Users\DELL\.gradle\caches\transforms-3\3f3771d566d907779cc9b27f8ce113f5\transformed\exifinterface-1.2.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.github.bumptech.glide:gifdecoder:4.13.1] C:\Users\DELL\.gradle\caches\transforms-3\ba72ec75bcc66cfda7750538cd3eef61\transformed\jetified-gifdecoder-4.13.1\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\DELL\.gradle\caches\transforms-3\29c7b199d4646ee497ba13091e7b830d\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
-INJECTED from C:\Users\DELL\AndroidStudioProjects\hoysalaelectonics\app\src\main\AndroidManifest.xml:2:1-56:12
-INJECTED from C:\Users\DELL\AndroidStudioProjects\hoysalaelectonics\app\src\main\AndroidManifest.xml:2:1-56:12
-INJECTED from C:\Users\DELL\AndroidStudioProjects\hoysalaelectonics\app\src\main\AndroidManifest.xml:2:1-56:12
+INJECTED from C:\Users\DELL\AndroidStudioProjects\hoysalaelectonics\app\src\main\AndroidManifest.xml:2:1-53:12
+INJECTED from C:\Users\DELL\AndroidStudioProjects\hoysalaelectonics\app\src\main\AndroidManifest.xml:2:1-53:12
+INJECTED from C:\Users\DELL\AndroidStudioProjects\hoysalaelectonics\app\src\main\AndroidManifest.xml:2:1-53:12
 	package
 		ADDED from C:\Users\DELL\AndroidStudioProjects\hoysalaelectonics\app\src\main\AndroidManifest.xml:3:5-49
 		INJECTED from C:\Users\DELL\AndroidStudioProjects\hoysalaelectonics\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\DELL\AndroidStudioProjects\hoysalaelectonics\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\DELL\AndroidStudioProjects\hoysalaelectonics\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\DELL\AndroidStudioProjects\hoysalaelectonics\app\src\main\AndroidManifest.xml:2:1-56:12
+		ADDED from C:\Users\DELL\AndroidStudioProjects\hoysalaelectonics\app\src\main\AndroidManifest.xml:2:1-53:12
 		INJECTED from C:\Users\DELL\AndroidStudioProjects\hoysalaelectonics\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\DELL\AndroidStudioProjects\hoysalaelectonics\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\DELL\AndroidStudioProjects\hoysalaelectonics\app\src\main\AndroidManifest.xml:2:1-56:12
+		ADDED from C:\Users\DELL\AndroidStudioProjects\hoysalaelectonics\app\src\main\AndroidManifest.xml:2:1-53:12
 		INJECTED from C:\Users\DELL\AndroidStudioProjects\hoysalaelectonics\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\DELL\AndroidStudioProjects\hoysalaelectonics\app\src\main\AndroidManifest.xml:2:11-69
@@ -103,7 +103,7 @@ ADDED from C:\Users\DELL\AndroidStudioProjects\hoysalaelectonics\app\src\main\An
 	android:name
 		ADDED from C:\Users\DELL\AndroidStudioProjects\hoysalaelectonics\app\src\main\AndroidManifest.xml:6:22-76
 application
-ADDED from C:\Users\DELL\AndroidStudioProjects\hoysalaelectonics\app\src\main\AndroidManifest.xml:8:5-54:19
+ADDED from C:\Users\DELL\AndroidStudioProjects\hoysalaelectonics\app\src\main\AndroidManifest.xml:8:5-51:19
 MERGED from [com.google.android.material:material:1.6.1] C:\Users\DELL\.gradle\caches\transforms-3\064d07ef31233c146c64f3f30c86167a\transformed\material-1.6.1\AndroidManifest.xml:24:5-20
 MERGED from [com.google.android.material:material:1.6.1] C:\Users\DELL\.gradle\caches\transforms-3\064d07ef31233c146c64f3f30c86167a\transformed\material-1.6.1\AndroidManifest.xml:24:5-20
 MERGED from [com.github.mancj:MaterialSearchBar:0.8.5] C:\Users\DELL\.gradle\caches\transforms-3\84acfe08b659e1fb412dd7ed87889be1\transformed\jetified-MaterialSearchBar-0.8.5\AndroidManifest.xml:11:5-15:19
@@ -144,74 +144,68 @@ MERGED from [com.github.bumptech.glide:gifdecoder:4.13.1] C:\Users\DELL\.gradle\
 		ADDED from C:\Users\DELL\AndroidStudioProjects\hoysalaelectonics\app\src\main\AndroidManifest.xml:9:9-35
 	android:theme
 		ADDED from C:\Users\DELL\AndroidStudioProjects\hoysalaelectonics\app\src\main\AndroidManifest.xml:14:9-56
-activity#android.example.hoysalaelectronics.Activity.ProductDetail
+activity#android.example.hoysalaelectronics.Activity.AllCategoriesAcitvity
 ADDED from C:\Users\DELL\AndroidStudioProjects\hoysalaelectonics\app\src\main\AndroidManifest.xml:15:9-17:40
 	android:exported
 		ADDED from C:\Users\DELL\AndroidStudioProjects\hoysalaelectonics\app\src\main\AndroidManifest.xml:17:13-37
 	android:name
-		ADDED from C:\Users\DELL\AndroidStudioProjects\hoysalaelectonics\app\src\main\AndroidManifest.xml:16:13-51
-activity#android.example.hoysalaelectronics.Activity.SingleCategories
-ADDED from C:\Users\DELL\AndroidStudioProjects\hoysalaelectonics\app\src\main\AndroidManifest.xml:18:9-20:40
-	android:exported
-		ADDED from C:\Users\DELL\AndroidStudioProjects\hoysalaelectonics\app\src\main\AndroidManifest.xml:20:13-37
-	android:name
-		ADDED from C:\Users\DELL\AndroidStudioProjects\hoysalaelectonics\app\src\main\AndroidManifest.xml:19:13-54
+		ADDED from C:\Users\DELL\AndroidStudioProjects\hoysalaelectonics\app\src\main\AndroidManifest.xml:16:13-59
 activity#android.example.hoysalaelectronics.Activity.SplashActivity
-ADDED from C:\Users\DELL\AndroidStudioProjects\hoysalaelectonics\app\src\main\AndroidManifest.xml:21:9-30:20
+ADDED from C:\Users\DELL\AndroidStudioProjects\hoysalaelectonics\app\src\main\AndroidManifest.xml:18:9-27:20
 	android:exported
-		ADDED from C:\Users\DELL\AndroidStudioProjects\hoysalaelectonics\app\src\main\AndroidManifest.xml:23:13-36
+		ADDED from C:\Users\DELL\AndroidStudioProjects\hoysalaelectonics\app\src\main\AndroidManifest.xml:20:13-36
 	android:name
-		ADDED from C:\Users\DELL\AndroidStudioProjects\hoysalaelectonics\app\src\main\AndroidManifest.xml:22:13-52
+		ADDED from C:\Users\DELL\AndroidStudioProjects\hoysalaelectonics\app\src\main\AndroidManifest.xml:19:13-52
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.DEFAULT+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\DELL\AndroidStudioProjects\hoysalaelectonics\app\src\main\AndroidManifest.xml:24:13-29:29
+ADDED from C:\Users\DELL\AndroidStudioProjects\hoysalaelectonics\app\src\main\AndroidManifest.xml:21:13-26:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\DELL\AndroidStudioProjects\hoysalaelectonics\app\src\main\AndroidManifest.xml:25:17-69
+ADDED from C:\Users\DELL\AndroidStudioProjects\hoysalaelectonics\app\src\main\AndroidManifest.xml:22:17-69
 	android:name
-		ADDED from C:\Users\DELL\AndroidStudioProjects\hoysalaelectonics\app\src\main\AndroidManifest.xml:25:25-66
+		ADDED from C:\Users\DELL\AndroidStudioProjects\hoysalaelectonics\app\src\main\AndroidManifest.xml:22:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\DELL\AndroidStudioProjects\hoysalaelectonics\app\src\main\AndroidManifest.xml:27:17-77
+ADDED from C:\Users\DELL\AndroidStudioProjects\hoysalaelectonics\app\src\main\AndroidManifest.xml:24:17-77
 	android:name
-		ADDED from C:\Users\DELL\AndroidStudioProjects\hoysalaelectonics\app\src\main\AndroidManifest.xml:27:27-74
+		ADDED from C:\Users\DELL\AndroidStudioProjects\hoysalaelectonics\app\src\main\AndroidManifest.xml:24:27-74
 category#android.intent.category.DEFAULT
-ADDED from C:\Users\DELL\AndroidStudioProjects\hoysalaelectonics\app\src\main\AndroidManifest.xml:28:17-76
+ADDED from C:\Users\DELL\AndroidStudioProjects\hoysalaelectonics\app\src\main\AndroidManifest.xml:25:17-76
 	android:name
-		ADDED from C:\Users\DELL\AndroidStudioProjects\hoysalaelectonics\app\src\main\AndroidManifest.xml:28:27-73
+		ADDED from C:\Users\DELL\AndroidStudioProjects\hoysalaelectonics\app\src\main\AndroidManifest.xml:25:27-73
 activity#android.example.hoysalaelectronics.Activity.new_userActivity
-ADDED from C:\Users\DELL\AndroidStudioProjects\hoysalaelectonics\app\src\main\AndroidManifest.xml:31:9-37:20
+ADDED from C:\Users\DELL\AndroidStudioProjects\hoysalaelectonics\app\src\main\AndroidManifest.xml:28:9-34:20
 	android:exported
-		ADDED from C:\Users\DELL\AndroidStudioProjects\hoysalaelectonics\app\src\main\AndroidManifest.xml:33:13-37
+		ADDED from C:\Users\DELL\AndroidStudioProjects\hoysalaelectonics\app\src\main\AndroidManifest.xml:30:13-37
 	android:name
-		ADDED from C:\Users\DELL\AndroidStudioProjects\hoysalaelectonics\app\src\main\AndroidManifest.xml:32:13-54
+		ADDED from C:\Users\DELL\AndroidStudioProjects\hoysalaelectonics\app\src\main\AndroidManifest.xml:29:13-54
 meta-data#android.app.lib_name
-ADDED from C:\Users\DELL\AndroidStudioProjects\hoysalaelectonics\app\src\main\AndroidManifest.xml:34:13-36:36
+ADDED from C:\Users\DELL\AndroidStudioProjects\hoysalaelectonics\app\src\main\AndroidManifest.xml:31:13-33:36
 	android:value
-		ADDED from C:\Users\DELL\AndroidStudioProjects\hoysalaelectonics\app\src\main\AndroidManifest.xml:36:17-33
+		ADDED from C:\Users\DELL\AndroidStudioProjects\hoysalaelectonics\app\src\main\AndroidManifest.xml:33:17-33
 	android:name
-		ADDED from C:\Users\DELL\AndroidStudioProjects\hoysalaelectonics\app\src\main\AndroidManifest.xml:35:17-52
+		ADDED from C:\Users\DELL\AndroidStudioProjects\hoysalaelectonics\app\src\main\AndroidManifest.xml:32:17-52
 activity#android.example.hoysalaelectronics.Activity.LoginActivity
-ADDED from C:\Users\DELL\AndroidStudioProjects\hoysalaelectonics\app\src\main\AndroidManifest.xml:38:9-44:20
+ADDED from C:\Users\DELL\AndroidStudioProjects\hoysalaelectonics\app\src\main\AndroidManifest.xml:35:9-41:20
 	android:exported
-		ADDED from C:\Users\DELL\AndroidStudioProjects\hoysalaelectonics\app\src\main\AndroidManifest.xml:40:13-37
+		ADDED from C:\Users\DELL\AndroidStudioProjects\hoysalaelectonics\app\src\main\AndroidManifest.xml:37:13-37
 	android:name
-		ADDED from C:\Users\DELL\AndroidStudioProjects\hoysalaelectonics\app\src\main\AndroidManifest.xml:39:13-51
+		ADDED from C:\Users\DELL\AndroidStudioProjects\hoysalaelectonics\app\src\main\AndroidManifest.xml:36:13-51
 activity#android.example.hoysalaelectronics.Activity.CartActivity
+ADDED from C:\Users\DELL\AndroidStudioProjects\hoysalaelectonics\app\src\main\AndroidManifest.xml:42:9-44:40
+	android:exported
+		ADDED from C:\Users\DELL\AndroidStudioProjects\hoysalaelectonics\app\src\main\AndroidManifest.xml:44:13-37
+	android:name
+		ADDED from C:\Users\DELL\AndroidStudioProjects\hoysalaelectonics\app\src\main\AndroidManifest.xml:43:13-50
+activity#android.example.hoysalaelectronics.HomeActivity
 ADDED from C:\Users\DELL\AndroidStudioProjects\hoysalaelectonics\app\src\main\AndroidManifest.xml:45:9-47:40
 	android:exported
 		ADDED from C:\Users\DELL\AndroidStudioProjects\hoysalaelectonics\app\src\main\AndroidManifest.xml:47:13-37
 	android:name
-		ADDED from C:\Users\DELL\AndroidStudioProjects\hoysalaelectonics\app\src\main\AndroidManifest.xml:46:13-50
-activity#android.example.hoysalaelectronics.HomeActivity
+		ADDED from C:\Users\DELL\AndroidStudioProjects\hoysalaelectonics\app\src\main\AndroidManifest.xml:46:13-41
+activity#android.example.hoysalaelectronics.Activity.Forget_Password_Activity
 ADDED from C:\Users\DELL\AndroidStudioProjects\hoysalaelectonics\app\src\main\AndroidManifest.xml:48:9-50:40
 	android:exported
 		ADDED from C:\Users\DELL\AndroidStudioProjects\hoysalaelectonics\app\src\main\AndroidManifest.xml:50:13-37
 	android:name
-		ADDED from C:\Users\DELL\AndroidStudioProjects\hoysalaelectonics\app\src\main\AndroidManifest.xml:49:13-41
-activity#android.example.hoysalaelectronics.Activity.Forget_Password_Activity
-ADDED from C:\Users\DELL\AndroidStudioProjects\hoysalaelectonics\app\src\main\AndroidManifest.xml:51:9-53:40
-	android:exported
-		ADDED from C:\Users\DELL\AndroidStudioProjects\hoysalaelectonics\app\src\main\AndroidManifest.xml:53:13-37
-	android:name
-		ADDED from C:\Users\DELL\AndroidStudioProjects\hoysalaelectonics\app\src\main\AndroidManifest.xml:52:13-62
+		ADDED from C:\Users\DELL\AndroidStudioProjects\hoysalaelectonics\app\src\main\AndroidManifest.xml:49:13-62
 uses-sdk
 INJECTED from C:\Users\DELL\AndroidStudioProjects\hoysalaelectonics\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\DELL\AndroidStudioProjects\hoysalaelectonics\app\src\main\AndroidManifest.xml
