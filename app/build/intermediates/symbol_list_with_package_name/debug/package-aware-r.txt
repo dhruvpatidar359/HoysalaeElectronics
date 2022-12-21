@@ -1423,6 +1423,7 @@ color error_color_material_light
 color foreground_material_dark
 color foreground_material_light
 color gray
+color green
 color grey_font
 color highlighted_text_material_dark
 color highlighted_text_material_light
@@ -1963,6 +1964,7 @@ color text_shadow_white
 color tooltip_background_dark
 color tooltip_background_light
 color white
+color yellow
 dimen abc_action_bar_content_inset_material
 dimen abc_action_bar_content_inset_with_nav
 dimen abc_action_bar_default_height_material
@@ -2637,7 +2639,6 @@ drawable abc_textfield_search_activated_mtrl_alpha
 drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
-drawable add_image
 drawable all_items
 drawable avd_hide_password
 drawable avd_show_password
@@ -2654,7 +2655,11 @@ drawable btn_radio_on_to_off_mtrl_animation
 drawable button_background
 drawable capacitor
 drawable carousel_default_placeholder
+drawable checked
+drawable checked_png
+drawable chenge_background
 drawable cross_icon
+drawable custom_checkbox
 drawable default_selected_dot
 drawable default_unselected_dot
 drawable delete_image
@@ -2718,6 +2723,7 @@ drawable m3_tabs_background
 drawable m3_tabs_line_indicator
 drawable m3_tabs_rounded_line_indicator
 drawable m3_tabs_transparent_background
+drawable mark_ok_success_tick
 drawable material_cursor_drawable
 drawable material_ic_calendar_black_24dp
 drawable material_ic_clear_black_24dp
@@ -2756,8 +2762,11 @@ drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable orders
+drawable otp_background
+drawable otp_verification
 drawable placeholder
 drawable plus_button
+drawable right
 drawable round_corners
 drawable search_bar
 drawable splash
@@ -2766,6 +2775,7 @@ drawable test_level_drawable
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 drawable top_bottom_shadow
+drawable unchecked
 drawable white_radius
 id ALT
 id BLOCK
@@ -2876,7 +2886,7 @@ id auto
 id autoComplete
 id autoCompleteToEnd
 id autoCompleteToStart
-id back_image
+id back
 id bar
 id barrier
 id baseline
@@ -2916,6 +2926,9 @@ id category
 id category_image
 id category_name
 id category_recycler
+id cb_cash
+id cb_pay_paypal
+id cb_razor_pay
 id center
 id centerCrop
 id centerInside
@@ -2924,6 +2937,7 @@ id center_vertical
 id chain
 id chain2
 id chains
+id change_address
 id checkbox
 id checked
 id checkout_toolbar
@@ -2942,11 +2956,13 @@ id closest
 id collapseActionView
 id compress
 id confirm_button
+id confirm_order_toolbar
 id constraint
 id container
 id content
 id contentPanel
 id contiguous
+id continue_order_btn
 id continuousVelocity
 id coordinater
 id coordinator
@@ -3050,6 +3066,7 @@ id horizontal_only
 id icon
 id icon_group
 id ifRoom
+id ig_right
 id ignore
 id ignoreRequest
 id image
@@ -3075,6 +3092,7 @@ id jumpToStart
 id labeled
 id last
 id layout
+id layoutL
 id layout_relative
 id led_image
 id left
@@ -3190,7 +3208,14 @@ id notifications
 id off
 id on
 id onInterceptTouchReturnSwipe
+id order_image
 id order_next
+id order_success
+id otp
+id otp1
+id otp2
+id otp3
+id otp4
 id our_products
 id outline
 id outward
@@ -3210,10 +3235,13 @@ id peekHeight
 id percent
 id pin
 id place_order
+id placed
 id plus_button
 id position
 id postLayout
 id previous_button_container
+id price
+id priceGst
 id pro_des
 id product_image
 id product_name
@@ -3233,6 +3261,7 @@ id relative2
 id relativeLay
 id relativeLayout
 id requestItem
+id resend_otp
 id retry_button
 id reverseSawtooth
 id right
@@ -3240,6 +3269,7 @@ id rightToLeft
 id right_icon
 id right_side
 id rl_newuser
+id rl_payment
 id root
 id rounded
 id row_index_key
@@ -3270,6 +3300,7 @@ id selection_type
 id share
 id sharedValueSet
 id sharedValueUnset
+id shipping_add
 id shortcut
 id showCustom
 id showHome
@@ -3308,7 +3339,9 @@ id status_bar_latest_event_content
 id stop
 id stretch
 id submenuarrow
+id submit
 id submit_area
+id success
 id supportScrollUp
 id tabMode
 id tag_accessibility_actions
@@ -3331,6 +3364,7 @@ id test_radiobutton_app_button_tint
 id text
 id text1
 id text2
+id text3
 id textEnd
 id textSpacerNoButtons
 id textSpacerNoTitle
@@ -3342,6 +3376,7 @@ id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
 id text_or
+id text_v
 id text_view
 id textinput_counter
 id textinput_error
@@ -3349,6 +3384,7 @@ id textinput_helper_text
 id textinput_placeholder
 id textinput_prefix_text
 id textinput_suffix_text
+id thank
 id time
 id title
 id titleDividerNoCustom
@@ -3374,6 +3410,7 @@ id tv_details
 id tv_forgetpassword
 id tv_login
 id tv_newuser
+id tv_payment_options
 id tv_sign_in
 id tv_welcome
 id unchecked
@@ -3506,12 +3543,16 @@ layout abc_tooltip
 layout activity_all_categories_acitvity
 layout activity_cart
 layout activity_checkout_page
+layout activity_confirm_order
 layout activity_forget_password
 layout activity_home
 layout activity_login
 layout activity_new_address
 layout activity_new_user
+layout activity_order_complete
+layout activity_order_confirm
 layout activity_payment_method
+layout activity_place_order
 layout activity_product_detail
 layout activity_splash
 layout cart_acitvity_single_row

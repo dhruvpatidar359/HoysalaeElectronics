@@ -18,7 +18,7 @@
 12-->D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:6:22-76
 13
 14    <application
-14-->D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:8:5-63:19
+14-->D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:8:5-79:19
 15        android:allowBackup="true"
 15-->D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:9:9-35
 16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -32,146 +32,176 @@
 20-->D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:12:9-54
 21        android:supportsRtl="true"
 21-->D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:13:9-35
-22        android:testOnly="true"
-23        android:theme="@style/Theme.HoysalaElectronics" >
-23-->D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:14:9-56
-24        <activity
-24-->D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:15:9-17:40
-25            android:name="android.example.hoysalaelectronics.Activity.PaymentMethod"
-25-->D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:16:13-51
-26            android:exported="false" />
-26-->D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:17:13-37
-27        <activity
-27-->D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:18:9-20:40
-28            android:name="android.example.hoysalaelectronics.Activity.NewAddress"
-28-->D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:19:13-48
-29            android:exported="false" />
-29-->D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:20:13-37
-30        <activity
-30-->D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:21:9-23:40
-31            android:name="android.example.hoysalaelectronics.Activity.CheckoutPage"
-31-->D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:22:13-50
-32            android:exported="false" />
-32-->D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:23:13-37
-33        <activity
-33-->D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:24:9-26:40
-34            android:name="android.example.hoysalaelectronics.Activity.ProductDetail"
-34-->D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:25:13-51
-35            android:exported="false" />
-35-->D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:26:13-37
-36        <activity
-36-->D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:27:9-29:40
-37            android:name="android.example.hoysalaelectronics.Activity.SingleCategories"
-37-->D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:28:13-54
-38            android:exported="false" />
-38-->D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:29:13-37
+22        android:theme="@style/Theme.HoysalaElectronics" >
+22-->D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:14:9-56
+23        <activity
+23-->D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:15:9-17:40
+24            android:name="android.example.hoysalaelectronics.Activity.OrderComplete"
+24-->D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:16:13-51
+25            android:exported="false" />
+25-->D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:17:13-37
+26        <activity
+26-->D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:18:9-20:40
+27            android:name="android.example.hoysalaelectronics.Activity.ConfirmOrder"
+27-->D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:19:13-50
+28            android:exported="false" />
+28-->D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:20:13-37
+29        <activity
+29-->D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:21:9-23:40
+30            android:name="android.example.hoysalaelectronics.Activity.PlaceOrder"
+30-->D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:22:13-48
+31            android:exported="false" />
+31-->D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:23:13-37
+32        <activity
+32-->D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:24:9-30:20
+33            android:name="android.example.hoysalaelectronics.Activity.Order_Confirm_Activity"
+33-->D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:25:13-60
+34            android:exported="false" >
+34-->D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:26:13-37
+35            <meta-data
+35-->D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:27:13-29:36
+36                android:name="android.app.lib_name"
+36-->D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:28:17-52
+37                android:value="" />
+37-->D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:29:17-33
+38        </activity>
 39        <activity
-39-->D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:30:9-39:20
-40            android:name="android.example.hoysalaelectronics.Activity.SplashActivity"
-40-->D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:31:13-52
-41            android:exported="true" >
-41-->D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:32:13-36
-42            <intent-filter>
-42-->D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:33:13-38:29
-43                <action android:name="android.intent.action.MAIN" />
-43-->D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:34:17-69
-43-->D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:34:25-66
-44
-45                <category android:name="android.intent.category.LAUNCHER" />
-45-->D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:36:17-77
-45-->D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:36:27-74
-46                <category android:name="android.intent.category.DEFAULT" />
-46-->D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:37:17-76
-46-->D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:37:27-73
-47            </intent-filter>
-48        </activity>
-49        <activity
-49-->D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:40:9-46:20
-50            android:name="android.example.hoysalaelectronics.Activity.new_userActivity"
-50-->D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:41:13-54
-51            android:exported="false" >
-51-->D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:42:13-37
-52            <meta-data
-52-->D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:43:13-45:36
-53                android:name="android.app.lib_name"
-53-->D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:44:17-52
-54                android:value="" />
-54-->D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:45:17-33
-55        </activity>
-56        <activity
-56-->D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:47:9-53:20
-57            android:name="android.example.hoysalaelectronics.Activity.LoginActivity"
-57-->D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:48:13-51
-58            android:exported="false" >
-58-->D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:49:13-37
-59            <meta-data
-59-->D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:43:13-45:36
-60                android:name="android.app.lib_name"
-60-->D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:44:17-52
-61                android:value="" />
-61-->D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:45:17-33
-62        </activity>
-63        <activity
-63-->D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:54:9-56:40
-64            android:name="android.example.hoysalaelectronics.Activity.CartActivity"
-64-->D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:55:13-50
-65            android:exported="false" />
-65-->D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:56:13-37
-66        <activity
-66-->D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:57:9-59:40
-67            android:name="android.example.hoysalaelectronics.HomeActivity"
-67-->D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:58:13-41
-68            android:exported="false" />
-68-->D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:59:13-37
-69        <activity
-69-->D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:60:9-62:40
-70            android:name="android.example.hoysalaelectronics.Activity.Forget_Password_Activity"
-70-->D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:61:13-62
-71            android:exported="false" />
-71-->D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:62:13-37
-72
-73        <uses-library
-73-->[androidx.window:window:1.0.0] C:\Users\Naveen\.gradle\caches\transforms-3\e592acd12d09f0d1bd71fb5f1614b5ae\transformed\jetified-window-1.0.0\AndroidManifest.xml:25:9-27:40
-74            android:name="androidx.window.extensions"
-74-->[androidx.window:window:1.0.0] C:\Users\Naveen\.gradle\caches\transforms-3\e592acd12d09f0d1bd71fb5f1614b5ae\transformed\jetified-window-1.0.0\AndroidManifest.xml:26:13-54
-75            android:required="false" />
-75-->[androidx.window:window:1.0.0] C:\Users\Naveen\.gradle\caches\transforms-3\e592acd12d09f0d1bd71fb5f1614b5ae\transformed\jetified-window-1.0.0\AndroidManifest.xml:27:13-37
-76        <uses-library
-76-->[androidx.window:window:1.0.0] C:\Users\Naveen\.gradle\caches\transforms-3\e592acd12d09f0d1bd71fb5f1614b5ae\transformed\jetified-window-1.0.0\AndroidManifest.xml:28:9-30:40
-77            android:name="androidx.window.sidecar"
-77-->[androidx.window:window:1.0.0] C:\Users\Naveen\.gradle\caches\transforms-3\e592acd12d09f0d1bd71fb5f1614b5ae\transformed\jetified-window-1.0.0\AndroidManifest.xml:29:13-51
-78            android:required="false" />
-78-->[androidx.window:window:1.0.0] C:\Users\Naveen\.gradle\caches\transforms-3\e592acd12d09f0d1bd71fb5f1614b5ae\transformed\jetified-window-1.0.0\AndroidManifest.xml:30:13-37
-79
-80        <provider
-80-->[com.squareup.picasso:picasso:2.71828] C:\Users\Naveen\.gradle\caches\transforms-3\705b090b81b596c14cd61282a785af65\transformed\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
-81            android:name="com.squareup.picasso.PicassoProvider"
-81-->[com.squareup.picasso:picasso:2.71828] C:\Users\Naveen\.gradle\caches\transforms-3\705b090b81b596c14cd61282a785af65\transformed\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
-82            android:authorities="android.example.hoysalaelectronics.com.squareup.picasso"
-82-->[com.squareup.picasso:picasso:2.71828] C:\Users\Naveen\.gradle\caches\transforms-3\705b090b81b596c14cd61282a785af65\transformed\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+39-->D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:31:9-33:40
+40            android:name="android.example.hoysalaelectronics.Activity.PaymentMethod"
+40-->D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:32:13-51
+41            android:exported="false" />
+41-->D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:33:13-37
+42        <activity
+42-->D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:34:9-36:40
+43            android:name="android.example.hoysalaelectronics.Activity.NewAddress"
+43-->D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:35:13-48
+44            android:exported="false" />
+44-->D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:36:13-37
+45        <activity
+45-->D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:37:9-39:40
+46            android:name="android.example.hoysalaelectronics.Activity.CheckoutPage"
+46-->D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:38:13-50
+47            android:exported="false" />
+47-->D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:39:13-37
+48        <activity
+48-->D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:40:9-42:40
+49            android:name="android.example.hoysalaelectronics.Activity.ProductDetail"
+49-->D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:41:13-51
+50            android:exported="false" />
+50-->D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:42:13-37
+51        <activity
+51-->D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:43:9-45:40
+52            android:name="android.example.hoysalaelectronics.Activity.SingleCategories"
+52-->D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:44:13-54
+53            android:exported="false" />
+53-->D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:45:13-37
+54        <activity
+54-->D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:46:9-55:20
+55            android:name="android.example.hoysalaelectronics.Activity.SplashActivity"
+55-->D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:47:13-52
+56            android:exported="true" >
+56-->D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:48:13-36
+57            <intent-filter>
+57-->D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:49:13-54:29
+58                <action android:name="android.intent.action.MAIN" />
+58-->D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:50:17-69
+58-->D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:50:25-66
+59
+60                <category android:name="android.intent.category.LAUNCHER" />
+60-->D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:52:17-77
+60-->D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:52:27-74
+61                <category android:name="android.intent.category.DEFAULT" />
+61-->D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:53:17-76
+61-->D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:53:27-73
+62            </intent-filter>
+63        </activity>
+64        <activity
+64-->D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:56:9-62:20
+65            android:name="android.example.hoysalaelectronics.Activity.new_userActivity"
+65-->D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:57:13-54
+66            android:exported="false" >
+66-->D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:58:13-37
+67            <meta-data
+67-->D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:27:13-29:36
+68                android:name="android.app.lib_name"
+68-->D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:28:17-52
+69                android:value="" />
+69-->D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:29:17-33
+70        </activity>
+71        <activity
+71-->D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:63:9-69:20
+72            android:name="android.example.hoysalaelectronics.Activity.LoginActivity"
+72-->D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:64:13-51
+73            android:exported="false" >
+73-->D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:65:13-37
+74            <meta-data
+74-->D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:27:13-29:36
+75                android:name="android.app.lib_name"
+75-->D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:28:17-52
+76                android:value="" />
+76-->D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:29:17-33
+77        </activity>
+78        <activity
+78-->D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:70:9-72:40
+79            android:name="android.example.hoysalaelectronics.Activity.CartActivity"
+79-->D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:71:13-50
+80            android:exported="false" />
+80-->D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:72:13-37
+81        <activity
+81-->D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:73:9-75:40
+82            android:name="android.example.hoysalaelectronics.HomeActivity"
+82-->D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:74:13-41
 83            android:exported="false" />
-83-->[com.squareup.picasso:picasso:2.71828] C:\Users\Naveen\.gradle\caches\transforms-3\705b090b81b596c14cd61282a785af65\transformed\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
-84        <provider
-84-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Naveen\.gradle\caches\transforms-3\9e596e9ca726b3a832d63b4a4434a66a\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
-85            android:name="androidx.startup.InitializationProvider"
-85-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Naveen\.gradle\caches\transforms-3\9e596e9ca726b3a832d63b4a4434a66a\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
-86            android:authorities="android.example.hoysalaelectronics.androidx-startup"
-86-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Naveen\.gradle\caches\transforms-3\9e596e9ca726b3a832d63b4a4434a66a\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
-87            android:exported="false" >
-87-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Naveen\.gradle\caches\transforms-3\9e596e9ca726b3a832d63b4a4434a66a\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
-88            <meta-data
-88-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Naveen\.gradle\caches\transforms-3\9e596e9ca726b3a832d63b4a4434a66a\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
-89                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-89-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Naveen\.gradle\caches\transforms-3\9e596e9ca726b3a832d63b4a4434a66a\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
-90                android:value="androidx.startup" />
-90-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Naveen\.gradle\caches\transforms-3\9e596e9ca726b3a832d63b4a4434a66a\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
-91            <meta-data
-91-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Naveen\.gradle\caches\transforms-3\44741674c28f22de6210f205812947b3\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
-92                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-92-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Naveen\.gradle\caches\transforms-3\44741674c28f22de6210f205812947b3\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
-93                android:value="androidx.startup" />
-93-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Naveen\.gradle\caches\transforms-3\44741674c28f22de6210f205812947b3\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
-94        </provider>
-95    </application>
-96
-97</manifest>
+83-->D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:75:13-37
+84        <activity
+84-->D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:76:9-78:40
+85            android:name="android.example.hoysalaelectronics.Activity.Forget_Password_Activity"
+85-->D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:77:13-62
+86            android:exported="false" />
+86-->D:\hoysala-MobileApplication\app\src\main\AndroidManifest.xml:78:13-37
+87
+88        <uses-library
+88-->[androidx.window:window:1.0.0] C:\Users\Naveen\.gradle\caches\transforms-3\e592acd12d09f0d1bd71fb5f1614b5ae\transformed\jetified-window-1.0.0\AndroidManifest.xml:25:9-27:40
+89            android:name="androidx.window.extensions"
+89-->[androidx.window:window:1.0.0] C:\Users\Naveen\.gradle\caches\transforms-3\e592acd12d09f0d1bd71fb5f1614b5ae\transformed\jetified-window-1.0.0\AndroidManifest.xml:26:13-54
+90            android:required="false" />
+90-->[androidx.window:window:1.0.0] C:\Users\Naveen\.gradle\caches\transforms-3\e592acd12d09f0d1bd71fb5f1614b5ae\transformed\jetified-window-1.0.0\AndroidManifest.xml:27:13-37
+91        <uses-library
+91-->[androidx.window:window:1.0.0] C:\Users\Naveen\.gradle\caches\transforms-3\e592acd12d09f0d1bd71fb5f1614b5ae\transformed\jetified-window-1.0.0\AndroidManifest.xml:28:9-30:40
+92            android:name="androidx.window.sidecar"
+92-->[androidx.window:window:1.0.0] C:\Users\Naveen\.gradle\caches\transforms-3\e592acd12d09f0d1bd71fb5f1614b5ae\transformed\jetified-window-1.0.0\AndroidManifest.xml:29:13-51
+93            android:required="false" />
+93-->[androidx.window:window:1.0.0] C:\Users\Naveen\.gradle\caches\transforms-3\e592acd12d09f0d1bd71fb5f1614b5ae\transformed\jetified-window-1.0.0\AndroidManifest.xml:30:13-37
+94
+95        <provider
+95-->[com.squareup.picasso:picasso:2.71828] C:\Users\Naveen\.gradle\caches\transforms-3\705b090b81b596c14cd61282a785af65\transformed\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
+96            android:name="com.squareup.picasso.PicassoProvider"
+96-->[com.squareup.picasso:picasso:2.71828] C:\Users\Naveen\.gradle\caches\transforms-3\705b090b81b596c14cd61282a785af65\transformed\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
+97            android:authorities="android.example.hoysalaelectronics.com.squareup.picasso"
+97-->[com.squareup.picasso:picasso:2.71828] C:\Users\Naveen\.gradle\caches\transforms-3\705b090b81b596c14cd61282a785af65\transformed\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+98            android:exported="false" />
+98-->[com.squareup.picasso:picasso:2.71828] C:\Users\Naveen\.gradle\caches\transforms-3\705b090b81b596c14cd61282a785af65\transformed\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+99        <provider
+99-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Naveen\.gradle\caches\transforms-3\9e596e9ca726b3a832d63b4a4434a66a\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+100            android:name="androidx.startup.InitializationProvider"
+100-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Naveen\.gradle\caches\transforms-3\9e596e9ca726b3a832d63b4a4434a66a\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+101            android:authorities="android.example.hoysalaelectronics.androidx-startup"
+101-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Naveen\.gradle\caches\transforms-3\9e596e9ca726b3a832d63b4a4434a66a\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+102            android:exported="false" >
+102-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Naveen\.gradle\caches\transforms-3\9e596e9ca726b3a832d63b4a4434a66a\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+103            <meta-data
+103-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Naveen\.gradle\caches\transforms-3\9e596e9ca726b3a832d63b4a4434a66a\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+104                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+104-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Naveen\.gradle\caches\transforms-3\9e596e9ca726b3a832d63b4a4434a66a\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+105                android:value="androidx.startup" />
+105-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Naveen\.gradle\caches\transforms-3\9e596e9ca726b3a832d63b4a4434a66a\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+106            <meta-data
+106-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Naveen\.gradle\caches\transforms-3\44741674c28f22de6210f205812947b3\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+107                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+107-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Naveen\.gradle\caches\transforms-3\44741674c28f22de6210f205812947b3\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+108                android:value="androidx.startup" />
+108-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Naveen\.gradle\caches\transforms-3\44741674c28f22de6210f205812947b3\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+109        </provider>
+110    </application>
+111
+112</manifest>

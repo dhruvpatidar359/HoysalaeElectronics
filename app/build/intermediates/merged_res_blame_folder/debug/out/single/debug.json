@@ -4,12 +4,16 @@
         "source": "D:\\hoysala-MobileApplication\\app\\src\\main\\res\\drawable-mdpi\\ic_action_transaction.png"
     },
     {
+        "merged": "D:\\hoysala-MobileApplication\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_all_categories_acitvity.xml.flat",
+        "source": "D:\\hoysala-MobileApplication\\app\\src\\main\\res\\layout\\activity_all_categories_acitvity.xml"
+    },
+    {
         "merged": "D:\\hoysala-MobileApplication\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher.webp.flat",
         "source": "D:\\hoysala-MobileApplication\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.webp"
     },
     {
-        "merged": "D:\\hoysala-MobileApplication\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_all_categories_acitvity.xml.flat",
-        "source": "D:\\hoysala-MobileApplication\\app\\src\\main\\res\\layout\\activity_all_categories_acitvity.xml"
+        "merged": "D:\\hoysala-MobileApplication\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_place_order.xml.flat",
+        "source": "D:\\hoysala-MobileApplication\\app\\src\\main\\res\\layout\\activity_place_order.xml"
     },
     {
         "merged": "D:\\hoysala-MobileApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_ic_action_name_favourite.png.flat",
@@ -50,6 +54,14 @@
     {
         "merged": "D:\\hoysala-MobileApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_different.jpg.flat",
         "source": "D:\\hoysala-MobileApplication\\app\\src\\main\\res\\drawable-v24\\different.jpg"
+    },
+    {
+        "merged": "D:\\hoysala-MobileApplication\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_order_complete.xml.flat",
+        "source": "D:\\hoysala-MobileApplication\\app\\src\\main\\res\\layout\\activity_order_complete.xml"
+    },
+    {
+        "merged": "D:\\hoysala-MobileApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_right.png.flat",
+        "source": "D:\\hoysala-MobileApplication\\app\\src\\main\\res\\drawable\\right.png"
     },
     {
         "merged": "D:\\hoysala-MobileApplication\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_home.xml.flat",
@@ -132,6 +144,10 @@
         "source": "D:\\hoysala-MobileApplication\\app\\src\\main\\res\\drawable-hdpi\\ic_action_share.png"
     },
     {
+        "merged": "D:\\hoysala-MobileApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_mark_ok_success_tick.png.flat",
+        "source": "D:\\hoysala-MobileApplication\\app\\src\\main\\res\\drawable-v24\\mark_ok_success_tick.png"
+    },
+    {
         "merged": "D:\\hoysala-MobileApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_ic_action_transaction.png.flat",
         "source": "D:\\hoysala-MobileApplication\\app\\src\\main\\res\\drawable-xhdpi\\ic_action_transaction.png"
     },
@@ -208,6 +224,10 @@
         "source": "D:\\hoysala-MobileApplication\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
     },
     {
+        "merged": "D:\\hoysala-MobileApplication\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_confirm_order.xml.flat",
+        "source": "D:\\hoysala-MobileApplication\\app\\src\\main\\res\\layout\\activity_confirm_order.xml"
+    },
+    {
         "merged": "D:\\hoysala-MobileApplication\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
         "source": "D:\\hoysala-MobileApplication\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
@@ -222,6 +242,10 @@
     {
         "merged": "D:\\hoysala-MobileApplication\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_user_account.xml.flat",
         "source": "D:\\hoysala-MobileApplication\\app\\src\\main\\res\\layout\\fragment_user_account.xml"
+    },
+    {
+        "merged": "D:\\hoysala-MobileApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_chenge_background.xml.flat",
+        "source": "D:\\hoysala-MobileApplication\\app\\src\\main\\res\\drawable\\chenge_background.xml"
     },
     {
         "merged": "D:\\hoysala-MobileApplication\\app\\build\\intermediates\\merged_res\\debug\\layout_our_products_single_row.xml.flat",
@@ -400,6 +424,14 @@
         "source": "D:\\hoysala-MobileApplication\\app\\src\\main\\res\\drawable-xhdpi\\ic_action_share.png"
     },
     {
+        "merged": "D:\\hoysala-MobileApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_otp_background.xml.flat",
+        "source": "D:\\hoysala-MobileApplication\\app\\src\\main\\res\\drawable\\otp_background.xml"
+    },
+    {
+        "merged": "D:\\hoysala-MobileApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_otp_verification.png.flat",
+        "source": "D:\\hoysala-MobileApplication\\app\\src\\main\\res\\drawable-v24\\otp_verification.png"
+    },
+    {
         "merged": "D:\\hoysala-MobileApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_action_home.xml.flat",
         "source": "D:\\hoysala-MobileApplication\\app\\src\\main\\res\\drawable\\ic_action_home.xml"
     },
@@ -418,6 +450,10 @@
     {
         "merged": "D:\\hoysala-MobileApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_orders.png.flat",
         "source": "D:\\hoysala-MobileApplication\\app\\src\\main\\res\\drawable-xxhdpi\\orders.png"
+    },
+    {
+        "merged": "D:\\hoysala-MobileApplication\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_order_confirm.xml.flat",
+        "source": "D:\\hoysala-MobileApplication\\app\\src\\main\\res\\layout\\activity_order_confirm.xml"
     },
     {
         "merged": "D:\\hoysala-MobileApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_ic_action_about.png.flat",
