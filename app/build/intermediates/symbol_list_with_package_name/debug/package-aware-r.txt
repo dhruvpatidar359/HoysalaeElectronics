@@ -1963,7 +1963,6 @@ color text_shadow_white
 color tooltip_background_dark
 color tooltip_background_light
 color white
-color yellow
 dimen abc_action_bar_content_inset_material
 dimen abc_action_bar_content_inset_with_nav
 dimen abc_action_bar_default_height_material
@@ -2638,6 +2637,7 @@ drawable abc_textfield_search_activated_mtrl_alpha
 drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
+drawable add_image
 drawable all_items
 drawable avd_hide_password
 drawable avd_show_password
@@ -2654,10 +2654,7 @@ drawable btn_radio_on_to_off_mtrl_animation
 drawable button_background
 drawable capacitor
 drawable carousel_default_placeholder
-drawable checked
-drawable checked_png
 drawable cross_icon
-drawable custom_checkbox
 drawable default_selected_dot
 drawable default_unselected_dot
 drawable delete_image
@@ -2769,7 +2766,6 @@ drawable test_level_drawable
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 drawable top_bottom_shadow
-drawable unchecked
 drawable white_radius
 id ALT
 id BLOCK
@@ -2880,6 +2876,7 @@ id auto
 id autoComplete
 id autoCompleteToEnd
 id autoCompleteToStart
+id back_image
 id bar
 id barrier
 id baseline
@@ -2919,9 +2916,6 @@ id category
 id category_image
 id category_name
 id category_recycler
-id cb_cash
-id cb_pay_paypal
-id cb_razor_pay
 id center
 id centerCrop
 id centerInside
@@ -3246,7 +3240,6 @@ id rightToLeft
 id right_icon
 id right_side
 id rl_newuser
-id rl_payment
 id root
 id rounded
 id row_index_key
@@ -3381,7 +3374,6 @@ id tv_details
 id tv_forgetpassword
 id tv_login
 id tv_newuser
-id tv_payment_options
 id tv_sign_in
 id tv_welcome
 id unchecked

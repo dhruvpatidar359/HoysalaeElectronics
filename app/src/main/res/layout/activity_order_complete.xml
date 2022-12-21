@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.OrderComplete">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/mark_ok_success_tick"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:id="@+id/success"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thank You!!!"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_below="@id/success"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:id="@+id/thank"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Order Successfully Placed"
+        android:textSize="18sp"
+        android:id="@+id/placed"
+        android:layout_below="@id/thank"
+        android:layout_marginTop="10dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/placed"
+        app:backgroundTint="@null"
+        android:textColor="@color/purple_700"
+        android:textAllCaps="false"
+        android:text="Back to Home Page"
+        android:background="@drawable/chenge_background"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_margin="50dp"
+        android:id="@+id/back"/>
+
+
+</RelativeLayout>

@@ -10,7 +10,8 @@ import android.widget.Button
 import android.widget.RelativeLayout
 import android.widget.TextView
 
-class LoginActivity : AppCompatActivity() {
+class
+LoginActivity : AppCompatActivity() {
     lateinit var btn_login: Button
     lateinit var tv_register: TextView
     lateinit var tv_forgetpassword: TextView

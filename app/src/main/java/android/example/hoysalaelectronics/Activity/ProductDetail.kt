@@ -28,7 +28,7 @@ class ProductDetail : AppCompatActivity(), AdapterView.OnItemSelectedListener{
             R.array.number,
             android.R.layout.simple_spinner_item
         )
-        arrayAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
+        arrayAdapter.setDropDownViewResource(android.R.layout.simple_dropdown_item_1line)
         spinner.adapter = arrayAdapter
         spinner.onItemSelectedListener = this
 
@@ -50,7 +50,6 @@ class ProductDetail : AppCompatActivity(), AdapterView.OnItemSelectedListener{
     override fun onItemSelected(parent: AdapterView<*>?, view: View?, position: Int, id: Long) {
 
        // var string = parent?.getItemAtPosition(position).toString()
-
 
 
     }

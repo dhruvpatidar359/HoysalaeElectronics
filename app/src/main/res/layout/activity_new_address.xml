@@ -23,6 +23,7 @@
                 android:layout_height="?attr/actionBarSize"
                 android:id="@+id/new_add_toolbar"
                 app:title="New Address"
+                android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
                 app:titleTextColor="@color/white">
 
             </androidx.appcompat.widget.Toolbar>

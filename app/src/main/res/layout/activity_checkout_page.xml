@@ -21,7 +21,8 @@
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
             android:id="@+id/checkout_toolbar"
-            app:title="Place Order"
+            app:title="Checkout"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
             app:titleTextColor="@color/white">
 
         </androidx.appcompat.widget.Toolbar>
@@ -37,7 +38,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Checkout"
+        android:text="Address Details"
         android:textColor="@color/black"
         android:textSize="20sp"
         android:textStyle="bold"/>
@@ -177,12 +178,12 @@
             android:layout_width="match_parent"
             android:layout_height="55dp"
             android:text="Add a new address"
-            android:textColor="@color/white"
+            android:textColor="@color/black"
             android:textAllCaps="false"
             android:textSize="16sp"
             android:id="@+id/deliver_new_add"
             android:layout_marginLeft="20dp"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="5dp"
             android:layout_marginRight="20dp"
             android:backgroundTint="@color/yellow"/>
 

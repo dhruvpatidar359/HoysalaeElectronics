@@ -13,6 +13,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.HoysalaElectronics">
         <activity
+            android:name=".Activity.OrderComplete"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.ConfirmOrder"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.PlaceOrder"
+            android:exported="false" />
+        <activity
             android:name=".Activity.PaymentMethod"
             android:exported="false" />
         <activity

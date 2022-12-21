@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.PlaceOrder">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:elevation="10dp"
+        android:id="@+id/bar"
+        android:backgroundTint="@color/purple_700"
+        android:background="@color/white">
+
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:id="@+id/confirm_order_toolbar"
+            app:title="Place Order"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            app:titleTextColor="@color/white">
+
+        </androidx.appcompat.widget.Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/bar"
+        android:orientation="vertical">
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Place my order at this address"
+           android:textSize="18sp"
+           android:layout_marginTop="20dp"
+           android:layout_marginLeft="20dp"
+           android:textColor="@color/black"/>
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Akanksha"
+           android:textSize="17sp"
+           android:layout_marginLeft="20dp"
+           android:layout_marginTop="10sp"
+           android:id="@+id/shipping_add"/>
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:text="New Sunrise colony street 4 Bareilly Uttar Pradesh 5748395768"/>
+       <Button
+           android:layout_width="wrap_content"
+           android:layout_height="40dp"
+           android:layout_marginTop="10dp"
+           android:text="Change"
+           android:layout_marginLeft="20dp"
+           android:id="@+id/change_address"
+           android:background="@drawable/chenge_background"
+           app:backgroundTint="@null"
+           android:textColor="@color/black"
+           android:textAllCaps="false"/>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardElevation="5dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="30dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="110dp"
+                android:src="@drawable/led_image"
+                android:id="@+id/order_image"/>
+            <TextView
+                android:layout_width="150dp"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/order_image"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="30dp"
+                android:text="LED (Light Emitting Diaode) 3MM"/>
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Price Details"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/black"
+            android:textSize="18sp"/>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardElevation="0dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp">
+          <RelativeLayout
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Product Price:"
+                android:layout_marginLeft="20dp"
+                android:textSize="15sp"
+                android:layout_marginTop="15dp"
+                android:id="@+id/price"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="24.6"
+                android:textSize="15sp"
+                android:layout_marginTop="15dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="20dp"/>
+
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="GST(18%):"
+                  android:layout_marginLeft="20dp"
+                  android:textSize="15sp"
+                  android:layout_marginTop="12dp"
+                  android:layout_below="@id/price"
+                  android:id="@+id/priceGst"/>
+
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="5.4"
+                  android:layout_marginTop="12dp"
+                  android:textSize="15sp"
+                  android:layout_below="@id/price"
+                  android:layout_alignParentRight="true"
+                  android:layout_marginRight="20dp"/>
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="Order total:"
+                  android:layout_marginLeft="20dp"
+                  android:textSize="18sp"
+                  android:layout_marginTop="12dp"
+                  android:textColor="@color/black"
+                  android:textStyle="bold"
+                  android:layout_marginRight="20dp"
+                  android:layout_below="@+id/priceGst"/>
+
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="30.0"
+                  android:textSize="18sp"
+                  android:textStyle="bold"
+                  android:textColor="@color/purple_700"
+                  android:layout_marginTop="12dp"
+                  android:layout_below="@id/priceGst"
+                  android:layout_alignParentRight="true"
+                  android:layout_marginBottom="15dp"
+                  android:layout_marginRight="20dp"/>
+
+          </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        app:cardElevation="15dp"
+        android:background="#EDF4F4"
+        android:layout_alignParentBottom="true">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:id="@+id/continue_order_btn"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:text="Continue"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        android:layout_alignParentBottom="true"/>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>
