@@ -14,6 +14,7 @@
         <entry key="..\:/Users/DELL/AndroidStudioProjects/hoysalaelectonics/app/src/main/res/drawable/no_inernet_background.xml" value="0.2703125" />
         <entry key="..\:/Users/DELL/AndroidStudioProjects/hoysalaelectonics/app/src/main/res/drawable/otp_background.xml" value="0.2703125" />
         <entry key="..\:/Users/DELL/AndroidStudioProjects/hoysalaelectonics/app/src/main/res/drawable/quantity_shape.xml" value="0.2703125" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/hoysalaelectonics/app/src/main/res/drawable/unchecked.xml" value="0.2703125" />
         <entry key="..\:/Users/DELL/AndroidStudioProjects/hoysalaelectonics/app/src/main/res/layout/activity_all_categories_acitvity.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/DELL/AndroidStudioProjects/hoysalaelectonics/app/src/main/res/layout/activity_cart.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/DELL/AndroidStudioProjects/hoysalaelectonics/app/src/main/res/layout/activity_checkout_page.xml" value="0.25416666666666665" />
@@ -24,6 +25,7 @@
         <entry key="..\:/Users/DELL/AndroidStudioProjects/hoysalaelectonics/app/src/main/res/layout/activity_new_address.xml" value="0.24010416666666667" />
         <entry key="..\:/Users/DELL/AndroidStudioProjects/hoysalaelectonics/app/src/main/res/layout/activity_new_user.xml" value="0.25025641025641027" />
         <entry key="..\:/Users/DELL/AndroidStudioProjects/hoysalaelectonics/app/src/main/res/layout/activity_order_complete.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/hoysalaelectonics/app/src/main/res/layout/activity_order_confirm.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/DELL/AndroidStudioProjects/hoysalaelectonics/app/src/main/res/layout/activity_payment_method.xml" value="0.24010416666666667" />
         <entry key="..\:/Users/DELL/AndroidStudioProjects/hoysalaelectonics/app/src/main/res/layout/activity_place_order.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/DELL/AndroidStudioProjects/hoysalaelectonics/app/src/main/res/layout/activity_product_detail.xml" value="0.25416666666666665" />

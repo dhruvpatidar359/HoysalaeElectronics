@@ -1,7 +1,7 @@
 plugins {
     id 'com.android.application'
     id 'kotlin-android'
-    id 'com.apollographql.apollo'
+   // id 'com.apollographql.apollo'
 
 }
 
@@ -58,7 +58,23 @@ dependencies {
 
 
     //Apollo
-    implementation "com.apollographql.apollo:apollo-runtime:2.4.6"
-    implementation "com.apollographql.apollo:apollo-coroutines-support:2.4.6"
+   // implementation "com.apollographql.apollo:apollo-runtime:2.4.6"
+   // implementation "com.apollographql.apollo:apollo-coroutines-support:2.4.6"
 
+    //retrofit
+    /*implementation 'com.squareup.retrofit2:retrofit:2.9.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
+    implementation 'com.squareup.okhttp3:logging.interceptor:4.5.0'
+    implementation 'com.google.code.gson:gson:2.8.5'*/
+
+
+
+    implementation 'com.squareup.retrofit2:retrofit:2.9.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
+    implementation 'com.google.code.gson:gson:2.8.5'
+    implementation 'com.squareup.okhttp3:logging-interceptor:3.10.0'
+    implementation 'com.squareup.retrofit2:adapter-rxjava2:2.4.0'
+    implementation 'io.reactivex.rxjava2:rxjava:2.1.13'
+    implementation 'io.reactivex.rxjava2:rxandroid:2.0.2'
+    implementation 'com.google.android.gms:play-services-auth:17.0.0'
 }

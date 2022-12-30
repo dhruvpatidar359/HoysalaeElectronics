@@ -79,8 +79,7 @@
             android:layout_alignParentStart="true"
             android:text="   Pay with PayPal"
             android:textStyle="normal"
-            android:textSize="20sp"
-            android:onClick="onCheckboxClicked">
+            android:textSize="20sp">
         </CheckBox>
 
         <CheckBox
@@ -92,8 +91,7 @@
             android:layout_below="@+id/cb_pay_paypal"
             android:text="   Pay with Razor Pay"
             android:textStyle="normal"
-            android:textSize="20sp"
-            android:onClick="onCheckboxClicked">
+            android:textSize="20sp">
         </CheckBox>
 
         <CheckBox
@@ -105,8 +103,7 @@
             android:layout_below="@+id/cb_razor_pay"
             android:text="   Cash on Delivery"
             android:textStyle="normal"
-            android:textSize="20sp"
-            android:onClick="onCheckboxClicked">
+            android:textSize="20sp">
         </CheckBox>
 
         </RelativeLayout>
