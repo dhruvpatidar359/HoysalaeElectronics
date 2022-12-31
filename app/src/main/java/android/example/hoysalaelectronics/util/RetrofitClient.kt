@@ -11,7 +11,7 @@ class ApiResponse {
 
    companion object {
 
-       private val base_Url = "http://192.168.215.25"
+       private val base_Url = "http://192.168.215.25:1337/api/"
        val interceptor : HttpLoggingInterceptor = HttpLoggingInterceptor().apply {
            this.level = HttpLoggingInterceptor.Level.BODY
        }
@@ -25,8 +25,9 @@ class ApiResponse {
                .client(client)
                .addConverterFactory(GsonConverterFactory.create())
                .build()
-       }
 
+       }
+//192.168.215.25
 
    }
 

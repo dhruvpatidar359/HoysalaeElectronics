@@ -56,10 +56,6 @@ class new_userActivity : AppCompatActivity() {
         }
     }
 
-    private fun registerUser(){
-
-    }
-
         private fun validation(){
         val name = input1.text.toString()
         val mail = input2.text.toString()

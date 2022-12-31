@@ -8,6 +8,7 @@ import retrofit2.http.POST
 
 interface RegisterPost {
 
-    @POST("/api/auth/local/register")
-    fun addUser(@Body registerPost: User) : retrofit2.Call<ResponseBody>
+    @POST("auth/local/register")
+    fun addUser(@Body registerPost : User) : retrofit2.Call<ResponseBody>
+
 }
