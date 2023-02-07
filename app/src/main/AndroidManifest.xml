@@ -55,7 +55,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".Activity.new_userActivity"
+            android:name=".Activity.NewUser"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
@@ -75,7 +75,7 @@
             android:name=".HomeActivity"
             android:exported="false" />
         <activity
-            android:name=".Activity.Forget_Password_Activity"
+            android:name=".Activity.ForgetActivity"
             android:exported="false" />
     </application>
 

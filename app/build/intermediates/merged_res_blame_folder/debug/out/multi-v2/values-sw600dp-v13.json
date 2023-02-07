@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\DELL\\AndroidStudioProjects\\hoysalaelectonics\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+            "outputFile": "android.example.hoysalaelectronics.app-mergeDebugResources-53:/values-sw600dp-v13/values-sw600dp-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\DELL\\AndroidStudioProjects\\hoysalaelectonics\\caches\\transforms-3\\064d07ef31233c146c64f3f30c86167a\\transformed\\material-1.6.1\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "source": "C:\\Users\\dhruv\\.gradle\\caches\\transforms-3\\53edefe15d403f8467620aa121e38059\\transformed\\material-1.7.0\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,10,11,12,13,14",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\DELL\\AndroidStudioProjects\\hoysalaelectonics\\caches\\transforms-3\\b29ea26d32611315d6f3e08ff721dc0c\\transformed\\appcompat-1.5.1\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "source": "C:\\Users\\dhruv\\.gradle\\caches\\transforms-3\\e4a8049e253b5797baef35daaf535720\\transformed\\appcompat-1.6.0\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",

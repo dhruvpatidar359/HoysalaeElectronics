@@ -6,10 +6,16 @@
 
     <uses-sdk
         android:minSdkVersion="21"
-        android:targetSdkVersion="32" />
+        android:targetSdkVersion="33" />
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <permission
+        android:name="android.example.hoysalaelectronics.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="android.example.hoysalaelectronics.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
 
     <application
         android:allowBackup="true"
@@ -64,7 +70,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="android.example.hoysalaelectronics.Activity.new_userActivity"
+            android:name="android.example.hoysalaelectronics.Activity.NewUser"
             android:exported="false" >
             <meta-data
                 android:name="android.app.lib_name"
@@ -84,7 +90,7 @@
             android:name="android.example.hoysalaelectronics.HomeActivity"
             android:exported="false" />
         <activity
-            android:name="android.example.hoysalaelectronics.Activity.Forget_Password_Activity"
+            android:name="android.example.hoysalaelectronics.Activity.ForgetActivity"
             android:exported="false" />
         <activity
             android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
@@ -98,7 +104,8 @@
         <service
             android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
             android:exported="true"
-            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+            android:visibleToInstantApps="true" />
 
         <activity
             android:name="com.google.android.gms.common.api.GoogleApiActivity"

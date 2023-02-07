@@ -1,162 +1,159 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+
     tools:context=".Activity.LoginActivity">
 
     <androidx.cardview.widget.CardView
+        style="@style/Base.CardView"
         android:layout_width="match_parent"
-        android:layout_marginTop="30dp"
-        android:layout_marginRight="20dp"
-        android:layout_marginBottom="30dp"
-        android:layout_marginLeft="20dp"
-        app:cardCornerRadius="12dp"
-        app:cardElevation="5dp"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="@color/background_default">
+
             <TextView
                 android:id="@+id/tv_welcome"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="25dp"
                 android:text="Create an Account"
                 android:textColor="@color/black"
-                android:textStyle="bold"
                 android:textSize="25sp"
-                android:layout_alignParentStart="true"
-                android:layout_alignParentEnd="true"
-                android:layout_alignParentTop="true"
-                android:layout_marginTop="25dp"
-                android:layout_marginStart="25dp">
-            </TextView>
+                android:textStyle="bold" />
 
             <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/TI_name"
                 android:layout_width="match_parent"
-                android:layout_height="50dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_welcome"
                 android:layout_alignParentStart="true"
                 android:layout_alignParentEnd="true"
-                android:layout_marginTop="30dp"
-                android:id="@+id/TI_name"
-                android:layout_below="@+id/tv_welcome"
                 android:layout_marginStart="25dp"
+                android:layout_marginTop="30dp"
                 android:layout_marginEnd="25dp">
 
                 <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/reg_name"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="Name"
-                    android:id="@+id/reg_name"
-                    android:background="@drawable/input_background"
+                    android:layout_below="@+id/tv_login"
                     android:layout_alignParentStart="true"
                     android:layout_alignParentEnd="true"
-                    android:layout_below="@+id/tv_login"
-                    android:inputType="textEmailAddress"/>
+                    android:hint="@string/name"
+                    android:inputType="textEmailAddress" />
 
             </com.google.android.material.textfield.TextInputLayout>
 
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/TI_email"
                 android:layout_width="match_parent"
-                android:layout_height="50dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/TI_name"
                 android:layout_alignParentStart="true"
                 android:layout_alignParentEnd="true"
-                android:layout_marginTop="25dp"
-                android:layout_below="@+id/TI_name"
                 android:layout_marginStart="25dp"
+                android:layout_marginTop="25dp"
                 android:layout_marginEnd="25dp">
 
                 <com.google.android.material.textfield.TextInputEditText
-                    android:layout_width="match_parent"
-                    android:layout_height="50dp"
-                    android:hint="Email"
                     android:id="@+id/reg_mail"
-                    android:background="@drawable/input_background"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/TI_name"
                     android:layout_alignParentStart="true"
                     android:layout_alignParentEnd="true"
-                    android:layout_below="@+id/TI_name"
-                    android:inputType="textEmailAddress"/>
+                    android:hint="@string/email"
+                    android:inputType="textEmailAddress" />
 
             </com.google.android.material.textfield.TextInputLayout>
 
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/TI_contact_no."
                 android:layout_width="match_parent"
-                android:layout_height="50dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/TI_email"
                 android:layout_alignParentStart="true"
                 android:layout_alignParentEnd="true"
-                android:layout_below="@+id/TI_email"
-                android:layout_marginTop="30dp"
-                app:passwordToggleTint="@color/colorPrimary"
                 android:layout_marginStart="25dp"
-                android:layout_marginEnd="25dp">
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="25dp"
+                app:passwordToggleTint="@color/colorPrimary">
 
                 <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/reg_num"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="Contact number"
-                    android:id="@+id/reg_num"
+                    android:layout_below="@+id/tv_login"
                     android:layout_alignParentStart="true"
                     android:layout_alignParentEnd="true"
-                    android:background="@drawable/input_background"
-                    android:layout_below="@+id/tv_login"
+
+                    android:hint="@string/contact_number"
                     android:inputType="number"
-                    android:maxLength="10"/>
+                    android:maxLength="10" />
 
             </com.google.android.material.textfield.TextInputLayout>
 
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/TI_password"
                 android:layout_width="match_parent"
-                android:layout_height="50dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/TI_contact_no."
                 android:layout_alignParentStart="true"
                 android:layout_alignParentEnd="true"
-                android:layout_marginTop="25dp"
-                android:layout_below="@+id/TI_contact_no."
-                app:passwordToggleEnabled="true"
                 android:layout_marginStart="25dp"
-                android:layout_marginEnd="25dp">
+                android:layout_marginTop="25dp"
+                android:layout_marginEnd="25dp"
+                app:passwordToggleEnabled="true">
 
                 <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/reg_pass"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="Password (atleast 6 characters)"
-                    android:layout_alignParentStart="true"
-                    android:textSize="15dp"
-                    android:id="@+id/reg_pass"
-                    android:layout_alignParentEnd="true"
                     android:layout_below="@+id/TI_name"
-                    android:background="@drawable/input_background"
-                    android:inputType="textPassword"/>
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentEnd="true"
+                    android:hint="@string/password_atleast_6_characters"
+                    android:inputType="textPassword"
+
+                    android:textSize="15sp" />
 
             </com.google.android.material.textfield.TextInputLayout>
 
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/TI_confirm_password"
                 android:layout_width="match_parent"
-                android:layout_height="50dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/TI_password"
                 android:layout_alignParentStart="true"
                 android:layout_alignParentEnd="true"
-                android:layout_marginTop="25dp"
-                app:passwordToggleEnabled="true"
-                android:layout_below="@+id/TI_password"
                 android:layout_marginStart="25dp"
-                android:layout_marginEnd="25dp">
+                android:layout_marginTop="25dp"
+                android:layout_marginEnd="25dp"
+                app:passwordToggleEnabled="true">
 
                 <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/reg_confirm_pass"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="Confirm Password"
+                    android:layout_below="@+id/TI_name"
                     android:layout_alignParentStart="true"
                     android:layout_alignParentEnd="true"
-                    android:layout_below="@+id/TI_name"
-                    android:id="@+id/reg_confirm_pass"
-                    android:background="@drawable/input_background"
-                    android:inputType="textPassword"/>
+                    android:hint="@string/confirm_password"
+                    android:inputType="textPassword" />
 
             </com.google.android.material.textfield.TextInputLayout>
 
@@ -165,55 +162,44 @@
                 android:layout_width="375dp"
                 android:layout_height="50dp"
                 android:layout_below="@+id/TI_confirm_password"
-                android:text="Register"
-                android:textColor="@color/white"
-                android:textSize="20dp"
-                android:layout_marginTop="40dp"
                 android:layout_marginStart="25dp"
-                android:layout_marginEnd="25dp">
-            </Button>
+                android:layout_marginTop="40dp"
+                android:layout_marginEnd="25dp"
+                android:text="@string/register"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
 
 
-            <RelativeLayout
-
+            <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_alignParentStart="true"
-                android:layout_alignParentEnd="true"
                 android:layout_below="@+id/btn_register"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="20dp"
                 android:orientation="horizontal">
 
                 <TextView
                     android:id="@+id/tv_newuser"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Existing User ?"
+                    android:singleLine="true"
+                    android:text="@string/existing_user"
                     android:textColor="@color/black"
-                    android:textSize="18sp"
-                    android:layout_alignParentStart="true"
-                    android:layout_marginTop="40dp"
-                    android:layout_marginStart="90dp"
-                    android:layout_marginBottom="10dp"
-                    android:layout_alignParentEnd="true">
-                </TextView>
+                    android:textSize="18sp" />
 
                 <TextView
                     android:id="@+id/tv_sign_in"
-                    android:layout_width="wrap_content"
+                    android:layout_width="140dp"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="40dp"
-                    android:layout_alignParentStart="true"
-                    android:layout_alignParentEnd="true"
-                    android:layout_marginStart="215dp"
-                    android:textSize="18sp"
-                    android:text="Login"
-                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="8dp"
+                    android:text="@string/login"
                     android:textColor="@color/purple_700"
-                    android:textStyle="bold">
-                </TextView>
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
 
-            </RelativeLayout>
+            </LinearLayout>
 
         </RelativeLayout>
     </androidx.cardview.widget.CardView>
-</ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

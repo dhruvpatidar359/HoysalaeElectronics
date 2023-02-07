@@ -8,13 +8,13 @@
     tools:context=".Activity.LoginActivity">
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="wrap_content">
 
         <TextView
             android:id="@+id/tv_login"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Login in your Account"
+            android:text="@string/login_in_your_account"
             android:textColor="@color/black"
             android:textStyle="bold"
             android:textSize="25sp"
@@ -25,7 +25,7 @@
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/TI_gmail"
             android:layout_width="match_parent"
-            android:layout_height="50dp"
+            android:layout_height="wrap_content"
             android:layout_below="@+id/tv_login"
             android:layout_marginTop="50dp"
             android:layout_marginStart="25dp"
@@ -36,8 +36,7 @@
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Gmail"
-                android:background="@drawable/input_background"
+                android:hint="@string/gmail"
                 android:layout_alignParentStart="true"
                 android:layout_alignParentEnd="true"
                 android:layout_below="@+id/tv_login"
@@ -48,7 +47,7 @@
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/TI_Password"
             android:layout_width="match_parent"
-            android:layout_height="50dp"
+            android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
             android:layout_alignParentEnd="true"
             android:layout_below="@+id/TI_gmail"
@@ -61,8 +60,7 @@
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Password"
-                android:background="@drawable/input_background"
+                android:hint="@string/password"
                 android:layout_alignParentStart="true"
                 android:layout_alignParentEnd="true"
                 android:layout_below="@+id/tv_login"
@@ -74,12 +72,12 @@
         <TextView
             android:id="@+id/tv_forgetpassword"
             android:layout_width="wrap_content"
-            android:layout_alignParentRight="true"
-            android:layout_marginRight="25dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="25dp"
             android:layout_height="wrap_content"
             android:layout_below="@+id/TI_Password"
             android:layout_marginTop="15dp"
-            android:text="Forget Password ?"
+            android:text="@string/forget_password"
             android:textSize="15sp"
             android:textColor="@color/black">
         </TextView>
@@ -89,7 +87,7 @@
             android:layout_width="370dp"
             android:layout_height="50dp"
             android:layout_below="@+id/tv_forgetpassword"
-            android:text="Login"
+            android:text="@string/login"
             android:textColor="@color/white"
             android:textSize="18sp"
             android:layout_marginTop="30dp"
@@ -109,7 +107,7 @@
                 android:id="@+id/line1"
                 android:background="@color/black"
                 android:layout_marginTop="30dp"
-                android:layout_toLeftOf="@id/text_or"
+                android:layout_toStartOf="@id/text_or"
                 android:layout_marginStart="25dp"/>
             <TextView
                 android:layout_width="wrap_content"
@@ -163,7 +161,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/tv_newuser"
-                android:text="Create an Account"
+                android:text="@string/create_an_account"
                 android:layout_centerHorizontal="true"
                 android:id="@+id/create_account"
                 android:textColor="@color/purple_700"

@@ -16,6 +16,26 @@
     <string name="menu_slideshow">Slideshow</string>
     <string name="open_drawer">Open drawer</string>
     <string name="close_drawer">Close drawer</string>
+    <string name="hoysala">Hoysala</string>
+    <string name="electronics">Electronics</string>
+    <string name="no_connection">No Connection</string>
+    <string name="password">Password</string>
+    <string name="gmail">Gmail</string>
+    <string name="login_in_your_account">Login in your Account</string>
+    <string name="forget_password">Forget Password ?</string>
+    <string name="login">Login</string>
+    <string name="create_an_account">Create an Account</string>
+    <string name="enter_registered_email_or_phone_number">Enter registered email or phone number</string>
+    <string name="submit">Submit</string>
+    <string name="enter_the_registered_email_address_or_phone_number">Enter the registered Email address or phone number</string>
+    <string name="forget_password_2">Forget Password</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="contact_number">Contact number</string>
+    <string name="password_atleast_6_characters">Password (atleast 6 characters)</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="register">Register</string>
+    <string name="existing_user">Existing User ?  </string>
 
     <string-array name="number">
         <item>1</item>

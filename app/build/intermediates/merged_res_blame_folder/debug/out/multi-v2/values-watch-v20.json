@@ -1,16 +1,16 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\DELL\\AndroidStudioProjects\\hoysalaelectonics\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-watch-v20\\values-watch-v20.xml",
+            "outputFile": "android.example.hoysalaelectronics.app-mergeDebugResources-53:/values-watch-v20/values-watch-v20.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\DELL\\AndroidStudioProjects\\hoysalaelectonics\\caches\\transforms-3\\45c7ecee3ecbd9bbe9b9f5abbea9773d\\transformed\\jetified-play-services-auth-17.0.0\\res\\values-watch-v20\\values.xml",
+                    "source": "C:\\Users\\dhruv\\.gradle\\caches\\transforms-3\\f1a4b126b048620a182e6a424c19dfe5\\transformed\\jetified-play-services-auth-20.4.1\\res\\values-watch-v20\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11",
                         "startColumns": "0,0,0,0,0,0,0,0",
-                        "startOffsets": "171,246,322,397,472,559,636,723",
+                        "startOffsets": "173,248,324,399,474,561,638,725",
                         "endColumns": "74,75,74,74,86,76,86,75",
-                        "endOffsets": "245,321,396,471,558,635,722,798"
+                        "endOffsets": "247,323,398,473,560,637,724,800"
                     },
                     "to": {
                         "startLines": "2,3,4,5,6,7,8,9",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\DELL\\AndroidStudioProjects\\hoysalaelectonics\\caches\\transforms-3\\b29ea26d32611315d6f3e08ff721dc0c\\transformed\\appcompat-1.5.1\\res\\values-watch-v20\\values-watch-v20.xml",
+                    "source": "C:\\Users\\dhruv\\.gradle\\caches\\transforms-3\\e4a8049e253b5797baef35daaf535720\\transformed\\appcompat-1.6.0\\res\\values-watch-v20\\values-watch-v20.xml",
                     "from": {
                         "startLines": "2,5,8",
                         "startColumns": "4,4,4",

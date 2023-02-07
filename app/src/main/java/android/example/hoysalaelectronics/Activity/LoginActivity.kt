@@ -40,12 +40,12 @@ LoginActivity : AppCompatActivity() {
       }
 
         rl_newuser.setOnClickListener{
-          val intent = Intent(this, new_userActivity::class.java)
+          val intent = Intent(this, NewUser::class.java)
           startActivity(intent)
       }
 
         tv_forgetpassword.setOnClickListener{
-            val intent = Intent(this, Forget_Password_Activity::class.java)
+            val intent = Intent(this, ForgetActivity::class.java)
             startActivity(intent)
         }
     }

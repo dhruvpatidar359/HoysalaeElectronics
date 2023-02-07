@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\DELL\\AndroidStudioProjects\\hoysalaelectonics\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-watch-v21\\values-watch-v21.xml",
+            "outputFile": "android.example.hoysalaelectronics.app-mergeDebugResources-53:/values-watch-v21/values-watch-v21.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\DELL\\AndroidStudioProjects\\hoysalaelectonics\\caches\\transforms-3\\b29ea26d32611315d6f3e08ff721dc0c\\transformed\\appcompat-1.5.1\\res\\values-watch-v21\\values-watch-v21.xml",
+                    "source": "C:\\Users\\dhruv\\.gradle\\caches\\transforms-3\\e4a8049e253b5797baef35daaf535720\\transformed\\appcompat-1.6.0\\res\\values-watch-v21\\values-watch-v21.xml",
                     "from": {
                         "startLines": "2,6,10",
                         "startColumns": "4,4,4",

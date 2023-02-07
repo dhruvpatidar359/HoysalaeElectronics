@@ -21,13 +21,15 @@ import android.widget.LinearLayout
 import android.widget.RelativeLayout
 import androidx.annotation.RequiresApi
 import androidx.appcompat.app.AlertDialog
+import androidx.constraintlayout.widget.ConstraintLayout
+import androidx.constraintlayout.widget.ConstraintSet.Constraint
 import androidx.core.content.getSystemService
 
 class SplashActivity : AppCompatActivity() {
 
     lateinit var myContext: Context
     lateinit var dialog: Dialog
-    lateinit var splashLayout: RelativeLayout
+    lateinit var splashLayout: ConstraintLayout
     lateinit var internetLayout: LinearLayout
     lateinit var retryButton: Button
 
@@ -37,7 +39,7 @@ class SplashActivity : AppCompatActivity() {
         setContentView(R.layout.activity_splash)
 //        supportActionBar?.hide()
 
-        splashLayout = findViewById(R.id.splash_logo)
+        splashLayout = findViewById(R.id.splash_screen)
         internetLayout = findViewById(R.id.internet_layout)
         retryButton = findViewById(R.id.retry_button)
 
@@ -55,7 +57,7 @@ class SplashActivity : AppCompatActivity() {
              }
             }
 
-        }, 3000)
+        }, 2000)
 
     }
 
