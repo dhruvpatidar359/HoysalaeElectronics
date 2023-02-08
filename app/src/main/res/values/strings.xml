@@ -36,6 +36,8 @@
     <string name="confirm_password">Confirm Password</string>
     <string name="register">Register</string>
     <string name="existing_user">Existing User ?  </string>
+    <string name="check_internet_connection">Check Internet Connection</string>
+    <string name="retry">Retry</string>
 
     <string-array name="number">
         <item>1</item>

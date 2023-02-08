@@ -35,7 +35,7 @@ class HorizontalRecycler(val context : Context) : RecyclerView.Adapter<Horizonta
 
     class HorizontalViewHolder(view : View):RecyclerView.ViewHolder(view) {
 
-        val featureProCardView : CardView = view.findViewById(R.id.card_view)
+        val featureProCardView : CardView = view.findViewById(R.id.card)
 
     }
 

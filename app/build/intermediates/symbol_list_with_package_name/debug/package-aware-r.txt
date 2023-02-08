@@ -2889,6 +2889,7 @@ drawable ic_action_transaction
 drawable ic_arrow_left_black_48dp
 drawable ic_back_animated
 drawable ic_back_vector
+drawable ic_baseline_add_shopping_cart_24
 drawable ic_chevron_left
 drawable ic_chevron_right
 drawable ic_clock_black_24dp
@@ -3142,7 +3143,6 @@ id callMeasure
 id cancel_action
 id cancel_button
 id card
-id card_view
 id card_view1
 id carousel
 id carryVelocity
@@ -3212,6 +3212,7 @@ id deltaRelative
 id dependency_ordering
 id des_pro_name
 id des_pro_price
+id description
 id design_bottom_sheet
 id design_menu_item_action_area
 id design_menu_item_action_area_stub
@@ -3247,6 +3248,7 @@ id endToStart
 id end_padder
 id enterAlways
 id enterAlwaysCollapsed
+id event_name
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
@@ -3647,6 +3649,7 @@ id uniform
 id unlabeled
 id up
 id useLogo
+id venue
 id vertical
 id vertical_only
 id view
@@ -3969,6 +3972,7 @@ string bottomsheet_drag_handle_content_description
 string character_counter_content_description
 string character_counter_overflowed_content_description
 string character_counter_pattern
+string check_internet_connection
 string clear_text_end_icon_content_description
 string close_drawer
 string common_google_play_services_enable_button
@@ -4121,6 +4125,7 @@ string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
 string register
+string retry
 string search_menu_title
 string share_app
 string status_bar_notification_info_overflow
