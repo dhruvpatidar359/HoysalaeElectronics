@@ -1,550 +1,518 @@
 [
     {
-        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-merged_res-55:\\drawable-hdpi_back_image.png.flat",
-        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-main-57:\\drawable-hdpi\\back_image.png"
+        "merged": "android.example.hoysalaelectronics.app-merged_res-58:/layout_activity_place_order.xml.flat",
+        "source": "android.example.hoysalaelectronics.app-main-60:/layout/activity_place_order.xml"
     },
     {
-        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-merged_res-55:\\drawable-xxhdpi_ic_action_name_favourite.png.flat",
-        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-main-57:\\drawable-xxhdpi\\ic_action_name_favourite.png"
+        "merged": "android.example.hoysalaelectronics.app-merged_res-58:/drawable-v24_plus_button.png.flat",
+        "source": "android.example.hoysalaelectronics.app-main-60:/drawable-v24/plus_button.png"
     },
     {
-        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-merged_res-55:\\drawable-xhdpi_ic_action_share.png.flat",
-        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-main-57:\\drawable-xhdpi\\ic_action_share.png"
+        "merged": "android.example.hoysalaelectronics.app-merged_res-58:/drawable_google_rectangle.xml.flat",
+        "source": "android.example.hoysalaelectronics.app-main-60:/drawable/google_rectangle.xml"
     },
     {
-        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-merged_res-55:\\mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-main-57:\\mipmap-xhdpi\\ic_launcher.webp"
+        "merged": "android.example.hoysalaelectronics.app-merged_res-58:/drawable-v24_backend.png.flat",
+        "source": "android.example.hoysalaelectronics.app-main-60:/drawable-v24/backend.png"
     },
     {
-        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-merged_res-55:\\layout_fragment_notification.xml.flat",
-        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-main-57:\\layout\\fragment_notification.xml"
+        "merged": "android.example.hoysalaelectronics.app-merged_res-58:/drawable-v24_all_items.jpg.flat",
+        "source": "android.example.hoysalaelectronics.app-main-60:/drawable-v24/all_items.jpg"
     },
     {
-        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-merged_res-55:\\drawable-anydpi_ic_action_cart.xml.flat",
-        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-main-57:\\drawable-anydpi\\ic_action_cart.xml"
+        "merged": "android.example.hoysalaelectronics.app-merged_res-58:/drawable-anydpi_ic_action_clear.xml.flat",
+        "source": "android.example.hoysalaelectronics.app-main-60:/drawable-anydpi/ic_action_clear.xml"
     },
     {
-        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-merged_res-55:\\drawable-xxhdpi_next.png.flat",
-        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-main-57:\\drawable-xxhdpi\\next.png"
+        "merged": "android.example.hoysalaelectronics.app-merged_res-58:/layout_fragment_home.xml.flat",
+        "source": "android.example.hoysalaelectronics.app-main-60:/layout/fragment_home.xml"
     },
     {
-        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-merged_res-55:\\drawable-anydpi_next.xml.flat",
-        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-main-57:\\drawable-anydpi\\next.xml"
+        "merged": "android.example.hoysalaelectronics.app-merged_res-58:/drawable-v24_r.png.flat",
+        "source": "android.example.hoysalaelectronics.app-main-60:/drawable-v24/r.png"
     },
     {
-        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-merged_res-55:\\drawable-v24_delete_image.png.flat",
-        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-main-57:\\drawable-v24\\delete_image.png"
+        "merged": "android.example.hoysalaelectronics.app-merged_res-58:/drawable_processor.png.flat",
+        "source": "android.example.hoysalaelectronics.app-debug-59:/drawable/processor.png"
     },
     {
-        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-merged_res-55:\\drawable-hdpi_ic_action_transaction.png.flat",
-        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-main-57:\\drawable-hdpi\\ic_action_transaction.png"
+        "merged": "android.example.hoysalaelectronics.app-merged_res-58:/drawable-v24_php.png.flat",
+        "source": "android.example.hoysalaelectronics.app-main-60:/drawable-v24/php.png"
     },
     {
-        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-merged_res-55:\\mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-main-57:\\mipmap-hdpi\\ic_launcher_round.webp"
+        "merged": "android.example.hoysalaelectronics.app-merged_res-58:/drawable-anydpi_orders.xml.flat",
+        "source": "android.example.hoysalaelectronics.app-main-60:/drawable-anydpi/orders.xml"
     },
     {
-        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-merged_res-55:\\drawable-xhdpi_ic_action_name_favourite.png.flat",
-        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-main-57:\\drawable-xhdpi\\ic_action_name_favourite.png"
+        "merged": "android.example.hoysalaelectronics.app-merged_res-58:/menu_items_menu.xml.flat",
+        "source": "android.example.hoysalaelectronics.app-main-60:/menu/items_menu.xml"
     },
     {
-        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-merged_res-55:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-main-57:\\mipmap-xxxhdpi\\ic_launcher.webp"
+        "merged": "android.example.hoysalaelectronics.app-merged_res-58:/drawable-v24_mark_ok_success_tick.png.flat",
+        "source": "android.example.hoysalaelectronics.app-main-60:/drawable-v24/mark_ok_success_tick.png"
     },
     {
-        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-merged_res-55:\\drawable_otp_background.xml.flat",
-        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-main-57:\\drawable\\otp_background.xml"
+        "merged": "android.example.hoysalaelectronics.app-merged_res-58:/drawable_input_background.xml.flat",
+        "source": "android.example.hoysalaelectronics.app-main-60:/drawable/input_background.xml"
     },
     {
-        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-merged_res-55:\\drawable-mdpi_ic_action_menu.png.flat",
-        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-main-57:\\drawable-mdpi\\ic_action_menu.png"
+        "merged": "android.example.hoysalaelectronics.app-merged_res-58:/drawable-v24_ai.png.flat",
+        "source": "android.example.hoysalaelectronics.app-main-60:/drawable-v24/ai.png"
     },
     {
-        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-merged_res-55:\\layout_fragment_user_account.xml.flat",
-        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-main-57:\\layout\\fragment_user_account.xml"
+        "merged": "android.example.hoysalaelectronics.app-merged_res-58:/drawable_ic_action_person.xml.flat",
+        "source": "android.example.hoysalaelectronics.app-main-60:/drawable/ic_action_person.xml"
     },
     {
-        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-merged_res-55:\\layout_activity_order_complete.xml.flat",
-        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-main-57:\\layout\\activity_order_complete.xml"
+        "merged": "android.example.hoysalaelectronics.app-merged_res-58:/drawable-v24_hide_password.jpg.flat",
+        "source": "android.example.hoysalaelectronics.app-main-60:/drawable-v24/hide_password.jpg"
     },
     {
-        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-merged_res-55:\\drawable-hdpi_next.png.flat",
-        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-main-57:\\drawable-hdpi\\next.png"
+        "merged": "android.example.hoysalaelectronics.app-merged_res-58:/drawable_ic_action_search.xml.flat",
+        "source": "android.example.hoysalaelectronics.app-main-60:/drawable/ic_action_search.xml"
     },
     {
-        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-merged_res-55:\\drawable-v24_cross_icon.png.flat",
-        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-main-57:\\drawable-v24\\cross_icon.png"
+        "merged": "android.example.hoysalaelectronics.app-merged_res-58:/drawable_ic_launcher_background.xml.flat",
+        "source": "android.example.hoysalaelectronics.app-main-60:/drawable/ic_launcher_background.xml"
     },
     {
-        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-merged_res-55:\\drawable_checked.xml.flat",
-        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-main-57:\\drawable\\checked.xml"
+        "merged": "android.example.hoysalaelectronics.app-merged_res-58:/layout_activity_new_user.xml.flat",
+        "source": "android.example.hoysalaelectronics.app-main-60:/layout/activity_new_user.xml"
     },
     {
-        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-merged_res-55:\\drawable_unchecked.xml.flat",
-        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-main-57:\\drawable\\unchecked.xml"
+        "merged": "android.example.hoysalaelectronics.app-merged_res-58:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "android.example.hoysalaelectronics.app-main-60:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-merged_res-55:\\layout_activity_all_categories_acitvity.xml.flat",
-        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-main-57:\\layout\\activity_all_categories_acitvity.xml"
+        "merged": "android.example.hoysalaelectronics.app-merged_res-58:/layout_featured_product_single_row.xml.flat",
+        "source": "android.example.hoysalaelectronics.app-main-60:/layout/featured_product_single_row.xml"
     },
     {
-        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-merged_res-55:\\drawable_chenge_background.xml.flat",
-        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-main-57:\\drawable\\chenge_background.xml"
+        "merged": "android.example.hoysalaelectronics.app-merged_res-58:/drawable-v24_front_end.png.flat",
+        "source": "android.example.hoysalaelectronics.app-main-60:/drawable-v24/front_end.png"
     },
     {
-        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-merged_res-55:\\drawable-xxhdpi_ic_action_menu.png.flat",
-        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-main-57:\\drawable-xxhdpi\\ic_action_menu.png"
+        "merged": "android.example.hoysalaelectronics.app-merged_res-58:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "android.example.hoysalaelectronics.app-main-60:/mipmap-mdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-merged_res-55:\\layout_activity_new_address.xml.flat",
-        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-main-57:\\layout\\activity_new_address.xml"
+        "merged": "android.example.hoysalaelectronics.app-merged_res-58:/drawable_ic_action_home.xml.flat",
+        "source": "android.example.hoysalaelectronics.app-main-60:/drawable/ic_action_home.xml"
     },
     {
-        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-merged_res-55:\\drawable-v24_led.jpg.flat",
-        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-main-57:\\drawable-v24\\led.jpg"
+        "merged": "android.example.hoysalaelectronics.app-merged_res-58:/drawable_robotone.png.flat",
+        "source": "android.example.hoysalaelectronics.app-debug-59:/drawable/robotone.png"
     },
     {
-        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-merged_res-55:\\drawable-anydpi_ic_action_share.xml.flat",
-        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-main-57:\\drawable-anydpi\\ic_action_share.xml"
+        "merged": "android.example.hoysalaelectronics.app-merged_res-58:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "android.example.hoysalaelectronics.app-pngs-53:/drawable-anydpi-v24/ic_launcher_foreground.xml"
     },
     {
-        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-merged_res-55:\\drawable-anydpi_ic_action_transaction.xml.flat",
-        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-main-57:\\drawable-anydpi\\ic_action_transaction.xml"
+        "merged": "android.example.hoysalaelectronics.app-merged_res-58:/layout_activity_product_detail.xml.flat",
+        "source": "android.example.hoysalaelectronics.app-main-60:/layout/activity_product_detail.xml"
     },
     {
-        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-merged_res-55:\\drawable-hdpi_ic_action_share.png.flat",
-        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-main-57:\\drawable-hdpi\\ic_action_share.png"
+        "merged": "android.example.hoysalaelectronics.app-merged_res-58:/drawable-anydpi_ic_action_name_favourite.xml.flat",
+        "source": "android.example.hoysalaelectronics.app-main-60:/drawable-anydpi/ic_action_name_favourite.xml"
     },
     {
-        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-merged_res-55:\\layout_latest_collection.xml.flat",
-        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-main-57:\\layout\\latest_collection.xml"
+        "merged": "android.example.hoysalaelectronics.app-merged_res-58:/drawable-v24_capacitor.png.flat",
+        "source": "android.example.hoysalaelectronics.app-main-60:/drawable-v24/capacitor.png"
     },
     {
-        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-merged_res-55:\\drawable-mdpi_ic_action_share.png.flat",
-        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-main-57:\\drawable-mdpi\\ic_action_share.png"
+        "merged": "android.example.hoysalaelectronics.app-merged_res-58:/drawable_img_google.xml.flat",
+        "source": "android.example.hoysalaelectronics.app-debug-59:/drawable/img_google.xml"
     },
     {
-        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-merged_res-55:\\layout_activity_cart.xml.flat",
-        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-main-57:\\layout\\activity_cart.xml"
+        "merged": "android.example.hoysalaelectronics.app-merged_res-58:/drawable-v24_swift.png.flat",
+        "source": "android.example.hoysalaelectronics.app-main-60:/drawable-v24/swift.png"
     },
     {
-        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-merged_res-55:\\drawable_checked_png.png.flat",
-        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-main-57:\\drawable\\checked_png.png"
+        "merged": "android.example.hoysalaelectronics.app-merged_res-58:/drawable_developer.png.flat",
+        "source": "android.example.hoysalaelectronics.app-debug-59:/drawable/developer.png"
     },
     {
-        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-merged_res-55:\\drawable-xhdpi_ic_action_about.png.flat",
-        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-main-57:\\drawable-xhdpi\\ic_action_about.png"
+        "merged": "android.example.hoysalaelectronics.app-merged_res-58:/drawable_iotone.png.flat",
+        "source": "android.example.hoysalaelectronics.app-debug-59:/drawable/iotone.png"
     },
     {
-        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-merged_res-55:\\drawable-xhdpi_ic_action_transaction.png.flat",
-        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-main-57:\\drawable-xhdpi\\ic_action_transaction.png"
+        "merged": "android.example.hoysalaelectronics.app-merged_res-58:/drawable_hoysala_electronics.png.flat",
+        "source": "android.example.hoysalaelectronics.app-main-60:/drawable/hoysala_electronics.png"
     },
     {
-        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-merged_res-55:\\layout_categories_single_row.xml.flat",
-        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-main-57:\\layout\\categories_single_row.xml"
+        "merged": "android.example.hoysalaelectronics.app-merged_res-58:/drawable-v24_julia.png.flat",
+        "source": "android.example.hoysalaelectronics.app-main-60:/drawable-v24/julia.png"
     },
     {
-        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-merged_res-55:\\layout_activity_product_detail.xml.flat",
-        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-main-57:\\layout\\activity_product_detail.xml"
+        "merged": "android.example.hoysalaelectronics.app-merged_res-58:/drawable-v24_delete_image.png.flat",
+        "source": "android.example.hoysalaelectronics.app-main-60:/drawable-v24/delete_image.png"
     },
     {
-        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-merged_res-55:\\drawable_ic_action_search.xml.flat",
-        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-main-57:\\drawable\\ic_action_search.xml"
+        "merged": "android.example.hoysalaelectronics.app-merged_res-58:/layout_activity_cart.xml.flat",
+        "source": "android.example.hoysalaelectronics.app-main-60:/layout/activity_cart.xml"
     },
     {
-        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-merged_res-55:\\drawable_search_bar.xml.flat",
-        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-main-57:\\drawable\\search_bar.xml"
+        "merged": "android.example.hoysalaelectronics.app-merged_res-58:/drawable-v24_c.png.flat",
+        "source": "android.example.hoysalaelectronics.app-main-60:/drawable-v24/c.png"
     },
     {
-        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-merged_res-55:\\drawable-v24_mark_ok_success_tick.png.flat",
-        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-main-57:\\drawable-v24\\mark_ok_success_tick.png"
+        "merged": "android.example.hoysalaelectronics.app-merged_res-58:/drawable_iot.png.flat",
+        "source": "android.example.hoysalaelectronics.app-debug-59:/drawable/iot.png"
     },
     {
-        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-merged_res-55:\\drawable-mdpi_orders.png.flat",
-        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-main-57:\\drawable-mdpi\\orders.png"
+        "merged": "android.example.hoysalaelectronics.app-merged_res-58:/drawable_robottwo.png.flat",
+        "source": "android.example.hoysalaelectronics.app-debug-59:/drawable/robottwo.png"
     },
     {
-        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-merged_res-55:\\drawable-hdpi_ic_action_menu.png.flat",
-        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-main-57:\\drawable-hdpi\\ic_action_menu.png"
+        "merged": "android.example.hoysalaelectronics.app-merged_res-58:/drawable-v24_android.png.flat",
+        "source": "android.example.hoysalaelectronics.app-main-60:/drawable-v24/android.png"
     },
     {
-        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-merged_res-55:\\drawable-xhdpi_ic_action_clear.png.flat",
-        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-main-57:\\drawable-xhdpi\\ic_action_clear.png"
+        "merged": "android.example.hoysalaelectronics.app-merged_res-58:/drawable_ic_action_notification.xml.flat",
+        "source": "android.example.hoysalaelectronics.app-main-60:/drawable/ic_action_notification.xml"
     },
     {
-        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-merged_res-55:\\drawable-xhdpi_notification.png.flat",
-        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-main-57:\\drawable-xhdpi\\notification.png"
+        "merged": "android.example.hoysalaelectronics.app-merged_res-58:/layout_activity_all_categories_acitvity.xml.flat",
+        "source": "android.example.hoysalaelectronics.app-main-60:/layout/activity_all_categories_acitvity.xml"
     },
     {
-        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-merged_res-55:\\layout_fragment_home.xml.flat",
-        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-main-57:\\layout\\fragment_home.xml"
+        "merged": "android.example.hoysalaelectronics.app-merged_res-58:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "android.example.hoysalaelectronics.app-main-60:/mipmap-mdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-merged_res-55:\\drawable-anydpi_notification.xml.flat",
-        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-main-57:\\drawable-anydpi\\notification.xml"
+        "merged": "android.example.hoysalaelectronics.app-merged_res-58:/drawable-hdpi_img_1.png.flat",
+        "source": "android.example.hoysalaelectronics.app-main-60:/drawable-hdpi/img_1.png"
     },
     {
-        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-merged_res-55:\\drawable_button_background.xml.flat",
-        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-main-57:\\drawable\\button_background.xml"
+        "merged": "android.example.hoysalaelectronics.app-merged_res-58:/layout_activity_splash.xml.flat",
+        "source": "android.example.hoysalaelectronics.app-main-60:/layout/activity_splash.xml"
     },
     {
-        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-merged_res-55:\\drawable_hoysala_electronics.png.flat",
-        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-main-57:\\drawable\\hoysala_electronics.png"
+        "merged": "android.example.hoysalaelectronics.app-merged_res-58:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "android.example.hoysalaelectronics.app-main-60:/mipmap-xxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-merged_res-55:\\drawable-xhdpi_back_image.png.flat",
-        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-main-57:\\drawable-xhdpi\\back_image.png"
+        "merged": "android.example.hoysalaelectronics.app-merged_res-58:/drawable-v24_console.png.flat",
+        "source": "android.example.hoysalaelectronics.app-main-60:/drawable-v24/console.png"
     },
     {
-        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-merged_res-55:\\mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-main-57:\\mipmap-mdpi\\ic_launcher_round.webp"
+        "merged": "android.example.hoysalaelectronics.app-merged_res-58:/drawable-v24_splash.png.flat",
+        "source": "android.example.hoysalaelectronics.app-main-60:/drawable-v24/splash.png"
     },
     {
-        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-merged_res-55:\\menu_menu_drawer.xml.flat",
-        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-main-57:\\menu\\menu_drawer.xml"
+        "merged": "android.example.hoysalaelectronics.app-merged_res-58:/layout_categories_single_row.xml.flat",
+        "source": "android.example.hoysalaelectronics.app-main-60:/layout/categories_single_row.xml"
     },
     {
-        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-merged_res-55:\\mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-main-57:\\mipmap-xxhdpi\\ic_launcher.webp"
+        "merged": "android.example.hoysalaelectronics.app-merged_res-58:/drawable_iottwo.png.flat",
+        "source": "android.example.hoysalaelectronics.app-debug-59:/drawable/iottwo.png"
     },
     {
-        "merged": "android.example.hoysalaelectronics.app-merged_res-55:/layout_our_products_single_row.xml.flat",
-        "source": "android.example.hoysalaelectronics.app-main-57:/layout/our_products_single_row.xml"
+        "merged": "android.example.hoysalaelectronics.app-merged_res-58:/layout_activity_confirm_order.xml.flat",
+        "source": "android.example.hoysalaelectronics.app-main-60:/layout/activity_confirm_order.xml"
     },
     {
-        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-merged_res-55:\\layout_featured_product_single_row.xml.flat",
-        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-main-57:\\layout\\featured_product_single_row.xml"
+        "merged": "android.example.hoysalaelectronics.app-merged_res-58:/layout_our_products_single_row.xml.flat",
+        "source": "android.example.hoysalaelectronics.app-main-60:/layout/our_products_single_row.xml"
     },
     {
-        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-merged_res-55:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-main-57:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+        "merged": "android.example.hoysalaelectronics.app-merged_res-58:/drawable-anydpi_notification.xml.flat",
+        "source": "android.example.hoysalaelectronics.app-main-60:/drawable-anydpi/notification.xml"
     },
     {
-        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-merged_res-55:\\drawable-xhdpi_ic_action_menu.png.flat",
-        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-main-57:\\drawable-xhdpi\\ic_action_menu.png"
+        "merged": "android.example.hoysalaelectronics.app-merged_res-58:/layout_header_layout.xml.flat",
+        "source": "android.example.hoysalaelectronics.app-main-60:/layout/header_layout.xml"
     },
     {
-        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-merged_res-55:\\mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-main-57:\\mipmap-mdpi\\ic_launcher.webp"
+        "merged": "android.example.hoysalaelectronics.app-merged_res-58:/drawable-v24_led.jpg.flat",
+        "source": "android.example.hoysalaelectronics.app-main-60:/drawable-v24/led.jpg"
     },
     {
-        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-merged_res-55:\\layout_activity_order_confirm.xml.flat",
-        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-main-57:\\layout\\activity_order_confirm.xml"
+        "merged": "android.example.hoysalaelectronics.app-merged_res-58:/drawable-v24_led_image.jpg.flat",
+        "source": "android.example.hoysalaelectronics.app-main-60:/drawable-v24/led_image.jpg"
     },
     {
-        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-merged_res-55:\\layout_header_layout.xml.flat",
-        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-main-57:\\layout\\header_layout.xml"
+        "merged": "android.example.hoysalaelectronics.app-merged_res-58:/drawable-v24_cross_icon.png.flat",
+        "source": "android.example.hoysalaelectronics.app-main-60:/drawable-v24/cross_icon.png"
     },
     {
-        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-merged_res-55:\\drawable-xxhdpi_ic_action_share.png.flat",
-        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-main-57:\\drawable-xxhdpi\\ic_action_share.png"
+        "merged": "android.example.hoysalaelectronics.app-merged_res-58:/layout_latest_collection.xml.flat",
+        "source": "android.example.hoysalaelectronics.app-main-60:/layout/latest_collection.xml"
     },
     {
-        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-merged_res-55:\\drawable-mdpi_back_image.png.flat",
-        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-main-57:\\drawable-mdpi\\back_image.png"
+        "merged": "android.example.hoysalaelectronics.app-merged_res-58:/drawable-v24_no_interntet.jpg.flat",
+        "source": "android.example.hoysalaelectronics.app-main-60:/drawable-v24/no_interntet.jpg"
     },
     {
-        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-merged_res-55:\\drawable-mdpi_ic_action_about.png.flat",
-        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-main-57:\\drawable-mdpi\\ic_action_about.png"
+        "merged": "android.example.hoysalaelectronics.app-merged_res-58:/drawable_resistor.png.flat",
+        "source": "android.example.hoysalaelectronics.app-debug-59:/drawable/resistor.png"
     },
     {
-        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-merged_res-55:\\drawable_no_connection.xml.flat",
-        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-main-57:\\drawable\\no_connection.xml"
+        "merged": "android.example.hoysalaelectronics.app-merged_res-58:/layout_categories.xml.flat",
+        "source": "android.example.hoysalaelectronics.app-main-60:/layout/categories.xml"
     },
     {
-        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-merged_res-55:\\drawable-mdpi_ic_action_transaction.png.flat",
-        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-main-57:\\drawable-mdpi\\ic_action_transaction.png"
+        "merged": "android.example.hoysalaelectronics.app-merged_res-58:/drawable_robot.png.flat",
+        "source": "android.example.hoysalaelectronics.app-debug-59:/drawable/robot.png"
     },
     {
-        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-merged_res-55:\\drawable_ic_action_home.xml.flat",
-        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-main-57:\\drawable\\ic_action_home.xml"
+        "merged": "android.example.hoysalaelectronics.app-merged_res-58:/drawable-v24_different.jpg.flat",
+        "source": "android.example.hoysalaelectronics.app-main-60:/drawable-v24/different.jpg"
     },
     {
-        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-merged_res-55:\\drawable-v24_no_interntet.jpg.flat",
-        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-main-57:\\drawable-v24\\no_interntet.jpg"
+        "merged": "android.example.hoysalaelectronics.app-merged_res-58:/drawable-v24_xml.png.flat",
+        "source": "android.example.hoysalaelectronics.app-main-60:/drawable-v24/xml.png"
     },
     {
-        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-merged_res-55:\\layout_activity_splash.xml.flat",
-        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-main-57:\\layout\\activity_splash.xml"
+        "merged": "android.example.hoysalaelectronics.app-merged_res-58:/drawable-anydpi_next.xml.flat",
+        "source": "android.example.hoysalaelectronics.app-main-60:/drawable-anydpi/next.xml"
     },
     {
-        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-merged_res-55:\\drawable-mdpi_notification.png.flat",
-        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-main-57:\\drawable-mdpi\\notification.png"
+        "merged": "android.example.hoysalaelectronics.app-merged_res-58:/drawable-anydpi_ic_action_cart.xml.flat",
+        "source": "android.example.hoysalaelectronics.app-main-60:/drawable-anydpi/ic_action_cart.xml"
     },
     {
-        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-merged_res-55:\\drawable_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-main-57:\\drawable\\ic_launcher_background.xml"
+        "merged": "android.example.hoysalaelectronics.app-merged_res-58:/drawable-anydpi_ic_action_name.xml.flat",
+        "source": "android.example.hoysalaelectronics.app-debug-59:/drawable-anydpi/ic_action_name.xml"
     },
     {
-        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-merged_res-55:\\drawable-xhdpi_next.png.flat",
-        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-main-57:\\drawable-xhdpi\\next.png"
+        "merged": "android.example.hoysalaelectronics.app-merged_res-58:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "android.example.hoysalaelectronics.app-main-60:/mipmap-xxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-merged_res-55:\\drawable-hdpi_ic_action_cart.png.flat",
-        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-main-57:\\drawable-hdpi\\ic_action_cart.png"
+        "merged": "android.example.hoysalaelectronics.app-merged_res-58:/layout_child_item.xml.flat",
+        "source": "android.example.hoysalaelectronics.app-main-60:/layout/child_item.xml"
     },
     {
-        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-merged_res-55:\\drawable-v24_different.jpg.flat",
-        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-main-57:\\drawable-v24\\different.jpg"
+        "merged": "android.example.hoysalaelectronics.app-merged_res-58:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "android.example.hoysalaelectronics.app-main-60:/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-merged_res-55:\\menu_bottom_menu.xml.flat",
-        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-main-57:\\menu\\bottom_menu.xml"
+        "merged": "android.example.hoysalaelectronics.app-merged_res-58:/drawable_right.png.flat",
+        "source": "android.example.hoysalaelectronics.app-main-60:/drawable/right.png"
     },
     {
-        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-merged_res-55:\\drawable-hdpi_ic_action_clear.png.flat",
-        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-main-57:\\drawable-hdpi\\ic_action_clear.png"
+        "merged": "android.example.hoysalaelectronics.app-merged_res-58:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "android.example.hoysalaelectronics.app-main-60:/mipmap-xxxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-merged_res-55:\\drawable_input_background.xml.flat",
-        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-main-57:\\drawable\\input_background.xml"
+        "merged": "android.example.hoysalaelectronics.app-merged_res-58:/drawable-anydpi_ic_action_transaction.xml.flat",
+        "source": "android.example.hoysalaelectronics.app-main-60:/drawable-anydpi/ic_action_transaction.xml"
     },
     {
-        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-merged_res-55:\\drawable-mdpi_ic_action_cart.png.flat",
-        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-main-57:\\drawable-mdpi\\ic_action_cart.png"
+        "merged": "android.example.hoysalaelectronics.app-merged_res-58:/drawable-v24_ic_hoysala.png.flat",
+        "source": "android.example.hoysalaelectronics.app-main-60:/drawable-v24/ic_hoysala.png"
     },
     {
-        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-merged_res-55:\\layout_single_product_single_row.xml.flat",
-        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-main-57:\\layout\\single_product_single_row.xml"
+        "merged": "android.example.hoysalaelectronics.app-merged_res-58:/layout_fragment_notification.xml.flat",
+        "source": "android.example.hoysalaelectronics.app-main-60:/layout/fragment_notification.xml"
     },
     {
-        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-merged_res-55:\\drawable-v24_splash.png.flat",
-        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-main-57:\\drawable-v24\\splash.png"
+        "merged": "android.example.hoysalaelectronics.app-merged_res-58:/drawable-v24_java.png.flat",
+        "source": "android.example.hoysalaelectronics.app-main-60:/drawable-v24/java.png"
     },
     {
-        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-merged_res-55:\\drawable_ic_action_person.xml.flat",
-        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-main-57:\\drawable\\ic_action_person.xml"
+        "merged": "android.example.hoysalaelectronics.app-merged_res-58:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "android.example.hoysalaelectronics.app-main-60:/mipmap-xhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-merged_res-55:\\drawable-xxhdpi_notification.png.flat",
-        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-main-57:\\drawable-xxhdpi\\notification.png"
+        "merged": "android.example.hoysalaelectronics.app-merged_res-58:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "android.example.hoysalaelectronics.app-main-60:/mipmap-xxxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "android.example.hoysalaelectronics.app-merged_res-55:/layout_activity_splash.xml.flat",
-        "source": "android.example.hoysalaelectronics.app-main-57:/layout/activity_splash.xml"
+        "merged": "android.example.hoysalaelectronics.app-merged_res-58:/drawable-v24_ic_launcher_background.xml.flat",
+        "source": "android.example.hoysalaelectronics.app-main-60:/drawable-v24/ic_launcher_background.xml"
     },
     {
-        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-merged_res-55:\\drawable-mdpi_next.png.flat",
-        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-main-57:\\drawable-mdpi\\next.png"
+        "merged": "android.example.hoysalaelectronics.app-merged_res-58:/drawable_ic_action_catergories.xml.flat",
+        "source": "android.example.hoysalaelectronics.app-main-60:/drawable/ic_action_catergories.xml"
     },
     {
-        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-merged_res-55:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-main-57:\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "android.example.hoysalaelectronics.app-merged_res-58:/layout_activity_order_complete.xml.flat",
+        "source": "android.example.hoysalaelectronics.app-main-60:/layout/activity_order_complete.xml"
     },
     {
-        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-merged_res-55:\\drawable-v24_goggle_icon.png.flat",
-        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-main-57:\\drawable-v24\\goggle_icon.png"
+        "merged": "android.example.hoysalaelectronics.app-merged_res-58:/drawable_chenge_background.xml.flat",
+        "source": "android.example.hoysalaelectronics.app-main-60:/drawable/chenge_background.xml"
     },
     {
-        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-merged_res-55:\\drawable-xxhdpi_ic_action_cart.png.flat",
-        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-main-57:\\drawable-xxhdpi\\ic_action_cart.png"
+        "merged": "android.example.hoysalaelectronics.app-merged_res-58:/layout_cart_acitvity_single_row.xml.flat",
+        "source": "android.example.hoysalaelectronics.app-main-60:/layout/cart_acitvity_single_row.xml"
     },
     {
-        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-merged_res-55:\\menu_menu_cart.xml.flat",
-        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-main-57:\\menu\\menu_cart.xml"
+        "merged": "android.example.hoysalaelectronics.app-merged_res-58:/layout_activity_forget_password.xml.flat",
+        "source": "android.example.hoysalaelectronics.app-main-60:/layout/activity_forget_password.xml"
     },
     {
-        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-merged_res-55:\\drawable_ic_action_notification.xml.flat",
-        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-main-57:\\drawable\\ic_action_notification.xml"
+        "merged": "android.example.hoysalaelectronics.app-merged_res-58:/drawable_no_connection.xml.flat",
+        "source": "android.example.hoysalaelectronics.app-main-60:/drawable/no_connection.xml"
     },
     {
-        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-merged_res-55:\\drawable-anydpi_ic_action_clear.xml.flat",
-        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-main-57:\\drawable-anydpi\\ic_action_clear.xml"
+        "merged": "android.example.hoysalaelectronics.app-merged_res-58:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "android.example.hoysalaelectronics.app-main-60:/mipmap-xhdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-merged_res-55:\\drawable-xxhdpi_orders.png.flat",
-        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-main-57:\\drawable-xxhdpi\\orders.png"
+        "merged": "android.example.hoysalaelectronics.app-merged_res-58:/drawable_img_file.xml.flat",
+        "source": "android.example.hoysalaelectronics.app-debug-59:/drawable/img_file.xml"
     },
     {
-        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-merged_res-55:\\drawable_ic_baseline_add_shopping_cart_24.xml.flat",
-        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-main-57:\\drawable\\ic_baseline_add_shopping_cart_24.xml"
+        "merged": "android.example.hoysalaelectronics.app-merged_res-58:/layout_fragment_categories.xml.flat",
+        "source": "android.example.hoysalaelectronics.app-main-60:/layout/fragment_categories.xml"
     },
     {
-        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-merged_res-55:\\drawable-xxhdpi_ic_action_transaction.png.flat",
-        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-main-57:\\drawable-xxhdpi\\ic_action_transaction.png"
+        "merged": "android.example.hoysalaelectronics.app-merged_res-58:/drawable_button_background.xml.flat",
+        "source": "android.example.hoysalaelectronics.app-main-60:/drawable/button_background.xml"
     },
     {
-        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-merged_res-55:\\drawable-v24_capacitor.png.flat",
-        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-main-57:\\drawable-v24\\capacitor.png"
+        "merged": "android.example.hoysalaelectronics.app-merged_res-58:/drawable_unchecked.xml.flat",
+        "source": "android.example.hoysalaelectronics.app-main-60:/drawable/unchecked.xml"
     },
     {
-        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-merged_res-55:\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-pngs-50:\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+        "merged": "android.example.hoysalaelectronics.app-merged_res-58:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "android.example.hoysalaelectronics.app-main-60:/mipmap-hdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-merged_res-55:\\drawable-hdpi_ic_action_name_favourite.png.flat",
-        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-main-57:\\drawable-hdpi\\ic_action_name_favourite.png"
+        "merged": "android.example.hoysalaelectronics.app-merged_res-58:/drawable-anydpi_ic_action_share.xml.flat",
+        "source": "android.example.hoysalaelectronics.app-main-60:/drawable-anydpi/ic_action_share.xml"
     },
     {
-        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-merged_res-55:\\layout_cart_acitvity_single_row.xml.flat",
-        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-main-57:\\layout\\cart_acitvity_single_row.xml"
+        "merged": "android.example.hoysalaelectronics.app-merged_res-58:/drawable-v24_python.png.flat",
+        "source": "android.example.hoysalaelectronics.app-main-60:/drawable-v24/python.png"
     },
     {
-        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-merged_res-55:\\drawable-anydpi_ic_action_name_favourite.xml.flat",
-        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-main-57:\\drawable-anydpi\\ic_action_name_favourite.xml"
+        "merged": "android.example.hoysalaelectronics.app-merged_res-58:/drawable_checked_png.png.flat",
+        "source": "android.example.hoysalaelectronics.app-main-60:/drawable/checked_png.png"
     },
     {
-        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-merged_res-55:\\layout_our_products_single_row.xml.flat",
-        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-main-57:\\layout\\our_products_single_row.xml"
+        "merged": "android.example.hoysalaelectronics.app-merged_res-58:/drawable-v24_otp_verification.png.flat",
+        "source": "android.example.hoysalaelectronics.app-main-60:/drawable-v24/otp_verification.png"
     },
     {
-        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-merged_res-55:\\layout_activity_forget_password.xml.flat",
-        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-main-57:\\layout\\activity_forget_password.xml"
+        "merged": "android.example.hoysalaelectronics.app-merged_res-58:/drawable_checked.xml.flat",
+        "source": "android.example.hoysalaelectronics.app-main-60:/drawable/checked.xml"
     },
     {
-        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-merged_res-55:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-main-57:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "android.example.hoysalaelectronics.app-merged_res-58:/layout_fragment_user_account.xml.flat",
+        "source": "android.example.hoysalaelectronics.app-main-60:/layout/fragment_user_account.xml"
     },
     {
-        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-merged_res-55:\\drawable-v24_otp_verification.png.flat",
-        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-main-57:\\drawable-v24\\otp_verification.png"
+        "merged": "android.example.hoysalaelectronics.app-merged_res-58:/drawable-v24_cplusplus.png.flat",
+        "source": "android.example.hoysalaelectronics.app-main-60:/drawable-v24/cplusplus.png"
     },
     {
-        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-merged_res-55:\\drawable-v24_all_items.jpg.flat",
-        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-main-57:\\drawable-v24\\all_items.jpg"
+        "merged": "android.example.hoysalaelectronics.app-merged_res-58:/drawable_search_bar.xml.flat",
+        "source": "android.example.hoysalaelectronics.app-main-60:/drawable/search_bar.xml"
     },
     {
-        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-merged_res-55:\\drawable-v24_led_image.jpg.flat",
-        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-main-57:\\drawable-v24\\led_image.jpg"
+        "merged": "android.example.hoysalaelectronics.app-merged_res-58:/drawable_inductor.png.flat",
+        "source": "android.example.hoysalaelectronics.app-debug-59:/drawable/inductor.png"
     },
     {
-        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-merged_res-55:\\layout_activity_checkout_page.xml.flat",
-        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-main-57:\\layout\\activity_checkout_page.xml"
+        "merged": "android.example.hoysalaelectronics.app-merged_res-58:/menu_menu_cart.xml.flat",
+        "source": "android.example.hoysalaelectronics.app-main-60:/menu/menu_cart.xml"
     },
     {
-        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-merged_res-55:\\drawable-xxhdpi_ic_action_about.png.flat",
-        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-main-57:\\drawable-xxhdpi\\ic_action_about.png"
+        "merged": "android.example.hoysalaelectronics.app-merged_res-58:/drawable_ic_baseline_add_shopping_cart_24.xml.flat",
+        "source": "android.example.hoysalaelectronics.app-main-60:/drawable/ic_baseline_add_shopping_cart_24.xml"
     },
     {
-        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-merged_res-55:\\layout_activity_place_order.xml.flat",
-        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-main-57:\\layout\\activity_place_order.xml"
+        "merged": "android.example.hoysalaelectronics.app-merged_res-58:/layout_activity_order_confirm.xml.flat",
+        "source": "android.example.hoysalaelectronics.app-main-60:/layout/activity_order_confirm.xml"
     },
     {
-        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-merged_res-55:\\drawable-xxhdpi_ic_action_clear.png.flat",
-        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-main-57:\\drawable-xxhdpi\\ic_action_clear.png"
+        "merged": "android.example.hoysalaelectronics.app-merged_res-58:/layout_activity_checkout_page.xml.flat",
+        "source": "android.example.hoysalaelectronics.app-main-60:/layout/activity_checkout_page.xml"
     },
     {
-        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-merged_res-55:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-main-57:\\mipmap-xhdpi\\ic_launcher_round.webp"
+        "merged": "android.example.hoysalaelectronics.app-merged_res-58:/drawable-v24_csharp.png.flat",
+        "source": "android.example.hoysalaelectronics.app-main-60:/drawable-v24/csharp.png"
     },
     {
-        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-merged_res-55:\\drawable_custom_checkbox.xml.flat",
-        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-main-57:\\drawable\\custom_checkbox.xml"
+        "merged": "android.example.hoysalaelectronics.app-merged_res-58:/drawable-v24_css.png.flat",
+        "source": "android.example.hoysalaelectronics.app-main-60:/drawable-v24/css.png"
     },
     {
-        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-merged_res-55:\\drawable-v24_minus_image.png.flat",
-        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-main-57:\\drawable-v24\\minus_image.png"
+        "merged": "android.example.hoysalaelectronics.app-merged_res-58:/drawable_capacitor.png.flat",
+        "source": "android.example.hoysalaelectronics.app-debug-59:/drawable/capacitor.png"
     },
     {
-        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-merged_res-55:\\drawable-anydpi_ic_action_about.xml.flat",
-        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-main-57:\\drawable-anydpi\\ic_action_about.xml"
+        "merged": "android.example.hoysalaelectronics.app-merged_res-58:/drawable-v24_kotlin.png.flat",
+        "source": "android.example.hoysalaelectronics.app-main-60:/drawable-v24/kotlin.png"
     },
     {
-        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-merged_res-55:\\drawable-anydpi_back_image.xml.flat",
-        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-main-57:\\drawable-anydpi\\back_image.xml"
+        "merged": "android.example.hoysalaelectronics.app-merged_res-58:/drawable-anydpi_ic_action_menu.xml.flat",
+        "source": "android.example.hoysalaelectronics.app-main-60:/drawable-anydpi/ic_action_menu.xml"
     },
     {
-        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-merged_res-55:\\drawable-mdpi_ic_action_clear.png.flat",
-        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-main-57:\\drawable-mdpi\\ic_action_clear.png"
+        "merged": "android.example.hoysalaelectronics.app-merged_res-58:/drawable_facebook_rectangle.xml.flat",
+        "source": "android.example.hoysalaelectronics.app-main-60:/drawable/facebook_rectangle.xml"
     },
     {
-        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-merged_res-55:\\drawable-hdpi_orders.png.flat",
-        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-main-57:\\drawable-hdpi\\orders.png"
+        "merged": "android.example.hoysalaelectronics.app-merged_res-58:/layout_activity_payment_method.xml.flat",
+        "source": "android.example.hoysalaelectronics.app-main-60:/layout/activity_payment_method.xml"
     },
     {
-        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-merged_res-55:\\drawable-hdpi_notification.png.flat",
-        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-main-57:\\drawable-hdpi\\notification.png"
+        "merged": "android.example.hoysalaelectronics.app-merged_res-58:/drawable-v24_minus_image.png.flat",
+        "source": "android.example.hoysalaelectronics.app-main-60:/drawable-v24/minus_image.png"
     },
     {
-        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-merged_res-55:\\drawable-v24_ic_hoysala.png.flat",
-        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-main-57:\\drawable-v24\\ic_hoysala.png"
+        "merged": "android.example.hoysalaelectronics.app-merged_res-58:/layout_activity_new_address.xml.flat",
+        "source": "android.example.hoysalaelectronics.app-main-60:/layout/activity_new_address.xml"
     },
     {
-        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-merged_res-55:\\drawable-xhdpi_ic_action_cart.png.flat",
-        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-main-57:\\drawable-xhdpi\\ic_action_cart.png"
+        "merged": "android.example.hoysalaelectronics.app-merged_res-58:/drawable-v24_goggle_icon.png.flat",
+        "source": "android.example.hoysalaelectronics.app-main-60:/drawable-v24/goggle_icon.png"
     },
     {
-        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-merged_res-55:\\layout_fragment_transaction.xml.flat",
-        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-main-57:\\layout\\fragment_transaction.xml"
+        "merged": "android.example.hoysalaelectronics.app-merged_res-58:/drawable-anydpi_ic_action_about.xml.flat",
+        "source": "android.example.hoysalaelectronics.app-main-60:/drawable-anydpi/ic_action_about.xml"
     },
     {
-        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-merged_res-55:\\layout_activity_home.xml.flat",
-        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-main-57:\\layout\\activity_home.xml"
+        "merged": "android.example.hoysalaelectronics.app-merged_res-58:/drawable-v24_javascript.png.flat",
+        "source": "android.example.hoysalaelectronics.app-main-60:/drawable-v24/javascript.png"
     },
     {
-        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-merged_res-55:\\drawable_ic_action_catergories.xml.flat",
-        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-main-57:\\drawable\\ic_action_catergories.xml"
+        "merged": "android.example.hoysalaelectronics.app-merged_res-58:/layout_vetical_view_items.xml.flat",
+        "source": "android.example.hoysalaelectronics.app-main-60:/layout/vetical_view_items.xml"
     },
     {
-        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-merged_res-55:\\drawable-anydpi_orders.xml.flat",
-        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-main-57:\\drawable-anydpi\\orders.xml"
+        "merged": "android.example.hoysalaelectronics.app-merged_res-58:/layout_single_product_single_row.xml.flat",
+        "source": "android.example.hoysalaelectronics.app-main-60:/layout/single_product_single_row.xml"
     },
     {
-        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-merged_res-55:\\layout_activity_confirm_order.xml.flat",
-        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-main-57:\\layout\\activity_confirm_order.xml"
+        "merged": "android.example.hoysalaelectronics.app-merged_res-58:/layout_activity_login.xml.flat",
+        "source": "android.example.hoysalaelectronics.app-main-60:/layout/activity_login.xml"
     },
     {
-        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-merged_res-55:\\drawable-mdpi_ic_action_name_favourite.png.flat",
-        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-main-57:\\drawable-mdpi\\ic_action_name_favourite.png"
+        "merged": "android.example.hoysalaelectronics.app-merged_res-58:/drawable_custom_checkbox.xml.flat",
+        "source": "android.example.hoysalaelectronics.app-main-60:/drawable/custom_checkbox.xml"
     },
     {
-        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-merged_res-55:\\drawable-hdpi_img_1.png.flat",
-        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-main-57:\\drawable-hdpi\\img_1.png"
+        "merged": "android.example.hoysalaelectronics.app-merged_res-58:/drawable-anydpi_back_image.xml.flat",
+        "source": "android.example.hoysalaelectronics.app-main-60:/drawable-anydpi/back_image.xml"
     },
     {
-        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-merged_res-55:\\drawable_right.png.flat",
-        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-main-57:\\drawable\\right.png"
+        "merged": "android.example.hoysalaelectronics.app-merged_res-58:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "android.example.hoysalaelectronics.app-main-60:/mipmap-hdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-merged_res-55:\\mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-main-57:\\mipmap-hdpi\\ic_launcher.webp"
+        "merged": "android.example.hoysalaelectronics.app-merged_res-58:/menu_bottom_menu.xml.flat",
+        "source": "android.example.hoysalaelectronics.app-main-60:/menu/bottom_menu.xml"
     },
     {
-        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-merged_res-55:\\menu_items_menu.xml.flat",
-        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-main-57:\\menu\\items_menu.xml"
+        "merged": "android.example.hoysalaelectronics.app-merged_res-58:/drawable-v24_html.png.flat",
+        "source": "android.example.hoysalaelectronics.app-main-60:/drawable-v24/html.png"
     },
     {
-        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-merged_res-55:\\drawable-v24_plus_button.png.flat",
-        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-main-57:\\drawable-v24\\plus_button.png"
+        "merged": "android.example.hoysalaelectronics.app-merged_res-58:/layout_activity_home.xml.flat",
+        "source": "android.example.hoysalaelectronics.app-main-60:/layout/activity_home.xml"
     },
     {
-        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-merged_res-55:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-main-57:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+        "merged": "android.example.hoysalaelectronics.app-merged_res-58:/drawable_otp_background.xml.flat",
+        "source": "android.example.hoysalaelectronics.app-main-60:/drawable/otp_background.xml"
     },
     {
-        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-merged_res-55:\\drawable-xxhdpi_back_image.png.flat",
-        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-main-57:\\drawable-xxhdpi\\back_image.png"
-    },
-    {
-        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-merged_res-55:\\layout_fragment_categories.xml.flat",
-        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-main-57:\\layout\\fragment_categories.xml"
-    },
-    {
-        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-merged_res-55:\\layout_activity_login.xml.flat",
-        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-main-57:\\layout\\activity_login.xml"
-    },
-    {
-        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-merged_res-55:\\drawable-anydpi_ic_action_menu.xml.flat",
-        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-main-57:\\drawable-anydpi\\ic_action_menu.xml"
-    },
-    {
-        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-merged_res-55:\\drawable-v24_hide_password.jpg.flat",
-        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-main-57:\\drawable-v24\\hide_password.jpg"
-    },
-    {
-        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-merged_res-55:\\drawable-xhdpi_orders.png.flat",
-        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-main-57:\\drawable-xhdpi\\orders.png"
-    },
-    {
-        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-merged_res-55:\\layout_activity_payment_method.xml.flat",
-        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-main-57:\\layout\\activity_payment_method.xml"
-    },
-    {
-        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-merged_res-55:\\drawable-hdpi_ic_action_about.png.flat",
-        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-main-57:\\drawable-hdpi\\ic_action_about.png"
-    },
-    {
-        "merged": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-merged_res-55:\\layout_activity_new_user.xml.flat",
-        "source": "C:\\Users\\dhruv\\.gradle\\daemon\\7.4\\android.example.hoysalaelectronics.app-main-57:\\layout\\activity_new_user.xml"
+        "merged": "android.example.hoysalaelectronics.app-merged_res-58:/layout_parent_item.xml.flat",
+        "source": "android.example.hoysalaelectronics.app-main-60:/layout/parent_item.xml"
     }
 ]

@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "android.example.hoysalaelectronics.app-mergeDebugResources-53:/values-large-v4/values-large-v4.xml",
+            "outputFile": "android.example.hoysalaelectronics.app-mergeDebugResources-56:/values-large-v4/values-large-v4.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\dhruv\\.gradle\\caches\\transforms-3\\e4a8049e253b5797baef35daaf535720\\transformed\\appcompat-1.6.0\\res\\values-large-v4\\values-large-v4.xml",
+                    "source": "C:\\Users\\dhruv\\.gradle\\caches\\transforms-3\\0570186261cc02aeb0d68e907361eaad\\transformed\\appcompat-1.6.0\\res\\values-large-v4\\values-large-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10",
                         "startColumns": "4,4,4,4,4,4,4,4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\dhruv\\.gradle\\caches\\transforms-3\\53edefe15d403f8467620aa121e38059\\transformed\\material-1.7.0\\res\\values-large-v4\\values-large-v4.xml",
+                    "source": "C:\\Users\\dhruv\\.gradle\\caches\\transforms-3\\a3c56d093f0056646b8e28108bd93f00\\transformed\\material-1.7.0\\res\\values-large-v4\\values-large-v4.xml",
                     "from": {
                         "startLines": "2,3,4,10",
                         "startColumns": "4,4,4,4",

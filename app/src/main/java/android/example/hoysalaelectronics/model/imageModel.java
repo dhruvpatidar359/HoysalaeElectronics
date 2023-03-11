@@ -7,6 +7,14 @@ public class imageModel {
 
     String tags;
     String webformatURL;
+
+    public imageModel(String tags, String webformatURL, String largeImageURL, String id) {
+        this.tags = tags;
+        this.webformatURL = webformatURL;
+        this.largeImageURL = largeImageURL;
+        this.id = id;
+    }
+
     String largeImageURL;
     String id;
 

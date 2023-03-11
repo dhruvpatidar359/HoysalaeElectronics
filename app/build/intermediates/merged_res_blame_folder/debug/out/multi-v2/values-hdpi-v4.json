@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "android.example.hoysalaelectronics.app-mergeDebugResources-53:/values-hdpi-v4/values-hdpi-v4.xml",
+            "outputFile": "android.example.hoysalaelectronics.app-mergeDebugResources-56:/values-hdpi-v4/values-hdpi-v4.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\dhruv\\.gradle\\caches\\transforms-3\\e4a8049e253b5797baef35daaf535720\\transformed\\appcompat-1.6.0\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
+                    "source": "C:\\Users\\dhruv\\.gradle\\caches\\transforms-3\\0570186261cc02aeb0d68e907361eaad\\transformed\\appcompat-1.6.0\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

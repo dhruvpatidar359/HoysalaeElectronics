@@ -4,26 +4,26 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Fragments.AccountFragment">
+    tools:context=".fragments.AccountFragment">
 
-   <com.google.android.material.appbar.AppBarLayout
+   <com.google.android.material.appbar.MaterialToolbar
        android:layout_width="match_parent"
        android:layout_height="wrap_content"
        android:elevation="0dp"
        android:id="@+id/appBar"
-       android:theme="@style/ThemeOverlay.AppCompat.Dark">
+      >
 
-       <androidx.appcompat.widget.Toolbar
+       <com.google.android.material.appbar.MaterialToolbar
            android:layout_width="match_parent"
            android:layout_height="wrap_content"
            android:minHeight="?attr/actionBarSize"
            android:id="@+id/account_toobar"
            app:title="My Account"
-           android:theme="@style/ThemeOverlay.AppCompat.Dark"
+
            app:layout_scrollFlags="enterAlways">
 
-       </androidx.appcompat.widget.Toolbar>
-   </com.google.android.material.appbar.AppBarLayout>
+       </com.google.android.material.appbar.MaterialToolbar>
+   </com.google.android.material.appbar.MaterialToolbar>
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
@@ -32,7 +32,7 @@
         android:layout_marginLeft="5dp"
         android:background="@color/grey_font"
         android:id="@+id/view"/>
-    <androidx.cardview.widget.CardView
+    <com.google.android.material.card.MaterialCardView
         android:layout_below="@id/view"
         android:layout_width="match_parent"
         android:id="@+id/card"
@@ -52,7 +52,6 @@
          android:text="  My Wishlist"
          android:drawableLeft="@drawable/ic_action_name_favourite"
          android:textSize="18sp"
-         android:textColor="@color/black"
          android:layout_marginTop="30dp"
          android:layout_marginRight="20dp"
          android:layout_marginLeft="10dp"
@@ -62,7 +61,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="  My Orders"
-        android:textColor="@color/black"
         android:layout_marginTop="25dp"
         android:layout_marginLeft="10dp"
         android:drawableLeft="@drawable/orders"
@@ -74,7 +72,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="  Notifications"
-        android:textColor="@color/black"
         android:layout_below="@id/my_order_text"
         android:layout_marginTop="25dp"
         android:layout_marginLeft="10dp"
@@ -111,7 +108,7 @@
              android:layout_marginTop="27dp"/>
 
      </RelativeLayout>
-    </androidx.cardview.widget.CardView>
+    </com.google.android.material.card.MaterialCardView>
 
 <Button
         android:layout_width="wrap_content"

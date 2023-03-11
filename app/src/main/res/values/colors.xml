@@ -13,6 +13,15 @@
     <color name="yellow">#D7F4B905</color>
     <color name="background_default">#C9D7DF</color>
     <color name="green">#28783E</color>
+    <color name="black_900_4c">#4c000000</color>
+    <color name="black_900_33">#33000000</color>
+    <color name="black_900_99">#99000000</color>
+    <color name="black_900">#000000</color>
+    <color name="blue_A400">#1877f2</color>
+    <color name="black_900_0c">#0c000000</color>
+    <color name="white_A700">#ffffff</color>
+    <color name="gray_100">#f2f2f2</color>
+    <color name="bluegray_700_3f">#3f515151</color>
 
 
 <!--    Colors added using the material - 3 -->

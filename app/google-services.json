@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1038572096703",
+    "project_id": "hoysalaelectronics-6cfb1",
+    "storage_bucket": "hoysalaelectronics-6cfb1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1038572096703:android:266070d5e7884a900eca0a",
+        "android_client_info": {
+          "package_name": "android.example.hoysalaelectronics"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1038572096703-h4140fa3ci9ab1i3nvm03kncv1d90uif.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "android.example.hoysalaelectronics",
+            "certificate_hash": "9e0bd31bdd78e57b84a16d54bf445ed9fd9aef79"
+          }
+        },
+        {
+          "client_id": "1038572096703-jlkedu7k1055f62jpjaveqqp7c5471s8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUmAcn01GqeGPuDUKLh20WQ_AqRijXuj8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1038572096703-jj6k57m8rl503dc42g26d5bqstvelb1a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

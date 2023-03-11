@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">1038572096703-jlkedu7k1055f62jpjaveqqp7c5471s8.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">1038572096703</string>
+    <string name="google_api_key" translatable="false">AIzaSyAUmAcn01GqeGPuDUKLh20WQ_AqRijXuj8</string>
+    <string name="google_app_id" translatable="false">1:1038572096703:android:266070d5e7884a900eca0a</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAUmAcn01GqeGPuDUKLh20WQ_AqRijXuj8</string>
+    <string name="google_storage_bucket" translatable="false">hoysalaelectronics-6cfb1.appspot.com</string>
+    <string name="project_id" translatable="false">hoysalaelectronics-6cfb1</string>
+</resources>
